@@ -17,28 +17,29 @@
       }
     },
     "./provinces": {
+      "types": "./dist/provinces.d.ts",
       "import": "./dist/provinces.mjs",
       "require": "./dist/provinces.js"
     },
     "./districts": {
+      "types": "./dist/districts.d.ts",
       "import": "./dist/districts.mjs",
       "require": "./dist/districts.js"
     },
     "./zones": {
+      "types": "./dist/zones.d.ts",
       "import": "./dist/zones.mjs",
       "require": "./dist/zones.js"
     },
     "./national-schools": {
+      "types": "./dist/national-schools.d.ts",
       "import": "./dist/national-schools.mjs",
       "require": "./dist/national-schools.js"
     },
     "./schools": {
+      "types": "./dist/schools.d.ts",
       "import": "./dist/schools.mjs",
       "require": "./dist/schools.js"
-    },
-    "./admissions": {
-      "import": "./dist/admissions.mjs",
-      "require": "./dist/admissions.js"
     },
     "./data/provinces.json": "./data/provinces.json",
     "./data/districts.json": "./data/districts.json",
@@ -57,15 +58,25 @@
     "data:build": "python3 scripts/build-data.py",
     "prepublishOnly": "npm run build && npm run test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmsalmanfaris/lanka-schools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmsalmanfaris/lanka-schools/issues"
+  },
+  "homepage": "https://github.com/mmsalmanfaris/lanka-schools#readme",
   "keywords": [
     "sri-lanka",
     "schools",
     "sri-lankan-schools",
     "education-zones",
     "districts",
+    "provinces",
     "national-schools",
     "edtech",
-    "grade-5-scholarship",
+    "gis",
+    "geospatial",
     "school-admissions",
     "colombo",
     "kandy",
@@ -73,7 +84,7 @@
     "jaffna",
     "open-data-sri-lanka"
   ],
-  "author": "M.M. Salman Faris",
+  "author": "M.M. Salman Faris <mmsalmanfaaris01@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.1",

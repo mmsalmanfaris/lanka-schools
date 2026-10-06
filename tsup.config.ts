@@ -8,12 +8,10 @@ export default defineConfig({
     'src/zones.ts',
     'src/national-schools.ts',
     'src/schools.ts',
-    'src/admissions.ts',
   ],
   format: ['cjs', 'esm'],
   dts: false,
-  clean: false,
-  sourcemap: true,
+  clean: true,
+  sourcemap: false,
   minify: false,
 });
-

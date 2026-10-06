@@ -106,9 +106,3 @@ export interface ProximityOptions {
   educationLevel?: 'Primary' | 'Primary and Secondary' | 'Secondary';
   onlyNational?: boolean;
 }
-
-export interface Grade1ProximityResult {
-  distanceKm: number;
-  withinImmediateCatchment: boolean; // < 2km
-  withinSecondaryCatchment: boolean; // < 5km
-}
