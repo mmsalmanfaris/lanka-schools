@@ -34,3 +34,4 @@ describe('Districts module', () => {
     expect(names).toEqual(['Colombo', 'Gampaha', 'Kalutara']);
   });
 });
+

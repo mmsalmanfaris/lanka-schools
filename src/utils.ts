@@ -52,3 +52,4 @@ export function matchesQuery(target: string, query: string): boolean {
   const queryWords = normQuery.split(' ').filter(Boolean);
   return queryWords.every((w) => normTarget.includes(w));
 }
+

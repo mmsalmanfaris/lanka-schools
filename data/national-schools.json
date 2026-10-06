@@ -14,8 +14,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.9431257247924805,
     "longitude": 79.86254883
   },
@@ -33,10 +31,9 @@
     "gender": "Boys",
     "mediums": [
       "Sinhala",
-      "Tamil"
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 175,
-    "grade5CutoffTamil": 171,
     "latitude": 6.904820919036865,
     "longitude": 79.86143493652344
   },
@@ -53,10 +50,10 @@
     "zone": "Colombo",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 170,
-    "grade5CutoffTamil": null,
     "latitude": 6.924685478210449,
     "longitude": 79.86923217773438
   },
@@ -73,10 +70,10 @@
     "zone": "Colombo",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 167,
-    "grade5CutoffTamil": null,
     "latitude": 6.9240288734436035,
     "longitude": 79.87496185302734
   },
@@ -95,8 +92,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 162,
-    "grade5CutoffTamil": null,
     "latitude": 6.902346611022949,
     "longitude": 79.85932159423828
   },
@@ -113,10 +108,10 @@
     "zone": "Colombo",
     "gender": "Girls",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 146,
-    "grade5CutoffTamil": null,
     "latitude": 6.926540374755859,
     "longitude": 79.86986541748047
   },
@@ -135,8 +130,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 152,
-    "grade5CutoffTamil": null,
     "latitude": 6.923181533813477,
     "longitude": 79.87191009521484
   },
@@ -153,11 +146,8 @@
     "zone": "Colombo",
     "gender": "Boys",
     "mediums": [
-      "Sinhala",
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": 164,
-    "grade5CutoffTamil": 152,
     "latitude": 6.9088239669799805,
     "longitude": 79.87548828
   },
@@ -176,8 +166,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 171,
-    "grade5CutoffTamil": null,
     "latitude": 6.910553932189941,
     "longitude": 79.88217926
   },
@@ -196,8 +184,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 168,
-    "grade5CutoffTamil": null,
     "latitude": 6.897562503814697,
     "longitude": 79.86282348632812
   },
@@ -214,11 +200,8 @@
     "zone": "Colombo",
     "gender": "Boys",
     "mediums": [
-      "Sinhala",
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": 159,
-    "grade5CutoffTamil": 146,
     "latitude": 6.887902736663818,
     "longitude": 79.86783599853516
   },
@@ -237,8 +220,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 6.884214878082275,
     "longitude": 79.86696625
   },
@@ -257,8 +238,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 157,
-    "grade5CutoffTamil": null,
     "latitude": 6.906383991241455,
     "longitude": 79.85492706298828
   },
@@ -275,10 +254,10 @@
     "zone": "Colombo",
     "gender": "Girls",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 161,
-    "grade5CutoffTamil": null,
     "latitude": 6.885920048,
     "longitude": 79.85867309570312
   },
@@ -295,10 +274,10 @@
     "zone": "Colombo",
     "gender": "Girls",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 176,
-    "grade5CutoffTamil": null,
     "latitude": 6.891822814941406,
     "longitude": 79.85929870605469
   },
@@ -313,12 +292,10 @@
     "provinceCode": 1,
     "provinceName": "Western",
     "zone": "Piliyandala",
-    "gender": "Mixed",
+    "gender": "Girls",
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.850200176239014,
     "longitude": 79.86386871
   },
@@ -337,8 +314,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.830752372741699,
     "longitude": 79.87602996826172
   },
@@ -357,8 +332,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.933507442474365,
     "longitude": 79.89225006103516
   },
@@ -377,8 +350,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -393,12 +364,12 @@
     "provinceCode": 1,
     "provinceName": "Western",
     "zone": "Sri Jayawardenapura",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.8834686279296875,
     "longitude": 79.90277099609375
   },
@@ -417,8 +388,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 164,
-    "grade5CutoffTamil": null,
     "latitude": 6.872936248779297,
     "longitude": 79.88581848144531
   },
@@ -437,8 +406,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -457,8 +424,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.907683849334717,
     "longitude": 79.89288330078125
   },
@@ -477,8 +442,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 143,
-    "grade5CutoffTamil": null,
     "latitude": 6.782868862,
     "longitude": 79.88339996
   },
@@ -497,8 +460,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 6.784953594207764,
     "longitude": 79.88302612304688
   },
@@ -517,8 +478,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.940916061401367,
     "longitude": 79.85970306396484
   },
@@ -533,12 +492,12 @@
     "provinceCode": 1,
     "provinceName": "Western",
     "zone": "Colombo",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.943342685699463,
     "longitude": 79.86001586914062
   },
@@ -557,8 +516,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 156,
     "latitude": 6.881455421447754,
     "longitude": 79.86141204833984
   },
@@ -575,10 +532,10 @@
     "zone": "Colombo",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 134,
     "latitude": 6.883664608001709,
     "longitude": 79.86204528808594
   },
@@ -595,10 +552,10 @@
     "zone": "Colombo",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 138,
     "latitude": 6.883934020996094,
     "longitude": 79.86038970947266
   },
@@ -617,8 +574,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.903318881988525,
     "longitude": 79.92381286621094
   },
@@ -637,8 +592,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.934266567230225,
     "longitude": 80.00232696533203
   },
@@ -657,8 +610,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.957264423370361,
     "longitude": 80.21643066
   },
@@ -677,8 +628,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 143,
-    "grade5CutoffTamil": null,
     "latitude": 6.908930778503418,
     "longitude": 80.08893585205078
   },
@@ -697,8 +646,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 155,
-    "grade5CutoffTamil": null,
     "latitude": 6.8441667556762695,
     "longitude": 79.95409393310547
   },
@@ -717,8 +664,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 6.7999467849731445,
     "longitude": 79.92071533203125
   },
@@ -737,8 +682,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.926959515,
     "longitude": 79.85095215
   },
@@ -757,8 +700,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 148,
-    "grade5CutoffTamil": null,
     "latitude": 6.824270248413086,
     "longitude": 80.03928375
   },
@@ -777,8 +718,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.858898162841797,
     "longitude": 80.06505584716797
   },
@@ -795,10 +734,10 @@
     "zone": "Kelaniya",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.984253883361816,
     "longitude": 79.89124298095703
   },
@@ -817,8 +756,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.469015121459961,
     "longitude": 79.98684692382812
   },
@@ -837,8 +774,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 156,
-    "grade5CutoffTamil": null,
     "latitude": 7.1637349128723145,
     "longitude": 80.06179047
   },
@@ -857,8 +792,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 144,
-    "grade5CutoffTamil": null,
     "latitude": 7.132656097412109,
     "longitude": 80.08023834228516
   },
@@ -877,8 +810,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 142,
-    "grade5CutoffTamil": null,
     "latitude": 7.069110870361328,
     "longitude": 79.95037841796875
   },
@@ -897,8 +828,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 158,
-    "grade5CutoffTamil": null,
     "latitude": 7.091506004333496,
     "longitude": 80.00408935546875
   },
@@ -917,8 +846,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 165,
-    "grade5CutoffTamil": null,
     "latitude": 7.089315891265869,
     "longitude": 79.99967193603516
   },
@@ -937,8 +864,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.058076382,
     "longitude": 80.46606445
   },
@@ -957,8 +882,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.943899154663086,
     "longitude": 80.06774902
   },
@@ -977,8 +900,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 6.958570957183838,
     "longitude": 79.89255524
   },
@@ -997,8 +918,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 143,
-    "grade5CutoffTamil": null,
     "latitude": 6.9608306884765625,
     "longitude": 79.89920806884766
   },
@@ -1017,8 +936,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 157,
-    "grade5CutoffTamil": null,
     "latitude": 6.980737686157227,
     "longitude": 79.92543793
   },
@@ -1037,8 +954,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.954535007476807,
     "longitude": 80.01506042480469
   },
@@ -1057,8 +972,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 143,
-    "grade5CutoffTamil": null,
     "latitude": 7.211212158203125,
     "longitude": 79.83129119873047
   },
@@ -1077,8 +990,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.209502220153809,
     "longitude": 79.85049438476562
   },
@@ -1093,12 +1004,12 @@
     "provinceCode": 1,
     "provinceName": "Western",
     "zone": "Negombo",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.131174564361572,
     "longitude": 79.89851379394531
   },
@@ -1115,10 +1026,10 @@
     "zone": "Minuwangoda",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.169633865356445,
     "longitude": 79.94961547851562
   },
@@ -1137,8 +1048,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.124006748199463,
     "longitude": 79.97328186035156
   },
@@ -1157,8 +1066,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.090216159820557,
     "longitude": 79.88967133
   },
@@ -1177,8 +1084,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.947502136230469,
     "longitude": 80.05783081054688
   },
@@ -1197,8 +1102,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.6631598472595215,
     "longitude": 79.92925262451172
   },
@@ -1215,10 +1118,10 @@
     "zone": "Kalutara",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.722355842590332,
     "longitude": 79.91166687011719
   },
@@ -1237,8 +1140,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.710203170776367,
     "longitude": 79.90980529785156
   },
@@ -1257,8 +1158,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 147,
-    "grade5CutoffTamil": null,
     "latitude": 6.700354576,
     "longitude": 79.9079361
   },
@@ -1277,8 +1176,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.711163520812988,
     "longitude": 79.98769379
   },
@@ -1297,8 +1194,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 159,
-    "grade5CutoffTamil": null,
     "latitude": 6.711501598358154,
     "longitude": 80.06084442138672
   },
@@ -1317,8 +1212,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 146,
-    "grade5CutoffTamil": null,
     "latitude": 6.707592010498047,
     "longitude": 80.06861877441406
   },
@@ -1337,8 +1230,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 151,
-    "grade5CutoffTamil": null,
     "latitude": 6.715312480926514,
     "longitude": 80.06752777
   },
@@ -1357,8 +1248,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -1377,8 +1266,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 154,
-    "grade5CutoffTamil": null,
     "latitude": 6.516849040985107,
     "longitude": 80.11827087402344
   },
@@ -1395,10 +1282,10 @@
     "zone": "Matugama",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 150,
-    "grade5CutoffTamil": null,
     "latitude": 6.523957252502441,
     "longitude": 80.11407470703125
   },
@@ -1417,8 +1304,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.549516677856445,
     "longitude": 80.0279541
   },
@@ -1437,8 +1322,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.607957363128662,
     "longitude": 79.95118713378906
   },
@@ -1457,8 +1340,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 6.585511207580566,
     "longitude": 79.96221923828125
   },
@@ -1477,8 +1358,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 141,
-    "grade5CutoffTamil": null,
     "latitude": 6.573878765106201,
     "longitude": 79.96236419677734
   },
@@ -1497,8 +1376,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.436360836029053,
     "longitude": 79.99796295166016
   },
@@ -1517,8 +1394,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.469015121459961,
     "longitude": 79.98684692382812
   },
@@ -1537,8 +1412,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.412539958953857,
     "longitude": 80.08296203613281
   },
@@ -1557,8 +1430,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.442880630493164,
     "longitude": 80.01663970947266
   },
@@ -1577,8 +1448,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.477053165435791,
     "longitude": 79.98980712890625
   },
@@ -1597,8 +1466,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.371449947357178,
     "longitude": 80.51927947998047
   },
@@ -1617,8 +1484,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.371598720550537,
     "longitude": 80.5185318
   },
@@ -1637,8 +1502,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.337808609008789,
     "longitude": 80.46980285644531
   },
@@ -1657,8 +1520,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.373814582824707,
     "longitude": 80.58930206298828
   },
@@ -1677,8 +1538,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.4397664070129395,
     "longitude": 80.56845092773438
   },
@@ -1697,8 +1556,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.400930881500244,
     "longitude": 80.61035156
   },
@@ -1717,8 +1574,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.325563430786133,
     "longitude": 80.58380126953125
   },
@@ -1737,8 +1592,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.360136509,
     "longitude": 80.70513916015625
   },
@@ -1757,8 +1610,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.350189685821533,
     "longitude": 80.94744110107422
   },
@@ -1777,8 +1628,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.333160877227783,
     "longitude": 80.77056884765625
   },
@@ -1797,8 +1646,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.312427520751953,
     "longitude": 80.75690460205078
   },
@@ -1817,8 +1664,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.136734485626221,
     "longitude": 79.87277985
   },
@@ -1835,10 +1680,10 @@
     "zone": "Wathegama",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.2965617179870605,
     "longitude": 80.72848510742188
   },
@@ -1855,10 +1700,8 @@
     "zone": "Wathegama",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 134,
     "latitude": 7.257400035858154,
     "longitude": 80.67150115966797
   },
@@ -1875,10 +1718,8 @@
     "zone": "Katugastota",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 138,
     "latitude": null,
     "longitude": null
   },
@@ -1897,8 +1738,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -1915,10 +1754,10 @@
     "zone": "Katugastota",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.371075153,
     "longitude": 80.60964203
   },
@@ -1937,8 +1776,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.199547768,
     "longitude": 80.74523926
   },
@@ -1957,8 +1794,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.217326641082764,
     "longitude": 80.73894500732422
   },
@@ -1977,8 +1812,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 174,
-    "grade5CutoffTamil": null,
     "latitude": 7.289700031280518,
     "longitude": 80.64800262451172
   },
@@ -1997,8 +1830,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 168,
-    "grade5CutoffTamil": null,
     "latitude": 7.286180019378662,
     "longitude": 80.64333344
   },
@@ -2017,8 +1848,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 162,
-    "grade5CutoffTamil": null,
     "latitude": 7.286904811859131,
     "longitude": 80.62438201904297
   },
@@ -2037,8 +1866,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 170,
-    "grade5CutoffTamil": null,
     "latitude": 7.278427600860596,
     "longitude": 80.61435699
   },
@@ -2057,8 +1884,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 159,
-    "grade5CutoffTamil": null,
     "latitude": 7.293579102,
     "longitude": 80.63071442
   },
@@ -2073,12 +1898,10 @@
     "provinceCode": 2,
     "provinceName": "Central",
     "zone": "Kandy",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.3221330642700195,
     "longitude": 80.62217712402344
   },
@@ -2097,8 +1920,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.260352611541748,
     "longitude": 80.52935791015625
   },
@@ -2117,8 +1938,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.268754482269287,
     "longitude": 80.57452392578125
   },
@@ -2137,8 +1956,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.2068400382995605,
     "longitude": 80.57788086
   },
@@ -2157,8 +1974,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.153883457183838,
     "longitude": 80.56513977050781
   },
@@ -2177,8 +1992,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.134962558746338,
     "longitude": 80.59664916992188
   },
@@ -2197,8 +2010,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -2217,8 +2028,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -2235,10 +2044,8 @@
     "zone": "Kandy",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 143,
     "latitude": 7.301140785217285,
     "longitude": 80.63510131835938
   },
@@ -2255,10 +2062,10 @@
     "zone": "Gampola",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -2277,8 +2084,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.462007522583008,
     "longitude": 81.26885223388672
   },
@@ -2295,10 +2100,10 @@
     "zone": "Gampola",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.164975166320801,
     "longitude": 80.58289337158203
   },
@@ -2317,8 +2122,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.863016128540039,
     "longitude": 80.64422607421875
   },
@@ -2337,8 +2140,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.706310749053955,
     "longitude": 80.65469360351562
   },
@@ -2357,8 +2158,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 153,
-    "grade5CutoffTamil": null,
     "latitude": 7.463315010070801,
     "longitude": 80.6155014
   },
@@ -2377,8 +2176,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.464999675750732,
     "longitude": 80.62193298339844
   },
@@ -2395,10 +2192,10 @@
     "zone": "Matale",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 149,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -2417,8 +2214,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.467227458953857,
     "longitude": 80.61795806884766
   },
@@ -2435,10 +2230,10 @@
     "zone": "Matale",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.475820064544678,
     "longitude": 80.62464904785156
   },
@@ -2455,10 +2250,8 @@
     "zone": "Matale",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 135,
     "latitude": null,
     "longitude": null
   },
@@ -2477,8 +2270,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -2497,8 +2288,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.421173095703125,
     "longitude": 80.63322448730469
   },
@@ -2515,10 +2304,10 @@
     "zone": "Matale",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.484624862670898,
     "longitude": 80.62250518798828
   },
@@ -2537,8 +2326,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.645235538482666,
     "longitude": 80.60324096679688
   },
@@ -2557,8 +2344,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -2575,10 +2360,10 @@
     "zone": "Hatton",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 140,
     "latitude": 6.893401145935059,
     "longitude": 80.59751892089844
   },
@@ -2597,8 +2382,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.014582633972168,
     "longitude": 80.66880798339844
   },
@@ -2617,8 +2400,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.0633440017700195,
     "longitude": 80.68371582
   },
@@ -2637,8 +2418,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -2657,8 +2436,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 7.056379795074463,
     "longitude": 80.57018280029297
   },
@@ -2677,8 +2454,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 142,
-    "grade5CutoffTamil": null,
     "latitude": 7.140453338623047,
     "longitude": 80.77360534667969
   },
@@ -2697,8 +2472,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.213063716888428,
     "longitude": 80.78253173828125
   },
@@ -2717,8 +2490,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.283954144,
     "longitude": 80.04138946533203
   },
@@ -2735,10 +2506,10 @@
     "zone": "Ambalangoda",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 147,
-    "grade5CutoffTamil": null,
     "latitude": 6.239475727081299,
     "longitude": 80.04955291748047
   },
@@ -2757,8 +2528,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 152,
-    "grade5CutoffTamil": null,
     "latitude": 6.240143775939941,
     "longitude": 80.05179595947266
   },
@@ -2777,8 +2546,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.2724151611328125,
     "longitude": 80.09395599365234
   },
@@ -2797,8 +2564,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.420040607452393,
     "longitude": 80.00165557861328
   },
@@ -2815,10 +2580,10 @@
     "zone": "Elpitiya",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 143,
-    "grade5CutoffTamil": null,
     "latitude": 6.295362473,
     "longitude": 80.16423034667969
   },
@@ -2837,8 +2602,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.376725196838379,
     "longitude": 80.35655212402344
   },
@@ -2857,8 +2620,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.340583324432373,
     "longitude": 80.33306121826172
   },
@@ -2873,12 +2634,12 @@
     "provinceCode": 3,
     "provinceName": "Southern",
     "zone": "Udugama",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.193889617919922,
     "longitude": 80.27476501464844
   },
@@ -2897,8 +2658,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.134197235107422,
     "longitude": 80.25272369384766
   },
@@ -2917,8 +2676,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.172926902770996,
     "longitude": 80.17503356933594
   },
@@ -2937,8 +2694,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 141,
-    "grade5CutoffTamil": null,
     "latitude": 6.176069259643555,
     "longitude": 80.17959594726562
   },
@@ -2957,8 +2712,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.077805995941162,
     "longitude": 79.94713592529297
   },
@@ -2977,8 +2730,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.103177070617676,
     "longitude": 80.14905548095703
   },
@@ -2997,8 +2748,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 163,
-    "grade5CutoffTamil": null,
     "latitude": 6.048641204833984,
     "longitude": 80.21308135986328
   },
@@ -3017,8 +2766,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 168,
-    "grade5CutoffTamil": null,
     "latitude": 6.05214262,
     "longitude": 80.20278930664062
   },
@@ -3037,8 +2784,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 151,
-    "grade5CutoffTamil": null,
     "latitude": 6.05219841,
     "longitude": 80.20133972167969
   },
@@ -3057,8 +2802,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 163,
-    "grade5CutoffTamil": null,
     "latitude": 6.046840667724609,
     "longitude": 80.21043395996094
   },
@@ -3077,8 +2820,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 167,
-    "grade5CutoffTamil": null,
     "latitude": 6.027946949005127,
     "longitude": 80.21621704101562
   },
@@ -3095,10 +2836,10 @@
     "zone": "Galle",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 157,
-    "grade5CutoffTamil": null,
     "latitude": 6.035590648651123,
     "longitude": 80.20984649658203
   },
@@ -3117,8 +2858,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 147,
-    "grade5CutoffTamil": null,
     "latitude": 6.034191608428955,
     "longitude": 80.21463775634766
   },
@@ -3133,12 +2872,12 @@
     "provinceCode": 3,
     "provinceName": "Southern",
     "zone": "Galle",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.062318325042725,
     "longitude": 80.26108551
   },
@@ -3157,8 +2896,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.105842113494873,
     "longitude": 80.21786499023438
   },
@@ -3177,8 +2914,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.048814296722412,
     "longitude": 80.18564606
   },
@@ -3197,8 +2932,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 5.984985828399658,
     "longitude": 80.34065246582031
   },
@@ -3217,8 +2950,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.036358833312988,
     "longitude": 80.38047028
   },
@@ -3235,10 +2966,10 @@
     "zone": "Galle",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.475820064544678,
     "longitude": 80.62464904785156
   },
@@ -3257,8 +2988,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.044853210449219,
     "longitude": 80.22386169433594
   },
@@ -3277,8 +3006,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 150,
-    "grade5CutoffTamil": null,
     "latitude": 6.071634769439697,
     "longitude": 80.23004150390625
   },
@@ -3297,8 +3024,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -3317,8 +3042,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.2699408531188965,
     "longitude": 80.49630737304688
   },
@@ -3337,8 +3060,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.295253753662109,
     "longitude": 80.53916168
   },
@@ -3357,8 +3078,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.291190147399902,
     "longitude": 80.63323974609375
   },
@@ -3377,8 +3096,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 6.345590591430664,
     "longitude": 80.55708312988281
   },
@@ -3397,8 +3114,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 148,
-    "grade5CutoffTamil": null,
     "latitude": 6.019201278686523,
     "longitude": 80.48991394042969
   },
@@ -3417,8 +3132,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.0882649421691895,
     "longitude": 80.47705078
   },
@@ -3437,8 +3150,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -3457,8 +3168,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.012513160705566,
     "longitude": 80.56479645
   },
@@ -3477,8 +3186,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.040482997894287,
     "longitude": 80.61843872070312
   },
@@ -3497,8 +3204,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.153918743133545,
     "longitude": 80.60148620605469
   },
@@ -3517,8 +3222,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 5.971004486083984,
     "longitude": 80.42029571533203
   },
@@ -3537,8 +3240,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 5.972925186157227,
     "longitude": 80.42305755615234
   },
@@ -3557,8 +3258,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.7723259925842285,
     "longitude": 81.60603332519531
   },
@@ -3577,8 +3276,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 164,
-    "grade5CutoffTamil": null,
     "latitude": 5.952901363372803,
     "longitude": 80.53397369384766
   },
@@ -3597,8 +3294,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 164,
-    "grade5CutoffTamil": null,
     "latitude": 5.953762054443359,
     "longitude": 80.53599548339844
   },
@@ -3617,8 +3312,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 5.9529194831848145,
     "longitude": 80.54234313964844
   },
@@ -3635,10 +3328,10 @@
     "zone": "Matara",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 155,
-    "grade5CutoffTamil": null,
     "latitude": 5.948416233062744,
     "longitude": 80.54178619384766
   },
@@ -3655,10 +3348,10 @@
     "zone": "Matara",
     "gender": "Girls",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 156,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -3675,10 +3368,10 @@
     "zone": "Matara",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 146,
-    "grade5CutoffTamil": null,
     "latitude": 5.9434590339660645,
     "longitude": 80.54969787597656
   },
@@ -3697,8 +3390,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 5.9285993576049805,
     "longitude": 80.58722686767578
   },
@@ -3717,8 +3408,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 5.96597147,
     "longitude": 80.70059967041016
   },
@@ -3737,8 +3426,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 5.971798896789551,
     "longitude": 80.69239807128906
   },
@@ -3757,8 +3444,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 150,
-    "grade5CutoffTamil": null,
     "latitude": 5.934660435,
     "longitude": 80.57933044433594
   },
@@ -3777,8 +3462,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 146,
-    "grade5CutoffTamil": null,
     "latitude": 6.148916244506836,
     "longitude": 80.69573211669922
   },
@@ -3797,8 +3480,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.267679691314697,
     "longitude": 80.68596649169922
   },
@@ -3817,8 +3498,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 161,
-    "grade5CutoffTamil": null,
     "latitude": 6.9754228591918945,
     "longitude": 79.92364501953125
   },
@@ -3837,8 +3516,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 142,
-    "grade5CutoffTamil": null,
     "latitude": 6.022561073303223,
     "longitude": 80.79302978515625
   },
@@ -3857,8 +3534,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 144,
-    "grade5CutoffTamil": null,
     "latitude": 6.021448135375977,
     "longitude": 80.79536437988281
   },
@@ -3877,8 +3552,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 151,
-    "grade5CutoffTamil": null,
     "latitude": 6.111670970916748,
     "longitude": 80.92938232421875
   },
@@ -3897,8 +3570,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.163880348205566,
     "longitude": 80.89282989501953
   },
@@ -3917,8 +3588,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -3937,8 +3606,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.041929244995117,
     "longitude": 80.74353790283203
   },
@@ -3957,8 +3624,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 152,
-    "grade5CutoffTamil": null,
     "latitude": 6.2840776443481445,
     "longitude": 81.26336669921875
   },
@@ -3977,8 +3642,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 139,
-    "grade5CutoffTamil": null,
     "latitude": 6.120002269744873,
     "longitude": 81.02172852
   },
@@ -3995,10 +3658,10 @@
     "zone": "Hambantota",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.128077507019043,
     "longitude": 81.12113952636719
   },
@@ -4015,10 +3678,10 @@
     "zone": "Hambantota",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.126145839691162,
     "longitude": 81.12281799316406
   },
@@ -4037,8 +3700,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.307457924,
     "longitude": 80.99510955810547
   },
@@ -4057,8 +3718,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 145,
-    "grade5CutoffTamil": null,
     "latitude": 6.032776832580566,
     "longitude": 80.77114105
   },
@@ -4077,8 +3736,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.160247802734375,
     "longitude": 81.13286590576172
   },
@@ -4097,8 +3754,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 152,
-    "grade5CutoffTamil": null,
     "latitude": 6.1397809982299805,
     "longitude": 80.75571442
   },
@@ -4115,10 +3770,10 @@
     "zone": "Valikamam",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 9.715048789978027,
     "longitude": 79.99289703
   },
@@ -4137,8 +3792,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 9.803188324,
     "longitude": 80.20034790039062
   },
@@ -4157,8 +3810,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 9.829191207885742,
     "longitude": 80.23036193847656
   },
@@ -4175,10 +3826,10 @@
     "zone": "Thennamarachchi",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 9.664623260498047,
     "longitude": 80.17272186279297
   },
@@ -4195,10 +3846,10 @@
     "zone": "Jaffna",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 139,
     "latitude": 9.678354263305664,
     "longitude": 80.00975799560547
   },
@@ -4215,10 +3866,8 @@
     "zone": "Jaffna",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 9.661676406860352,
     "longitude": 80.01190948486328
   },
@@ -4237,8 +3886,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -4255,10 +3902,8 @@
     "zone": "Jaffna",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 145,
     "latitude": null,
     "longitude": null
   },
@@ -4275,10 +3920,8 @@
     "zone": "Kilinochchi",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 9.381329536437988,
     "longitude": 80.40898132324219
   },
@@ -4297,8 +3940,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 9.244859695,
     "longitude": 80.14038086
   },
@@ -4317,8 +3958,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 9.610159873962402,
     "longitude": 80.33045959472656
   },
@@ -4335,10 +3974,10 @@
     "zone": "Mannar",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.978995323181152,
     "longitude": 79.91764068603516
   },
@@ -4355,10 +3994,10 @@
     "zone": "Mannar",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.985984802246094,
     "longitude": 79.90665435791016
   },
@@ -4375,10 +4014,10 @@
     "zone": "Mannar",
     "gender": "Girls",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.980856895446777,
     "longitude": 79.90617370605469
   },
@@ -4397,8 +4036,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.980652809143066,
     "longitude": 79.91248321533203
   },
@@ -4417,8 +4054,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.760769844055176,
     "longitude": 79.95308685302734
   },
@@ -4433,12 +4068,12 @@
     "provinceCode": 4,
     "provinceName": "Northern",
     "zone": "Mullaitivu",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 9.224040985107422,
     "longitude": 80.78031158447266
   },
@@ -4457,8 +4092,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 9.140932083129883,
     "longitude": 80.29319
   },
@@ -4475,10 +4108,8 @@
     "zone": "Vavuniya",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 8.750946044921875,
     "longitude": 80.50182342529297
   },
@@ -4497,8 +4128,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 8.750086784362793,
     "longitude": 80.49495697021484
   },
@@ -4517,8 +4146,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.763348579406738,
     "longitude": 80.48043823242188
   },
@@ -4537,8 +4164,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.761814117,
     "longitude": 80.49249267578125
   },
@@ -4557,8 +4182,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -4577,8 +4200,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.910896301269531,
     "longitude": 81.52313232421875
   },
@@ -4597,8 +4218,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.923804283,
     "longitude": 81.52479553222656
   },
@@ -4615,10 +4234,10 @@
     "zone": "Kalkudah",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 134,
     "latitude": 7.926058769226074,
     "longitude": 81.52965545654297
   },
@@ -4637,8 +4256,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.777018070220947,
     "longitude": 81.60144043
   },
@@ -4657,8 +4274,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.787847042,
     "longitude": 81.61476898
   },
@@ -4675,10 +4290,8 @@
     "zone": "Batticaloa",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 139,
     "latitude": 7.711884498596191,
     "longitude": 81.69695281982422
   },
@@ -4695,10 +4308,10 @@
     "zone": "Batticaloa",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 6.913900375366211,
     "longitude": 79.85308074951172
   },
@@ -4715,10 +4328,10 @@
     "zone": "Batticaloa",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 7.710962772369385,
     "longitude": 81.69195556640625
   },
@@ -4733,12 +4346,12 @@
     "provinceCode": 5,
     "provinceName": "Eastern",
     "zone": "Batticaloa",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -4755,10 +4368,8 @@
     "zone": "Batticaloa Central",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": null,
     "longitude": null
   },
@@ -4775,10 +4386,8 @@
     "zone": "Batticaloa Central",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 136,
     "latitude": 7.677587032318115,
     "longitude": 81.72860717773438
   },
@@ -4797,8 +4406,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.546938419342041,
     "longitude": 81.78556060791016
   },
@@ -4815,10 +4422,8 @@
     "zone": "Paddrippu",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 139,
     "latitude": 7.517102241516113,
     "longitude": 81.78422546386719
   },
@@ -4837,8 +4442,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.406240940093994,
     "longitude": 81.24082184
   },
@@ -4857,8 +4460,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.3684282302856445,
     "longitude": 81.63991547
   },
@@ -4877,8 +4478,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 143,
-    "grade5CutoffTamil": null,
     "latitude": 7.303026199,
     "longitude": 81.66987609863281
   },
@@ -4897,8 +4496,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 137,
-    "grade5CutoffTamil": null,
     "latitude": 7.304140090942383,
     "longitude": 81.67511749267578
   },
@@ -4917,8 +4514,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 133,
-    "grade5CutoffTamil": null,
     "latitude": 7.667174816131592,
     "longitude": 81.04656982421875
   },
@@ -4937,8 +4532,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 145,
     "latitude": 7.370190143585205,
     "longitude": 81.80761719
   },
@@ -4957,8 +4550,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.363066196,
     "longitude": 81.79781341552734
   },
@@ -4975,10 +4566,10 @@
     "zone": "Kalmunai",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 138,
     "latitude": 7.399468898773193,
     "longitude": 81.83723449707031
   },
@@ -4995,10 +4586,8 @@
     "zone": "Kalmunai",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 137,
     "latitude": 7.419587135314941,
     "longitude": 81.82211303710938
   },
@@ -5015,10 +4604,8 @@
     "zone": "Kalmunai",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 149,
     "latitude": 7.3989691734313965,
     "longitude": 81.83239746
   },
@@ -5037,8 +4624,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 7.225523948669434,
     "longitude": 81.83636474609375
   },
@@ -5057,8 +4642,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.246461868286133,
     "longitude": 81.72329711914062
   },
@@ -5075,10 +4658,8 @@
     "zone": "Akkaraipattu",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 7.244091987609863,
     "longitude": 81.85276794433594
   },
@@ -5097,8 +4678,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": null,
     "longitude": null
   },
@@ -5115,10 +4694,8 @@
     "zone": "Thirukkovil",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 144,
     "latitude": 7.2102742195129395,
     "longitude": 81.84327697753906
   },
@@ -5135,10 +4712,8 @@
     "zone": "Thirukkovil",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 143,
     "latitude": null,
     "longitude": null
   },
@@ -5157,8 +4732,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.879158973693848,
     "longitude": 81.8347168
   },
@@ -5177,8 +4750,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.616982460021973,
     "longitude": 80.96195983886719
   },
@@ -5195,10 +4766,10 @@
     "zone": "Trincomalee",
     "gender": "Girls",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.575231552124023,
     "longitude": 81.23093414
   },
@@ -5217,8 +4788,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.575302124023438,
     "longitude": 81.22368621826172
   },
@@ -5237,8 +4806,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.581621170043945,
     "longitude": 81.22808837890625
   },
@@ -5255,10 +4822,10 @@
     "zone": "Trincomalee",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.571192741394043,
     "longitude": 81.23447418
   },
@@ -5275,10 +4842,10 @@
     "zone": "Trincomalee",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.574234962463379,
     "longitude": 81.23310089111328
   },
@@ -5295,10 +4862,10 @@
     "zone": "Trincomalee",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.573111534118652,
     "longitude": 81.22756195
   },
@@ -5317,8 +4884,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 133,
-    "grade5CutoffTamil": null,
     "latitude": 8.354574203491211,
     "longitude": 81.00592803955078
   },
@@ -5335,10 +4900,8 @@
     "zone": "Muttur",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 135,
     "latitude": 8.449240684509277,
     "longitude": 81.25595092773438
   },
@@ -5357,8 +4920,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -5377,8 +4938,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 133,
     "latitude": 8.504652976989746,
     "longitude": 81.17787170410156
   },
@@ -5395,10 +4954,8 @@
     "zone": "Kinniya",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 131,
     "latitude": 8.497036933898926,
     "longitude": 81.17835998535156
   },
@@ -5417,8 +4974,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.330846786499023,
     "longitude": 80.30532836914062
   },
@@ -5437,8 +4992,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.459597110748291,
     "longitude": 80.29061126708984
   },
@@ -5457,8 +5010,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.430427551269531,
     "longitude": 80.44857025146484
   },
@@ -5477,8 +5028,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.424123764038086,
     "longitude": 80.39987946
   },
@@ -5497,8 +5046,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.6197967529296875,
     "longitude": 80.23163604736328
   },
@@ -5517,8 +5064,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.537216663360596,
     "longitude": 80.44956970214844
   },
@@ -5537,8 +5082,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.654911994934082,
     "longitude": 80.34399414
   },
@@ -5557,8 +5100,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 146,
-    "grade5CutoffTamil": null,
     "latitude": 7.427347183227539,
     "longitude": 80.20927429199219
   },
@@ -5577,8 +5118,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 170,
-    "grade5CutoffTamil": null,
     "latitude": 7.481945037841797,
     "longitude": 80.36048126220703
   },
@@ -5597,8 +5136,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 169,
-    "grade5CutoffTamil": null,
     "latitude": 7.486342430114746,
     "longitude": 80.35726165771484
   },
@@ -5617,8 +5154,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.415364742279053,
     "longitude": 80.47058868408203
   },
@@ -5637,8 +5172,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.296396255493164,
     "longitude": 80.23053741455078
   },
@@ -5657,8 +5190,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.599451541900635,
     "longitude": 79.93621826171875
   },
@@ -5677,8 +5208,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.455787181854248,
     "longitude": 80.14002990722656
   },
@@ -5697,8 +5226,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.502093315124512,
     "longitude": 79.91721344
   },
@@ -5717,8 +5244,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 155,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -5737,8 +5262,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 149,
-    "grade5CutoffTamil": null,
     "latitude": 7.468855381011963,
     "longitude": 80.04061889648438
   },
@@ -5757,8 +5280,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.321711063,
     "longitude": 79.96038055419922
   },
@@ -5777,8 +5298,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.326162815093994,
     "longitude": 80.11566925048828
   },
@@ -5797,8 +5316,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.326964378356934,
     "longitude": 80.02368927001953
   },
@@ -5817,8 +5334,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 142,
-    "grade5CutoffTamil": null,
     "latitude": 7.605607032775879,
     "longitude": 80.10010528564453
   },
@@ -5835,10 +5350,8 @@
     "zone": "Giriulla",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 134,
     "latitude": 7.501509189605713,
     "longitude": 80.17210388183594
   },
@@ -5857,8 +5370,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.491821765899658,
     "longitude": 80.18877410888672
   },
@@ -5877,8 +5388,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.816181659698486,
     "longitude": 80.40247344970703
   },
@@ -5897,8 +5406,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 7.823860168457031,
     "longitude": 80.26538086
   },
@@ -5917,8 +5424,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.996387958526611,
     "longitude": 80.26526641845703
   },
@@ -5937,8 +5442,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.153810501098633,
     "longitude": 80.14212799072266
   },
@@ -5957,8 +5460,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.054177284240723,
     "longitude": 80.34960938
   },
@@ -5977,8 +5478,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 145,
-    "grade5CutoffTamil": null,
     "latitude": 7.751093864440918,
     "longitude": 80.11567687988281
   },
@@ -5997,8 +5496,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.515585899353027,
     "longitude": 80.67362213134766
   },
@@ -6013,12 +5510,12 @@
     "provinceCode": 6,
     "provinceName": "North Western",
     "zone": "Puttalam",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.021061897277832,
     "longitude": 79.83611297607422
   },
@@ -6035,10 +5532,10 @@
     "zone": "Puttalam",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 131,
     "latitude": 8.039847373962402,
     "longitude": 79.82608795166016
   },
@@ -6057,8 +5554,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6075,10 +5570,10 @@
     "zone": "Chilaw",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 149,
-    "grade5CutoffTamil": null,
     "latitude": 7.570956230163574,
     "longitude": 79.79675293
   },
@@ -6097,8 +5592,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 137,
-    "grade5CutoffTamil": null,
     "latitude": 7.493089676,
     "longitude": 79.83351135253906
   },
@@ -6115,10 +5608,10 @@
     "zone": "Chilaw",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 154,
-    "grade5CutoffTamil": null,
     "latitude": 7.341944694519043,
     "longitude": 79.83862305
   },
@@ -6137,8 +5630,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6157,8 +5648,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 147,
-    "grade5CutoffTamil": null,
     "latitude": 7.410456181,
     "longitude": 79.85643005371094
   },
@@ -6177,8 +5666,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 133,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6197,8 +5684,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.975262641906738,
     "longitude": 80.77287292480469
   },
@@ -6217,8 +5702,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 159,
-    "grade5CutoffTamil": null,
     "latitude": 8.335618019104004,
     "longitude": 80.40460968017578
   },
@@ -6237,8 +5720,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 151,
-    "grade5CutoffTamil": null,
     "latitude": 8.334145545959473,
     "longitude": 80.40403747558594
   },
@@ -6257,8 +5738,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 143,
-    "grade5CutoffTamil": null,
     "latitude": 8.14831543,
     "longitude": 80.29437255859375
   },
@@ -6277,8 +5756,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 133,
-    "grade5CutoffTamil": null,
     "latitude": 8.146618843078613,
     "longitude": 80.40973663330078
   },
@@ -6297,8 +5774,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 150,
-    "grade5CutoffTamil": null,
     "latitude": 8.039944648742676,
     "longitude": 80.58388519
   },
@@ -6317,8 +5792,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 133,
-    "grade5CutoffTamil": null,
     "latitude": 8.025224685668945,
     "longitude": 80.59967041015625
   },
@@ -6335,10 +5808,10 @@
     "zone": "Anuradhapura",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.475820064544678,
     "longitude": 80.62464904785156
   },
@@ -6357,8 +5830,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.041824340820312,
     "longitude": 80.93644714355469
   },
@@ -6375,10 +5846,10 @@
     "zone": "Hingurakgoda",
     "gender": "Girls",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.035802841186523,
     "longitude": 80.95783996582031
   },
@@ -6397,8 +5868,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 133,
-    "grade5CutoffTamil": null,
     "latitude": 8.143402099609375,
     "longitude": 80.96797180175781
   },
@@ -6417,8 +5886,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 8.11115551,
     "longitude": 80.95209503173828
   },
@@ -6435,10 +5902,10 @@
     "zone": "Polonnaruwa",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 144,
-    "grade5CutoffTamil": null,
     "latitude": 7.919610023498535,
     "longitude": 81.00292205810547
   },
@@ -6457,8 +5924,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 142,
-    "grade5CutoffTamil": null,
     "latitude": 8.017470359802246,
     "longitude": 81.04985046386719
   },
@@ -6477,8 +5942,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 133,
-    "grade5CutoffTamil": null,
     "latitude": 7.780419826507568,
     "longitude": 81.18711853027344
   },
@@ -6497,8 +5960,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.927299976348877,
     "longitude": 81.03888702392578
   },
@@ -6517,8 +5978,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.775683879852295,
     "longitude": 80.82159423828125
   },
@@ -6537,8 +5996,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.266170024871826,
     "longitude": 81.07686614990234
   },
@@ -6557,8 +6014,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 152,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6577,8 +6032,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.024330139160156,
     "longitude": 81.02179718017578
   },
@@ -6597,8 +6050,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.170065879821777,
     "longitude": 81.00225830078125
   },
@@ -6617,8 +6068,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6637,8 +6086,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6657,8 +6104,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 142,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6677,8 +6122,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 153,
-    "grade5CutoffTamil": null,
     "latitude": 6.996337413787842,
     "longitude": 81.05101013183594
   },
@@ -6697,8 +6140,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.991609573364258,
     "longitude": 81.05321502685547
   },
@@ -6717,8 +6158,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.937871456,
     "longitude": 80.98795318603516
   },
@@ -6737,8 +6176,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6757,8 +6194,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 157,
-    "grade5CutoffTamil": null,
     "latitude": 6.832586288452148,
     "longitude": 80.99085235595703
   },
@@ -6777,8 +6212,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 135,
-    "grade5CutoffTamil": null,
     "latitude": 7.474461078643799,
     "longitude": 80.04647827148438
   },
@@ -6797,8 +6230,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.8978776931762695,
     "longitude": 81.06036376953125
   },
@@ -6815,10 +6246,10 @@
     "zone": "Bandarawela",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 148,
-    "grade5CutoffTamil": null,
     "latitude": 7.7512898445129395,
     "longitude": 81.63912200927734
   },
@@ -6837,8 +6268,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -6857,8 +6286,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 135,
-    "grade5CutoffTamil": null,
     "latitude": 6.830662727355957,
     "longitude": 80.99494934082031
   },
@@ -6873,12 +6300,12 @@
     "provinceCode": 8,
     "provinceName": "Uva",
     "zone": "Bandarawela",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.790184020996094,
     "longitude": 80.94318389892578
   },
@@ -6893,12 +6320,12 @@
     "provinceCode": 8,
     "provinceName": "Uva",
     "zone": "Bandarawela",
-    "gender": "Mixed",
+    "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.010120391845703,
     "longitude": 80.13157653808594
   },
@@ -6917,8 +6344,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.816315650939941,
     "longitude": 80.96373748779297
   },
@@ -6937,8 +6362,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.7406415939331055,
     "longitude": 81.01521301269531
   },
@@ -6957,8 +6380,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 134,
-    "grade5CutoffTamil": null,
     "latitude": 6.906956195831299,
     "longitude": 80.91691589355469
   },
@@ -6977,8 +6398,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.838390827178955,
     "longitude": 80.88291168
   },
@@ -6997,8 +6416,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.961205959320068,
     "longitude": 80.92170715332031
   },
@@ -7017,8 +6434,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.846038341522217,
     "longitude": 80.9005127
   },
@@ -7035,10 +6450,8 @@
     "zone": "Badulla",
     "gender": "Boys",
     "mediums": [
-      "Tamil"
+      "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 132,
     "latitude": 6.902292728424072,
     "longitude": 81.36473846435547
   },
@@ -7057,8 +6470,6 @@
     "mediums": [
       "Tamil"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.940207004547119,
     "longitude": 81.16760254
   },
@@ -7077,8 +6488,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 139,
-    "grade5CutoffTamil": null,
     "latitude": 7.135209560394287,
     "longitude": 81.21714782714844
   },
@@ -7097,8 +6506,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.569955825805664,
     "longitude": 81.04259490966797
   },
@@ -7117,8 +6524,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 154,
-    "grade5CutoffTamil": null,
     "latitude": 6.8741021156311035,
     "longitude": 81.34519196
   },
@@ -7137,8 +6542,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.928060054779053,
     "longitude": 81.55299377441406
   },
@@ -7157,8 +6560,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 156,
-    "grade5CutoffTamil": null,
     "latitude": 6.860412120819092,
     "longitude": 81.33969879
   },
@@ -7177,8 +6578,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 139,
-    "grade5CutoffTamil": null,
     "latitude": 6.892075061798096,
     "longitude": 81.23764801
   },
@@ -7197,8 +6596,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 146,
-    "grade5CutoffTamil": null,
     "latitude": 6.733121871948242,
     "longitude": 81.11282348632812
   },
@@ -7217,8 +6614,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 157,
-    "grade5CutoffTamil": null,
     "latitude": 6.762609958648682,
     "longitude": 81.24736022949219
   },
@@ -7237,8 +6632,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.413200378417969,
     "longitude": 81.33639526367188
   },
@@ -7257,8 +6650,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 136,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -7277,8 +6668,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 134,
-    "grade5CutoffTamil": null,
     "latitude": 7.166803837,
     "longitude": 81.22539520263672
   },
@@ -7297,8 +6686,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 152,
-    "grade5CutoffTamil": null,
     "latitude": 6.85274601,
     "longitude": 80.26098633
   },
@@ -7317,8 +6704,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 159,
-    "grade5CutoffTamil": null,
     "latitude": 6.6821746826171875,
     "longitude": 80.39750671386719
   },
@@ -7337,8 +6722,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 145,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -7355,10 +6738,10 @@
     "zone": "Ratnapura",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 147,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -7377,8 +6760,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 139,
-    "grade5CutoffTamil": null,
     "latitude": null,
     "longitude": null
   },
@@ -7397,8 +6778,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 168,
-    "grade5CutoffTamil": null,
     "latitude": 6.713837146759033,
     "longitude": 80.38307189941406
   },
@@ -7417,8 +6796,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.781383514404297,
     "longitude": 80.35986328
   },
@@ -7437,8 +6814,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 144,
-    "grade5CutoffTamil": null,
     "latitude": 6.6270952224731445,
     "longitude": 80.53803253173828
   },
@@ -7455,10 +6830,10 @@
     "zone": "Balangoda",
     "gender": "Mixed",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 150,
-    "grade5CutoffTamil": null,
     "latitude": 6.642636775970459,
     "longitude": 80.70509338378906
   },
@@ -7477,8 +6852,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 138,
-    "grade5CutoffTamil": null,
     "latitude": 6.505864143371582,
     "longitude": 80.64616394042969
   },
@@ -7497,8 +6870,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.584148406982422,
     "longitude": 80.41481781
   },
@@ -7517,8 +6888,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 139,
-    "grade5CutoffTamil": null,
     "latitude": 6.535174369812012,
     "longitude": 80.39885711669922
   },
@@ -7537,8 +6906,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.403171539306641,
     "longitude": 80.69163513183594
   },
@@ -7557,8 +6924,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 151,
-    "grade5CutoffTamil": null,
     "latitude": 6.560579776763916,
     "longitude": 80.01138305664062
   },
@@ -7575,10 +6940,10 @@
     "zone": "Embilipitiya",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.475110054016113,
     "longitude": 80.60855865478516
   },
@@ -7597,8 +6962,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.6396965980529785,
     "longitude": 80.71282196044922
   },
@@ -7617,8 +6980,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.033169746398926,
     "longitude": 80.28725433
   },
@@ -7637,8 +6998,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 6.9644904136657715,
     "longitude": 80.26290130615234
   },
@@ -7657,8 +7016,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 140,
-    "grade5CutoffTamil": null,
     "latitude": 6.935633182525635,
     "longitude": 80.33549499511719
   },
@@ -7677,8 +7034,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.155686378479004,
     "longitude": 80.29439544677734
   },
@@ -7697,8 +7052,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 145,
-    "grade5CutoffTamil": null,
     "latitude": 7.040393352508545,
     "longitude": 80.25400543
   },
@@ -7717,8 +7070,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 155,
-    "grade5CutoffTamil": null,
     "latitude": 7.310666561126709,
     "longitude": 80.38801574707031
   },
@@ -7735,10 +7086,10 @@
     "zone": "Mawanella",
     "gender": "Mixed",
     "mediums": [
-      "Tamil"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": 134,
     "latitude": 7.252173900604248,
     "longitude": 80.45299530029297
   },
@@ -7757,8 +7108,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.249490261077881,
     "longitude": 80.43955231
   },
@@ -7777,8 +7126,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": null,
-    "grade5CutoffTamil": null,
     "latitude": 7.210850238800049,
     "longitude": 80.45594024658203
   },
@@ -7797,8 +7144,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 152,
-    "grade5CutoffTamil": null,
     "latitude": 7.249277114868164,
     "longitude": 80.34854888916016
   },
@@ -7817,8 +7162,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 151,
-    "grade5CutoffTamil": null,
     "latitude": 7.251193523406982,
     "longitude": 80.34741211
   },
@@ -7837,8 +7180,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 148,
-    "grade5CutoffTamil": null,
     "latitude": 7.256058216094971,
     "longitude": 80.34829711914062
   },
@@ -7855,10 +7196,10 @@
     "zone": "Kegalle",
     "gender": "Boys",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 149,
-    "grade5CutoffTamil": null,
     "latitude": 7.252261638641357,
     "longitude": 80.33660125732422
   },
@@ -7875,10 +7216,10 @@
     "zone": "Kegalle",
     "gender": "Girls",
     "mediums": [
-      "Sinhala"
+      "Sinhala",
+      "Tamil",
+      "English"
     ],
-    "grade5CutoffSinhala": 156,
-    "grade5CutoffTamil": null,
     "latitude": 7.250951290130615,
     "longitude": 80.33693695
   },
@@ -7897,8 +7238,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 145,
-    "grade5CutoffTamil": null,
     "latitude": 7.237372398376465,
     "longitude": 80.23355865478516
   },
@@ -7917,8 +7256,6 @@
     "mediums": [
       "Sinhala"
     ],
-    "grade5CutoffSinhala": 155,
-    "grade5CutoffTamil": null,
     "latitude": 7.469041824,
     "longitude": 80.32610321044922
   }

@@ -5,7 +5,6 @@ ETL script to generate cleaned, validated datasets for lanka-schools:
 - data/districts.json & .csv
 - data/zones.json & .csv
 - data/national-schools.json & .csv
-- data/grade5-cutoffs.json & .csv
 - data/schools.json & .csv
 - data/lanka-schools.sqlite
 """
@@ -183,14 +182,6 @@ def main():
             'nationalSchoolsCount': 0
         }
 
-    # Add Sinhala / Tamil names for provinces
-    for dist_name, meta in district_lang_meta.items():
-        for p in prov_dict.values():
-            if meta['provinceSi'] and not p['nameSi']:
-                p['nameSi'] = meta['provinceSi']
-            if meta['provinceTa'] and not p['nameTa']:
-                p['nameTa'] = meta['provinceTa']
-
     # Better fallback Sinhala / Tamil province names
     prov_names_si = {
         1: "බස්නාහිර පළාත", 2: "මධ්‍යම පළාත", 3: "දකුණු පළාත",
@@ -230,7 +221,6 @@ def main():
         }
         prov_dict[p_code]['districtsCount'] += 1
 
-    # Better fallback Sinhala / Tamil district names
     dist_names_si = {
         11: "කොළඹ දිස්ත්‍රික්කය", 12: "ගම්පහ දිස්ත්‍රික්කය", 13: "කළුතර දිස්ත්‍රික්කය",
         21: "මහනුවර දිස්ත්‍රික්කය", 22: "මාතලේ දිස්ත්‍රික්කය", 23: "නුවරඑළිය දිස්ත්‍රික්කය",
@@ -316,46 +306,7 @@ def main():
         prov_dict[pcode]['provincialSchoolsCount'] += p_schools
         prov_dict[pcode]['nationalSchoolsCount'] += n_schools
 
-    print("Step 3: Parsing Grade 5 Cutoff Marks...")
-    co_path = '/home/mmsalmanfaris/.gemini/antigravity/brain/f9ab33c0-3732-4183-a465-3f799f1a5375/.system_generated/steps/86/content.md'
-    with open(co_path, 'r', encoding='utf-8') as f:
-        co_text = f.read()
-
-    pushes = re.findall(r'self\.__next_f\.push\(\[1,\s*(".*?")\]\)', co_text)
-    co_decoded = []
-    for p in pushes:
-        try:
-            co_decoded.append(json.loads(p))
-        except:
-            pass
-    co_combined = '\n'.join(co_decoded)
-
-    cutoff_pattern = re.compile(r'\[\"\$[^\"]*\",\"tr\",\"([^\"]+)\",\{\"children\":\[\[\"\$[^\"]*\",\"th\",null,\{\"scope\":\"row\",\"className\":\"[^\"]*\",\"children\":\"([^\"]+)\"\}\],\[\"\$[^\"]*\",\"td\",null,\{\"children\":\"([^\"]*)\"\}\],\[\"\$[^\"]*\",\"td\",null,\{\"children\":\"([^\"]*)\"\}\],\[\"\$[^\"]*\",\"td\",null,\{\"children\":\"([^\"]*)\"\}\],\[\"\$[^\"]*\",\"td\",null,\{\"className\":\"[^\"]*\",\"children\":([0-9]+|\"[^\"]*\")\}\]\]\}\]')
-    raw_cutoffs = cutoff_pattern.findall(co_combined)
-
-    cutoffs_list = []
-    cutoffs_by_census = {}
-    for census, sname, town, gender, medium, mark_str in raw_cutoffs:
-        try:
-            mark = int(str(mark_str).replace('"', ''))
-        except ValueError:
-            continue
-        entry = {
-            'censusNo': census,
-            'schoolName': sname,
-            'town': town,
-            'gender': gender,
-            'medium': medium,
-            'cutoff': mark
-        }
-        cutoffs_list.append(entry)
-        if census not in cutoffs_by_census:
-            cutoffs_by_census[census] = []
-        cutoffs_by_census[census].append(entry)
-
-    print(f"Loaded {len(cutoffs_list)} Grade 5 cutoff marks for {len(cutoffs_by_census)} schools.")
-
-    print("Step 4: Parsing National Schools Directory...")
+    print("Step 3: Parsing National Schools Directory...")
     ns_path = '/home/mmsalmanfaris/.gemini/antigravity/brain/f9ab33c0-3732-4183-a465-3f799f1a5375/.system_generated/steps/154/content.md'
     with open(ns_path, 'r', encoding='utf-8') as f:
         ns_text = f.read()
@@ -379,6 +330,24 @@ def main():
         s_norm = normalize_school_name(s['school_name'])
         geo_name_index[s_norm] = s
 
+    # Load official school gender mapping from census schedule
+    co_path = '/home/mmsalmanfaris/.gemini/antigravity/brain/f9ab33c0-3732-4183-a465-3f799f1a5375/.system_generated/steps/86/content.md'
+    census_gender = {}
+    if os.path.exists(co_path):
+        with open(co_path, 'r', encoding='utf-8') as f:
+            co_text = f.read()
+        pushes = re.findall(r'self\.__next_f\.push\(\[1,\s*(".*?")\]\)', co_text)
+        co_decoded = []
+        for p in pushes:
+            try:
+                co_decoded.append(json.loads(p))
+            except:
+                pass
+        co_combined = '\n'.join(co_decoded)
+        pat = re.compile(r'\[\"\$[^\"]*\",\"tr\",\"([^\"]+)\",\{\"children\":\[\[\"\$[^\"]*\",\"th\",null,\{\"scope\":\"row\",\"className\":\"[^\"]*\",\"children\":\"([^\"]+)\"\}\],\[\"\$[^\"]*\",\"td\",null,\{\"children\":\"([^\"]*)\"\}\],\[\"\$[^\"]*\",\"td\",null,\{\"children\":\"([^\"]*)\"\}\],\[\"\$[^\"]*\",\"td\",null,\{\"children\":\"([^\"]*)\"\}\]')
+        for c_id, s_name, town, g, m in pat.findall(co_combined):
+            census_gender[c_id] = g
+
     # Compile National Schools
     national_schools_list = []
     ns_census_set = set()
@@ -391,32 +360,24 @@ def main():
         pname = dist['provinceName']
         ns_census_set.add(census)
 
-        # Match cutoffs
-        school_cutoffs = cutoffs_by_census.get(census, [])
-        cutoff_sinhala = None
-        cutoff_tamil = None
-        gender_from_cutoff = None
-        for c in school_cutoffs:
-            if c['medium'].lower() == 'sinhala':
-                cutoff_sinhala = c['cutoff']
-            elif c['medium'].lower() == 'tamil':
-                cutoff_tamil = c['cutoff']
-            if not gender_from_cutoff:
-                gender_from_cutoff = c['gender']
-
         # Determine gender and mediums
-        gender = gender_from_cutoff or ("Girls" if any(w in name.lower() for w in ['balika', 'girls', 'ladies']) else ("Boys" if any(w in name.lower() for w in ['boys']) else "Mixed"))
-        mediums = []
-        if cutoff_sinhala is not None:
-            mediums.append("Sinhala")
-        if cutoff_tamil is not None:
-            mediums.append("Tamil")
-        if not mediums:
-            # Infer from name
-            if any(w in name.lower() for w in ['tamil', 'muslim', 'zahira', 'hindu', 'al-']):
-                mediums = ["Tamil"]
+        gender = census_gender.get(census)
+        if not gender:
+            nl = name.lower()
+            if any(w in nl for w in ['balika', 'girls', 'ladies', 'b.v', 'princess', 'visakha', 'sirimavo', 'anula']):
+                gender = "Girls"
+            elif any(w in nl for w in ['boys', 'royal', 'ananda', 'nalanda', 'thurstan', 'mahanama', 'isipathana', 'kingswood', 'dharmaraja', 'prince of wales', 'mahinda', 'richmond', 'rahula', 'maliyadeva']):
+                gender = "Boys"
             else:
-                mediums = ["Sinhala"]
+                gender = "Mixed"
+
+        mediums = []
+        if any(w in name.lower() for w in ['royal', 'ananda', 'nalanda', 'visakha', 'hindu', 'zahira', 'st.']):
+            mediums = ["Sinhala", "Tamil", "English"]
+        elif any(w in name.lower() for w in ['tamil', 'muslim', 'al-']):
+            mediums = ["Tamil"]
+        else:
+            mediums = ["Sinhala"]
 
         # Coordinates match
         lat = None
@@ -426,7 +387,6 @@ def main():
             lat = float(geo_name_index[n1]['latitude'])
             lon = float(geo_name_index[n1]['longitude'])
         else:
-            # Try removing district prefix like "Colombo Royal College" -> "Royal College"
             parts = name.split()
             if len(parts) > 1:
                 n2 = normalize_school_name(' '.join(parts[1:]))
@@ -453,8 +413,6 @@ def main():
             'zone': zname,
             'gender': gender,
             'mediums': mediums,
-            'grade5CutoffSinhala': cutoff_sinhala,
-            'grade5CutoffTamil': cutoff_tamil,
             'latitude': lat,
             'longitude': lon
         }
@@ -463,8 +421,7 @@ def main():
     matched_ns_coords = sum(1 for s in national_schools_list if s['latitude'] is not None)
     print(f"National schools with geocoordinates: {matched_ns_coords} / {len(national_schools_list)}")
 
-    print("Step 5: Processing Island-Wide Geocoded Schools Dataset (10,146 schools)...")
-    # Spatial join schools to district
+    print("Step 4: Processing Island-Wide Geocoded Schools Dataset (10,146 schools)...")
     all_compiled_schools = []
 
     # Division to zone mapping
@@ -480,7 +437,7 @@ def main():
     dist_name_to_code['monaragala'] = 82
     dist_name_to_code['moneragala'] = 82
 
-    # Pre-index national schools by normalized name and by rounded coordinates
+    # Pre-index national schools by normalized name and coordinates
     ns_by_norm = {}
     ns_by_coord = {}
     for ns in national_schools_list:
@@ -591,7 +548,7 @@ def main():
 
     print(f"Compiled {len(all_compiled_schools)} total schools.")
 
-    print("Step 6: Writing JSON and CSV files...")
+    print("Step 5: Writing JSON and CSV files...")
 
     # 1. Provinces
     provinces_output = list(prov_dict.values())
@@ -628,20 +585,11 @@ def main():
         json.dump(national_schools_list, f, indent=2, ensure_ascii=False)
     with open(os.path.join(data_dir, 'national-schools.csv'), 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(['seq', 'censusNo', 'name', 'shortName', 'address', 'districtCode', 'districtName', 'provinceCode', 'provinceName', 'zone', 'gender', 'mediums', 'grade5CutoffSinhala', 'grade5CutoffTamil', 'latitude', 'longitude'])
+        writer.writerow(['seq', 'censusNo', 'name', 'shortName', 'address', 'districtCode', 'districtName', 'provinceCode', 'provinceName', 'zone', 'gender', 'mediums', 'latitude', 'longitude'])
         for ns in national_schools_list:
-            writer.writerow([ns['seq'], ns['censusNo'], ns['name'], ns['shortName'], ns['address'], ns['districtCode'], ns['districtName'], ns['provinceCode'], ns['provinceName'], ns['zone'], ns['gender'], ';'.join(ns['mediums']), ns['grade5CutoffSinhala'] or '', ns['grade5CutoffTamil'] or '', ns['latitude'] or '', ns['longitude'] or ''])
+            writer.writerow([ns['seq'], ns['censusNo'], ns['name'], ns['shortName'], ns['address'], ns['districtCode'], ns['districtName'], ns['provinceCode'], ns['provinceName'], ns['zone'], ns['gender'], ';'.join(ns['mediums']), ns['latitude'] or '', ns['longitude'] or ''])
 
-    # 5. Grade 5 Cutoffs
-    with open(os.path.join(data_dir, 'grade5-cutoffs.json'), 'w', encoding='utf-8') as f:
-        json.dump(cutoffs_list, f, indent=2, ensure_ascii=False)
-    with open(os.path.join(data_dir, 'grade5-cutoffs.csv'), 'w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(['censusNo', 'schoolName', 'town', 'gender', 'medium', 'cutoff'])
-        for c in cutoffs_list:
-            writer.writerow([c['censusNo'], c['schoolName'], c['town'], c['gender'], c['medium'], c['cutoff']])
-
-    # 6. All Schools
+    # 5. All Schools
     with open(os.path.join(data_dir, 'schools.json'), 'w', encoding='utf-8') as f:
         json.dump(all_compiled_schools, f, indent=2, ensure_ascii=False)
     with open(os.path.join(data_dir, 'schools.csv'), 'w', newline='', encoding='utf-8') as f:
@@ -650,7 +598,7 @@ def main():
         for s in all_compiled_schools:
             writer.writerow([s['id'], s['name'], s['province'], s['provinceCode'], s['district'], s['districtCode'], s['zone'] or '', s['latitude'], s['longitude'], s['educationLevel'], s['connectivity'], 1 if s['isNationalSchool'] else 0, s['censusNo'] or ''])
 
-    print("Step 7: Generating SQLite Database...")
+    print("Step 6: Generating SQLite Database...")
     sqlite_path = os.path.join(data_dir, 'lanka-schools.sqlite')
     if os.path.exists(sqlite_path):
         os.remove(sqlite_path)
@@ -717,22 +665,8 @@ def main():
         zone TEXT,
         gender TEXT,
         mediums TEXT,
-        grade5_cutoff_sinhala INTEGER,
-        grade5_cutoff_tamil INTEGER,
         latitude REAL,
         longitude REAL
-    )
-    ''')
-
-    cur.execute('''
-    CREATE TABLE grade5_cutoffs (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        census_no TEXT,
-        school_name TEXT,
-        town TEXT,
-        gender TEXT,
-        medium TEXT,
-        cutoff INTEGER
     )
     ''')
 
@@ -778,16 +712,10 @@ def main():
         ))
 
     for ns in national_schools_list:
-        cur.execute('INSERT INTO national_schools VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)', (
+        cur.execute('INSERT INTO national_schools VALUES (?,?,?,?,?,?,?,?,?,?,?)', (
             ns['censusNo'], ns['seq'], ns['name'], ns['shortName'], ns['address'],
             ns['districtCode'], ns['zone'], ns['gender'], ';'.join(ns['mediums']),
-            ns['grade5CutoffSinhala'], ns['grade5CutoffTamil'],
             ns['latitude'], ns['longitude']
-        ))
-
-    for c in cutoffs_list:
-        cur.execute('INSERT INTO grade5_cutoffs (census_no, school_name, town, gender, medium, cutoff) VALUES (?,?,?,?,?,?)', (
-            c['censusNo'], c['schoolName'], c['town'], c['gender'], c['medium'], c['cutoff']
         ))
 
     for s in all_compiled_schools:

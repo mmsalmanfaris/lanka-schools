@@ -66,3 +66,4 @@ describe('Zones module', () => {
     expect(results[0].name).toBe('Kelaniya');
   });
 });
+

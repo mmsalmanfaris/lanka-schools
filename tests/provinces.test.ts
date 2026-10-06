@@ -38,3 +38,4 @@ describe('Provinces module', () => {
     expect(western?.department.phone).toBe('0112875893');
   });
 });
+

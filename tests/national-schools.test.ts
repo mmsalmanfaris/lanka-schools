@@ -20,8 +20,6 @@ describe('National Schools module', () => {
     expect(royal?.districtName).toBe('Colombo');
     expect(royal?.zone).toBe('Colombo');
     expect(royal?.gender).toBe('Boys');
-    expect(royal?.grade5CutoffSinhala).toBe(175);
-    expect(royal?.grade5CutoffTamil).toBe(171);
     expect(royal?.latitude).toBeCloseTo(6.906, 1);
   });
 
@@ -48,6 +46,6 @@ describe('National Schools module', () => {
     const visakha = searchNationalSchools('Visakha');
     expect(visakha.length).toBeGreaterThan(0);
     expect(visakha[0].name).toContain('Visakha');
-    expect(visakha[0].grade5CutoffSinhala).toBe(176);
+    expect(visakha[0].gender).toBe('Girls');
   });
 });

@@ -130,3 +130,4 @@ export function searchSchools(
   const limit = options?.limit || 100;
   return list.slice(0, limit);
 }
+

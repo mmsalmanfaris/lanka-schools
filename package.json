@@ -44,7 +44,6 @@
     "./data/districts.json": "./data/districts.json",
     "./data/zones.json": "./data/zones.json",
     "./data/national-schools.json": "./data/national-schools.json",
-    "./data/grade5-cutoffs.json": "./data/grade5-cutoffs.json",
     "./data/schools.json": "./data/schools.json"
   },
   "files": [

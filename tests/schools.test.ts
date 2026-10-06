@@ -62,3 +62,4 @@ describe('Island-wide Schools module', () => {
     expect(results[0].name.toLowerCase()).toContain('mahanama');
   });
 });
+

@@ -103,3 +103,4 @@ export function searchZones(query: string): Zone[] {
       z.aliases.some((a) => matchesQuery(a, query))
   );
 }
+

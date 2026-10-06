@@ -69,19 +69,8 @@ export interface NationalSchool {
   zone: string;
   gender: 'Boys' | 'Girls' | 'Mixed';
   mediums: ('Sinhala' | 'Tamil' | 'English')[];
-  grade5CutoffSinhala: number | null;
-  grade5CutoffTamil: number | null;
   latitude: number | null;
   longitude: number | null;
-}
-
-export interface Grade5Cutoff {
-  censusNo: string;
-  schoolName: string;
-  town: string;
-  gender: 'Boys' | 'Girls' | 'Mixed';
-  medium: 'Sinhala' | 'Tamil';
-  cutoff: number;
 }
 
 export interface School {
@@ -118,16 +107,8 @@ export interface ProximityOptions {
   onlyNational?: boolean;
 }
 
-export interface EligibleSchoolQuery {
-  marks: number;
-  gender: 'Boys' | 'Girls' | 'Mixed';
-  medium: 'Sinhala' | 'Tamil';
-  district?: string;
-}
-
-export interface EligibleSchoolResult {
-  school: NationalSchool;
-  cutoff: number;
-  margin: number;
-  eligible: boolean;
+export interface Grade1ProximityResult {
+  distanceKm: number;
+  withinImmediateCatchment: boolean; // < 2km
+  withinSecondaryCatchment: boolean; // < 5km
 }

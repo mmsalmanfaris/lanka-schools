@@ -107,3 +107,4 @@ export function searchNationalSchools(
       matchesQuery(s.zone, query)
   );
 }
+
