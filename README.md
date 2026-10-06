@@ -1,4 +1,6 @@
-# lanka-schools 🇱🇰🏫
+# Lanka Schools (ශ්‍රී ලංකා පාසල් / இலங்கை பாடசாலைகள்) 🇱🇰🏫
+
+> **The definitive open dataset and developer toolkit for all 10,146 schools, 396 national schools, 100 educational zones, 25 districts, and 9 provinces across Sri Lanka.**
 
 [![npm version](https://img.shields.io/badge/npm-v1.0.0-blue.svg)](https://www.npmjs.com/package/lanka-schools)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
@@ -8,9 +10,30 @@
 [![National Schools](https://img.shields.io/badge/National%20Schools-396-purple.svg)]()
 [![Education Zones](https://img.shields.io/badge/Education%20Zones-100-teal.svg)]()
 
-A clean, developer-friendly library and open dataset of all schools in Sri Lanka, structured across every administrative level: **Provinces**, **Districts**, **Educational Zones (Zonal Education Offices)**, and **Divisional Education Offices**.
+Available as a zero-dependency **TypeScript / JavaScript library** (Node.js & browser), pre-compiled **JSON** and **CSV** files, and an embeddable **SQLite database**.
 
-Available as a zero-dependency **TypeScript/JavaScript library**, pre-compiled **JSON** and **CSV** files, and an embeddable **SQLite database**.
+---
+
+## 📑 Table of Contents
+
+- [💡 Why `lanka-schools`?](#-why-lanka-schools)
+- [✨ Key Features](#-key-features)
+- [📊 Dataset Overview](#-dataset-overview)
+- [🎯 Common Use Cases](#-common-use-cases)
+- [🚀 Installation](#-installation)
+  - [Import Styles & Optimization](#import-styles)
+- [📖 Quickstart & Examples](#-quickstart--examples)
+  - [1. Cascading Dropdowns](#1-cascading-dropdowns-province--district--zone--school)
+  - [2. Zonal Office Lookup by Division or Town](#2-find-zonal-education-office-by-division-or-town)
+  - [3. National School Lookup by MOE Census ID](#3-national-school-lookup-by-5-digit-moe-census-id)
+  - [4. Search National Schools by District/Gender](#4-search-national-schools-by-name-district-or-gender)
+  - [5. Nearby Schools by GPS Radius Search](#5-find-nearby-schools-by-gps-coordinates-island-wide)
+  - [6. Filter & Search All 10,146 Schools](#6-filter--search-all-10146-schools)
+- [🗃️ Raw Datasets (JSON, CSV, SQLite)](#-raw-datasets-json-csv-sqlite)
+- [📚 Complete API Reference](#-api-reference)
+- [🏛️ Official Sources & Citations](#-official-sources--citations)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
@@ -19,15 +42,27 @@ Available as a zero-dependency **TypeScript/JavaScript library**, pre-compiled *
 Sri Lanka's school education system is structured into **9 Provinces**, **25 Administrative Districts**, **100 Educational Zones**, and over **300 Educational Divisions**. 
 
 When building web forms, admissions systems, EdTech apps, or student portals in Sri Lanka, developers usually struggle because:
-- Educational administrative boundaries (Zones) differ from administrative divisions (DS Divisions).
-- Official data is locked inside scanned government PDFs, annual census gazettes, and disconnected spreadsheets.
-- There has been no single npm package or clean dataset that links schools to their official Zonal Education Office and 5-digit Ministry of Education Census ID.
+- **Disjointed Administrative Levels**: Educational administrative boundaries (Zones) differ from administrative Divisional Secretariats (DS Divisions).
+- **Inaccessible Government Data**: Official data is locked inside scanned government PDFs, annual census gazettes, and disconnected spreadsheets.
+- **Missing Linkages**: There has been no single npm package or clean dataset that links schools to their official Zonal Education Office and 5-digit Ministry of Education Census ID.
 
 `lanka-schools` solves this by giving you verified, structured data and intuitive lookup functions with **zero external dependencies**.
 
 ---
 
-## 📊 What's in the Dataset?
+## ✨ Key Features
+
+- 🏫 **10,146 Island-wide Schools**: Complete directory with GIS GPS coordinates, education levels (1AB, 1C, Type 2, Type 3), and internet connectivity.
+- 🏛️ **396 National Schools**: Linked with official 5-digit MOE Census IDs, postal addresses, gender classification (`Boys`, `Girls`, `Mixed`), and mediums.
+- 🏢 **100 Educational Zones**: Official Zonal Education Offices (ZEO) with telephone numbers, emails, and school counts.
+- 📍 **312+ Divisional Education Offices**: Automatic town-to-zone resolution (e.g. searching "Moratuwa" or "Wattala" resolves to its Zonal Education Office).
+- 🗺️ **Trilingual & Standardized**: Province and district names in English, Sinhala (`බස්නාහිර`, `කොළඹ`), and Tamil (`மேல்`, `கொழும்பு`), plus UN PCODEs (`LK1`–`LK92`).
+- ⚡ **Zero Runtime Dependencies & Tree-shakable**: Full bundle or subpath imports (`lanka-schools/provinces`, `lanka-schools/districts`) for ultra-fast frontend loads.
+- 💾 **Multi-Format Distribution**: TypeScript/JavaScript library, raw JSON, CSV, and pre-indexed 1.9 MB SQLite database.
+
+---
+
+## 📊 Dataset Overview
 
 | Category | Count | Key Details |
 |---|---|---|
@@ -38,6 +73,14 @@ When building web forms, admissions systems, EdTech apps, or student portals in 
 | **Island-wide Schools** | **10,146** | Unique ID (`LK-SCH-xxxxx`), GPS coordinates, district, educational zone, education level, internet connectivity status |
 
 ---
+
+## 🎯 Common Use Cases
+
+1. **Student Registration & Admissions**: Clean, standardized dropdowns for school selection on application portals.
+2. **EdTech Platforms**: Associating student performance and teacher deployments with their official Educational Zones.
+3. **Proximity & School Finder Apps**: Finding all schools within a 2 km, 5 km, or 10 km radius of an applicant's GPS location.
+4. **Zonal Administrative Routing**: Routing inquiries or circulars to the correct Zonal Education Office email and phone number.
+5. **GIS & Geospatial Analysis**: Mapping educational infrastructure across Sri Lanka in GIS tools (QGIS, Mapbox, Leaflet, Google Maps).
 
 ## 🚀 Installation
 

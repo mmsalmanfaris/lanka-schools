@@ -5,3 +5,8 @@ dist/
 .turbo/
 coverage/
 raw/
+
+# Internal release and publish notes
+NPM_PUBLISH.md
+PUBLISH.md
+*.publish.md
