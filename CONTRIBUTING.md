@@ -1,12 +1,12 @@
-# Contributing to lanka-schools 🤝
+# Contributing to lanka-schools
 
-Thank you for your interest in contributing to `lanka-schools`! This project is an open-source initiative providing reliable administrative and geographical school datasets for developers in Sri Lanka.
+Thank you for your interest in contributing to `lanka-schools`. This project is an open-source initiative providing reliable administrative and geographical school datasets for developers in Sri Lanka.
 
-Whether you're fixing a typo, updating contact details for a Zonal Education Office, adding new tests, or improving documentation, your contributions are welcome.
+Whether you are fixing a typo, updating contact details for a Zonal Education Office, adding new tests, or improving documentation, your contributions are welcome.
 
 ---
 
-## 🌳 Branching Strategy
+## Branching Strategy
 
 We follow a two-branch workflow:
 
@@ -24,7 +24,7 @@ When creating your branch from `development`, use descriptive prefixes:
 
 ---
 
-## 🛠️ Local Development Setup
+## Local Development Setup
 
 ### 1. Prerequisites
 
@@ -68,7 +68,7 @@ npm run test:watch
 
 ---
 
-## 🗄️ Dataset Guidelines
+## Dataset Guidelines
 
 If you are proposing updates to the dataset (e.g., updating a school name, zone contact, or phone number):
 
@@ -81,7 +81,7 @@ If you are proposing updates to the dataset (e.g., updating a school name, zone 
 
 ---
 
-## 🧪 Testing Guidelines
+## Testing Guidelines
 
 - We use **Vitest** for unit testing.
 - Any new utility or lookup function must be accompanied by unit tests in `tests/`.
@@ -92,7 +92,7 @@ If you are proposing updates to the dataset (e.g., updating a school name, zone 
 
 ---
 
-## 🚀 Submitting a Pull Request (PR)
+## Submitting a Pull Request (PR)
 
 1. **Commit your changes**: Write clear, semantic commit messages (e.g., `feat: add Tamil medium search filter`, `fix: update Horana zonal office phone number`).
 2. **Push to your fork**:
@@ -107,7 +107,6 @@ If you are proposing updates to the dataset (e.g., updating a school name, zone 
 
 ---
 
-## 📄 Code of Conduct
+## Code of Conduct
 
 Please be respectful, courteous, and constructive in all discussions, issues, and code reviews. We are committed to building an inclusive and supportive open-source developer community in Sri Lanka.
-
