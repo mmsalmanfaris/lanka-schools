@@ -110,3 +110,4 @@ If you are proposing updates to the dataset (e.g., updating a school name, zone 
 ## 📄 Code of Conduct
 
 Please be respectful, courteous, and constructive in all discussions, issues, and code reviews. We are committed to building an inclusive and supportive open-source developer community in Sri Lanka.
+
