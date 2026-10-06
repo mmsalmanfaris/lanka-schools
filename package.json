@@ -1,0 +1,85 @@
+{
+  "name": "lanka-schools",
+  "version": "1.0.0",
+  "description": "Comprehensive dataset and library of Sri Lankan schools by educational zone and district. Essential for school admissions, EdTech apps, and GIS planning.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./provinces": {
+      "import": "./dist/provinces.mjs",
+      "require": "./dist/provinces.js"
+    },
+    "./districts": {
+      "import": "./dist/districts.mjs",
+      "require": "./dist/districts.js"
+    },
+    "./zones": {
+      "import": "./dist/zones.mjs",
+      "require": "./dist/zones.js"
+    },
+    "./national-schools": {
+      "import": "./dist/national-schools.mjs",
+      "require": "./dist/national-schools.js"
+    },
+    "./schools": {
+      "import": "./dist/schools.mjs",
+      "require": "./dist/schools.js"
+    },
+    "./admissions": {
+      "import": "./dist/admissions.mjs",
+      "require": "./dist/admissions.js"
+    },
+    "./data/provinces.json": "./data/provinces.json",
+    "./data/districts.json": "./data/districts.json",
+    "./data/zones.json": "./data/zones.json",
+    "./data/national-schools.json": "./data/national-schools.json",
+    "./data/grade5-cutoffs.json": "./data/grade5-cutoffs.json",
+    "./data/schools.json": "./data/schools.json"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "tsup && tsc --declaration --emitDeclarationOnly",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "data:build": "python3 scripts/build-data.py",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "keywords": [
+    "sri-lanka",
+    "schools",
+    "sri-lankan-schools",
+    "education-zones",
+    "districts",
+    "national-schools",
+    "edtech",
+    "grade-5-scholarship",
+    "school-admissions",
+    "colombo",
+    "kandy",
+    "galle",
+    "jaffna",
+    "open-data-sri-lanka"
+  ],
+  "author": "M.M. Salman Faris",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}

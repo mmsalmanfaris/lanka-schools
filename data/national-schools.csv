@@ -1,0 +1,397 @@
+seq,censusNo,name,shortName,address,districtCode,districtName,provinceCode,provinceName,zone,gender,mediums,grade5CutoffSinhala,grade5CutoffTamil,latitude,longitude
+1,00023,Kotahena M.M.V.,Kotahena M.M.V.,"Maha Vidyala Mw, Colombo 13",11,Colombo,1,Western,Colombo,Mixed,Sinhala,,,6.9431257247924805,79.86254883
+2,00045,Colombo Royal College,Royal College,"Rajakeeya Mw, Colombo 07",11,Colombo,1,Western,Colombo,Boys,Sinhala;Tamil,175,171,6.904820919036865,79.86143493652344
+3,00046,Colombo Ananda College,Ananda College,Colombo 10,11,Colombo,1,Western,Colombo,Boys,Sinhala,170,,6.924685478210449,79.86923217773438
+4,00047,Colombo Nalanda College,Nalanda College,"Siri Damma Mw, Colombo 10",11,Colombo,1,Western,Colombo,Boys,Sinhala,167,,6.9240288734436035,79.87496185302734
+5,00048,Colombo Thurstan College,Thurstan College,Colombo 07,11,Colombo,1,Western,Colombo,Boys,Sinhala,162,,6.902346611022949,79.85932159423828
+6,00050,Colombo Ananda B.V.,Ananda B.V.,"Rev. Hikkaduwa Sri Sumangala Nahimi Mw, Colombo 10",11,Colombo,1,Western,Colombo,Girls,Sinhala,146,,6.926540374755859,79.86986541748047
+7,00051,Colombo Gothami B.V.,Gothami B.V.,"Temple Road, Colombo 10",11,Colombo,1,Western,Colombo,Girls,Sinhala,152,,6.923181533813477,79.87191009521484
+8,00060,Colombo D.S.Senanayake College,D.S.Senanayake College,"R.G.Senanayake Mw, Colombo 07",11,Colombo,1,Western,Colombo,Boys,Sinhala;Tamil,164,152,6.9088239669799805,79.87548828
+9,00066,Colombo Devi B.V.,Devi B.V.,Colombo-08,11,Colombo,1,Western,Colombo,Girls,Sinhala,171,,6.910553932189941,79.88217926
+10,00074,Colombo Sirimavo Bandaranayake V.,Sirimavo Bandaranayake V.,"Stanmore Crescent, Colombo 07",11,Colombo,1,Western,Colombo,Girls,Sinhala,168,,6.897562503814697,79.86282348632812
+11,00077,Colombo Isipathana College,Isipathana College,"Isipathana Mw, Colombo-05",11,Colombo,1,Western,Colombo,Boys,Sinhala;Tamil,159,146,6.887902736663818,79.86783599853516
+12,00078,Colombo Lumbini V.,Lumbini V.,"Havelock Town, Colombo 05",11,Colombo,1,Western,Colombo,Mixed,Sinhala,140,,6.884214878082275,79.86696625
+13,00079,Colombo Mahanama College,Mahanama College,"R A De Mel Mawatha, Colombo 03",11,Colombo,1,Western,Colombo,Boys,Sinhala,157,,6.906383991241455,79.85492706298828
+14,00080,Milagiriya St. Paul's Girl's School,Milagiriya St. Paul's Girl's School,"Milagiriya, Colombo 05",11,Colombo,1,Western,Colombo,Girls,Sinhala,161,,6.885920048,79.85867309570312
+15,00081,Colombo Visakha V.,Visakha V.,"133, Vajira Rd, Colombo 05",11,Colombo,1,Western,Colombo,Girls,Sinhala,176,,6.891822814941406,79.85929870605469
+16,00098,Dehiwala Presbyterian B.V,Dehiwala Presbyterian B.V,Dehiwala,11,Colombo,1,Western,Piliyandala,Mixed,Sinhala,,,6.850200176239014,79.86386871
+17,00114,Mount Lavinia Scienge College,Mount Lavinia Scienge College,"Templers Road, Mount Lavinia",11,Colombo,1,Western,Piliyandala,Mixed,Sinhala,,,6.830752372741699,79.87602996826172
+18,00129,Kolonnawa Balika Vidyalaya,Kolonnawa Balika Vidyalaya,"Sugunasara Road, Kolonnawa",11,Colombo,1,Western,Sri Jayawardenapura,Girls,Sinhala,,,6.933507442474365,79.89225006103516
+19,00131,Kuda Buthgamuwa Sri Rajasinghe Central College,Kuda Buthgamuwa Sri Rajasinghe Central College,"Kuda Buthgamuwa, Mulleriyawa New Town",11,Colombo,1,Western,Sri Jayawardenapura,Mixed,Sinhala,,,,
+20,00148,Kotte Ananda Shasthralaya,Kotte Ananda Shasthralaya,Kotte,11,Colombo,1,Western,Sri Jayawardenapura,Mixed,Sinhala,,,6.8834686279296875,79.90277099609375
+21,00150,Nugegoda Anula Vidyalaya,Nugegoda Anula Vidyalaya,Nugegoda,11,Colombo,1,Western,Sri Jayawardenapura,Girls,Sinhala,164,,6.872936248779297,79.88581848144531
+22,00152,C.M.S. Sri Jayawardenapura Vidyalaya,C.M.S. Sri Jayawardenapura Vidyalaya,"Mission Road, Kotte",11,Colombo,1,Western,Sri Jayawardenapura,Mixed,Sinhala,,,,
+23,00165,Rajagiriya President's College,Rajagiriya President's College,Rajagiriya,11,Colombo,1,Western,Sri Jayawardenapura,Mixed,Sinhala,,,6.907683849334717,79.89288330078125
+24,00166,Moratuwa Prince of Wales College,Moratuwa Prince of Wales College,Moratuwa,11,Colombo,1,Western,Piliyandala,Boys,Sinhala,143,,6.782868862,79.88339996
+25,00167,Moratuwa Princess of Wales' College,Moratuwa Princess of Wales' College,"Rawathawatha, Moratuwa",11,Colombo,1,Western,Piliyandala,Girls,Sinhala,140,,6.784953594207764,79.88302612304688
+26,00204,Hameed Al-Husseinie College,Hameed Al-Husseinie College,"45, Husseinia Road, Colombo-12",11,Colombo,1,Western,Colombo,Mixed,Tamil,,,6.940916061401367,79.85970306396484
+27,00210,Vivekananda National School,Vivekananda National School,"57, New Chetty Street, Colombo-13",11,Colombo,1,Western,Colombo,Mixed,Sinhala,,,6.943342685699463,79.86001586914062
+28,00236,Bambalapitiya Muslim Ladies College,Bambalapitiya Muslim Ladies College,"22, Bambalapitiya, Colombo-04",11,Colombo,1,Western,Colombo,Girls,Tamil,,156,6.881455421447754,79.86141204833984
+29,00237,Bambalapitiya Hindu College,Bambalapitiya Hindu College,"77, Lorenz Road, Colombo 04",11,Colombo,1,Western,Colombo,Boys,Tamil,,134,6.883664608001709,79.86204528808594
+30,00241,Bambalapitiya Ramanathan Hindu Ladies College,Bambalapitiya Ramanathan Hindu Ladies College,"55/5, Lorence Rd, Colombo-04",11,Colombo,1,Western,Colombo,Girls,Tamil,,138,6.883934020996094,79.86038970947266
+31,00248,Battaramulla Subhuthi National School,Battaramulla Subhuthi National School,Battaramulla,11,Colombo,1,Western,Sri Jayawardenapura,Mixed,Sinhala,,,6.903318881988525,79.92381286621094
+32,00250,Bomiriya Central College,Bomiriya Central College,Kaduwela,11,Colombo,1,Western,Sri Jayawardenapura,Mixed,Sinhala,,,6.934266567230225,80.00232696533203
+33,00283,Avissawella Seethawaka M.M.V.,Avissawella Seethawaka M.M.V.,Avissawella,11,Colombo,1,Western,Homagama,Mixed,Sinhala,,,6.957264423370361,80.21643066
+34,00316,Hanwella Rajasinghe Central College,Hanwella Rajasinghe Central College,"School Lane, Hanwella",11,Colombo,1,Western,Homagama,Mixed,Sinhala,143,,6.908930778503418,80.08893585205078
+35,00394,Pannipitiya Dharmapala Vidyalaya,Pannipitiya Dharmapala Vidyalaya,Pannipitiya,11,Colombo,1,Western,Sri Jayawardenapura,Mixed,Sinhala,155,,6.8441667556762695,79.95409393310547
+36,00418,Piliyandala M.M.V.,Piliyandala M.M.V.,Piliyandala,11,Colombo,1,Western,Piliyandala,Mixed,Sinhala,140,,6.7999467849731445,79.92071533203125
+37,00453,Defence Services College,Defence Services College,"34, Malay St, Colombo-02",11,Colombo,1,Western,Colombo,Mixed,Sinhala,,,6.926959515,79.85095215
+38,00457,Homagama Mahinda Rajapaksha College,Homagama Mahinda Rajapaksha College,"Pitipana, Homagama",11,Colombo,1,Western,Homagama,Mixed,Sinhala,148,,6.824270248413086,80.03928375
+39,00464,Suneetha Vidyalaya,Suneetha Vidyalaya,"Watareka, Padukka",11,Colombo,1,Western,Homagama,Mixed,Sinhala,,,6.858898162841797,80.06505584716797
+40,01001,Wattala St. Anthony's M.V.,Wattala St. Anthony's M.V.,"Vinstant Jhosep Mw, Old Negombo, Rd,Wattala",12,Gampaha,1,Western,Kelaniya,Mixed,Sinhala,,,6.984253883361816,79.89124298095703
+41,01028,Mirigama D.S.Senanayaka National School,Mirigama D.S.Senanayaka National School,Mirigama,12,Gampaha,1,Western,Minuwangoda,Mixed,Sinhala,,,6.469015121459961,79.98684692382812
+42,01083,Veyangoda Bandaranayake Central College,Veyangoda Bandaranayake Central College,Veyangoda,12,Gampaha,1,Western,Gampaha,Mixed,Sinhala,156,,7.1637349128723145,80.06179047
+43,01084,Nittambuwa Sangabodhi M.M.V.,Nittambuwa Sangabodhi M.M.V.,Nittambuwa,12,Gampaha,1,Western,Gampaha,Mixed,Sinhala,144,,7.132656097412109,80.08023834228516
+44,01131,Galahitiyawa Central College,Galahitiyawa Central College,"Galahitiyawa, Ganemulla",12,Gampaha,1,Western,Gampaha,Mixed,Sinhala,142,,7.069110870361328,79.95037841796875
+45,01136,Gampaha Bandaranayake M.V.,Bandaranayake M.V.,"Yakkala Road, Gampaha",12,Gampaha,1,Western,Gampaha,Boys,Sinhala,158,,7.091506004333496,80.00408935546875
+46,01137,Gampaha Rathnawalee Balika V.,Rathnawalee Balika V.,"Colombo Road, Gampaha",12,Gampaha,1,Western,Gampaha,Girls,Sinhala,165,,7.089315891265869,79.99967193603516
+47,01183,Henegama Central College,Henegama Central College,Henegama,12,Gampaha,1,Western,Kelaniya,Mixed,Sinhala,,,6.058076382,80.46606445
+48,01228,Siyane National School,Siyane National School,"Palugama, Dompe",12,Gampaha,1,Western,Gampaha,Mixed,Sinhala,,,6.943899154663086,80.06774902
+49,01300,Kelaniya Gurukula V.,Kelaniya Gurukula V.,Kelaniya,12,Gampaha,1,Western,Kelaniya,Mixed,Sinhala,140,,6.958570957183838,79.89255524
+50,01301,Kelaniya Sri Dharmaloka M.M.V,Kelaniya Sri Dharmaloka M.M.V,"Waragoda Rd, Kelaniya",12,Gampaha,1,Western,Kelaniya,Mixed,Sinhala,143,,6.9608306884765625,79.89920806884766
+51,01319,Kiribathgoda Viharamahadevi B.V.,Kiribathgoda Viharamahadevi B.V.,Kiribathgoda,12,Gampaha,1,Western,Kelaniya,Girls,Sinhala,157,,6.980737686157227,79.92543793
+52,01336,Al-Mubarak National School,Al-Mubarak National School,Malwana,12,Gampaha,1,Western,Kelaniya,Mixed,Tamil,,,6.954535007476807,80.01506042480469
+53,01340,Negombo Newstead Girls College,Negombo Newstead Girls College,Negombo,12,Gampaha,1,Western,Negombo,Girls,Sinhala,143,,7.211212158203125,79.83129119873047
+54,01341,Negombo Harishchandra National School,Negombo Harishchandra National School,"Temple Rd, Negombo",12,Gampaha,1,Western,Negombo,Mixed,Sinhala,140,,7.209502220153809,79.85049438476562
+55,01379,Kotugoda Sri Pangnananda National College,Kotugoda Sri Pangnananda National College,"Raddoluwa, Kotugoda",12,Gampaha,1,Western,Negombo,Mixed,Sinhala,,,7.131174564361572,79.89851379394531
+56,01478,Minuwangoda Nalanda Boys M.M.V,Minuwangoda Nalanda Boys M.M.V,Minuwangoda,12,Gampaha,1,Western,Minuwangoda,Boys,Sinhala,,,7.169633865356445,79.94961547851562
+57,01502,Udugampola Senerath Paranavithana M.V.,Udugampola Senerath Paranavithana M.V.,Udugampola,12,Gampaha,1,Western,Minuwangoda,Mixed,Sinhala,,,7.124006748199463,79.97328186035156
+58,01539,Ja-Ela Christ King College,Ja-Ela Christ King College,"Thudella, Ja-Ela",12,Gampaha,1,Western,Negombo,Mixed,Sinhala,,,7.090216159820557,79.88967133
+59,01592,Dompe Devi B.M.V.,Dompe Devi B.M.V.,Dompe,12,Gampaha,1,Western,Gampaha,Mixed,Sinhala,,,6.947502136230469,80.05783081054688
+60,02001,Wadduwa M M.V.,Wadduwa M M.V.,"Vijaya Road, Wadduwa",13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.6631598472595215,79.92925262451172
+61,02003,Panadura St. John's M.V.,Panadura St. John's M.V.,"Udahamulla, Panadura",13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.722355842590332,79.91166687011719
+62,02004,Panadura Sri Sumangala College,Panadura Sri Sumangala College,"Horana Road, Panadura",13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.710203170776367,79.90980529785156
+63,02005,Panadura Sri Sumangala Balika M.V.,Panadura Sri Sumangala Balika M.V.,"Nalluruwa, Panadura",13,Kalutara,1,Western,Kalutara,Girls,Sinhala,147,,6.700354576,79.9079361
+64,02040,Bandaragama M.M.V.,Bandaragama M.M.V.,Bandaragama,13,Kalutara,1,Western,Horana,Mixed,Sinhala,,,6.711163520812988,79.98769379
+65,02083,Horana Taxila M.M.V,Horana Taxila M.M.V,"Aguruwathota Road, Horana",13,Kalutara,1,Western,Horana,Mixed,Sinhala,159,,6.711501598358154,80.06084442138672
+66,02085,Horana Sripalee M.V.,Horana Sripalee M.V.,"Wewala, Horana",13,Kalutara,1,Western,Horana,Mixed,Sinhala,146,,6.707592010498047,80.06861877441406
+67,02110,Horana Rajakeeya M.V.,Horana Rajakeeya M.V.,Horana,13,Kalutara,1,Western,Horana,Mixed,Sinhala,151,,6.715312480926514,80.06752777
+68,02133,Bulathsinhala M.M.V,Bulathsinhala M.M.V,Bulathsinhala,13,Kalutara,1,Western,Horana,Mixed,Sinhala,,,,
+69,02180,Matugama C.W.W. Kannangara M.M.V.,Matugama C.W.W. Kannangara M.M.V.,Matugama,13,Kalutara,1,Western,Matugama,Mixed,Sinhala,154,,6.516849040985107,80.11827087402344
+70,02181,Matugama Ananda Sastralaya,Matugama Ananda Sastralaya,Matugama,13,Kalutara,1,Western,Matugama,Mixed,Sinhala,150,,6.523957252502441,80.11407470703125
+71,02187,Dodangoda Miriswatta National School,Dodangoda Miriswatta National School,Dodangoda,13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.549516677856445,80.0279541
+72,02241,Kalutara Tissa M.M.V.,Tissa M.M.V.,"Nagas Junction, Kalutara North",13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.607957363128662,79.95118713378906
+73,02242,Kalutara Balika M.V.,Balika M.V.,"Old Road, Kalutara South",13,Kalutara,1,Western,Kalutara,Girls,Sinhala,140,,6.585511207580566,79.96221923828125
+74,02243,Kalutara M.V.,M.V.,Kalutara South,13,Kalutara,1,Western,Kalutara,Boys,Sinhala,141,,6.573878765106201,79.96236419677734
+75,02276,Aluthgama National School,Aluthgama National School,Aluthgama,13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.436360836029053,79.99796295166016
+76,02282,D S Senanayaka National School,D S Senanayaka National School,Beruwala,13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.469015121459961,79.98684692382812
+77,02358,Ittapana Colvin R De Silva M.V.,Ittapana Colvin R De Silva M.V.,Ittapana,13,Kalutara,1,Western,Matugama,Mixed,Sinhala,,,6.412539958953857,80.08296203613281
+78,02405,Aluthgam Weediya Muslim Balika M.V.,Aluthgam Weediya Muslim Balika M.V.,Dharga Town,13,Kalutara,1,Western,Kalutara,Girls,Tamil,,,6.442880630493164,80.01663970947266
+79,02406,Beruwala Al Humaisara Central College,Beruwala Al Humaisara Central College,China Fort Beruwala,13,Kalutara,1,Western,Kalutara,Mixed,Sinhala,,,6.477053165435791,79.98980712890625
+80,03004,Galagedara M.M.V.,Galagedara M.M.V.,Galagedara,21,Kandy,2,Central,Katugastota,Mixed,Sinhala,,,7.371449947357178,80.51927947998047
+81,03010,Galagedara Sujatha Balika.M.M.V.,Galagedara Sujatha Balika.M.M.V.,Galagedara,21,Kandy,2,Central,Katugastota,Girls,Sinhala,,,7.371598720550537,80.5185318
+82,03011,Hatharaliyadda M. M. V.,Hatharaliyadda M. M. V.,Hatharaliyadda,21,Kandy,2,Central,Katugastota,Mixed,Sinhala,,,7.337808609008789,80.46980285644531
+83,03045,Poojapitiya M.M.V.,Poojapitiya M.M.V.,Poojapitiya,21,Kandy,2,Central,Katugastota,Mixed,Sinhala,,,7.373814582824707,80.58930206298828
+84,03046,Ankumbura Parakrama M. M. V.,Ankumbura Parakrama M. M. V.,Ankumbura,21,Kandy,2,Central,Katugastota,Mixed,Sinhala,,,7.4397664070129395,80.56845092773438
+85,03048,Alawathugoda M.M.V,Alawathugoda M.M.V,Alawathugoda,21,Kandy,2,Central,Katugastota,Mixed,Sinhala,,,7.400930881500244,80.61035156
+86,03075,Nugawela.M.M.V.,Nugawela.M.M.V.,Nugawela,21,Kandy,2,Central,Katugastota,Mixed,Sinhala,140,,7.325563430786133,80.58380126953125
+87,03108,Rajasinghe C C,Rajasinghe C C,Rajasinghe C C Panwila,21,Kandy,2,Central,Wathegama,Mixed,Sinhala,,,7.360136509,80.70513916015625
+88,03169,Hasalaka Ranasinghe Premadasa National School,Hasalaka Ranasinghe Premadasa National School,Hasalaka,21,Kandy,2,Central,Teldeniya,Mixed,Sinhala,,,7.350189685821533,80.94744110107422
+89,03181,Amupitiya N.S.,Amupitiya N.S.,Udispaththuwa,21,Kandy,2,Central,Teldeniya,Mixed,Sinhala,,,7.333160877227783,80.77056884765625
+90,03184,Teldeniya National School,Teldeniya National School,Teldeniya,21,Kandy,2,Central,Teldeniya,Mixed,Sinhala,140,,7.312427520751953,80.75690460205078
+91,03217,S.W.R.D.Bandaranayake N.S.,S.W.R.D.Bandaranayake N.S.,"Warapitiya, Kundasale",21,Kandy,2,Central,Wathegama,Mixed,Sinhala,,,7.136734485626221,79.87277985
+92,03256,Digana Rajawella Hindu N.C.,Digana Rajawella Hindu N.C.,"Rajawella, Digana",21,Kandy,2,Central,Wathegama,Mixed,Tamil,,,7.2965617179870605,80.72848510742188
+93,03263,Madawala Madina N S,Madawala Madina N S,Madawala Bazaar,21,Kandy,2,Central,Wathegama,Mixed,Tamil,,134,7.257400035858154,80.67150115966797
+94,03284,Akurana Azhar Central College,Akurana Azhar Central College,Akurana,21,Kandy,2,Central,Katugastota,Mixed,Tamil,,138,,
+95,03285,Al-Manar Mus.M.V.,Al-Manar Mus.M.V.,Galhinna,21,Kandy,2,Central,Katugastota,Mixed,Tamil,,,,
+96,03286,Akurana Zahira Mus.M.M.V.,Akurana Zahira Mus.M.M.V.,"Bulugahathenna, Akurana",21,Kandy,2,Central,Katugastota,Mixed,Tamil,,,7.371075153,80.60964203
+97,03314,Bopitiya Rajasinghe N.S.,Bopitiya Rajasinghe N.S.,"Pothgoda, Marassana",21,Kandy,2,Central,Kandy,Mixed,Sinhala,,,7.199547768,80.74523926
+98,03320,Marassana N.S.,Marassana N.S.,"Meruppa, Marassana",21,Kandy,2,Central,Kandy,Mixed,Sinhala,,,7.217326641082764,80.73894500732422
+99,03350,Kandy Dharmaraja College,Dharmaraja College,Kandy,21,Kandy,2,Central,Kandy,Boys,Sinhala,174,,7.289700031280518,80.64800262451172
+100,03351,Kandy Mahamaya Girls College,Mahamaya Girls College,Kandy,21,Kandy,2,Central,Kandy,Girls,Sinhala,168,,7.286180019378662,80.64333344
+101,03379,Kandy Girl's High School,Girl's High School,Kandy,21,Kandy,2,Central,Kandy,Girls,Sinhala,162,,7.286904811859131,80.62438201904297
+102,03380,Kandy Kingswood College,Kingswood College,Kandy,21,Kandy,2,Central,Kandy,Boys,Sinhala,170,,7.278427600860596,80.61435699
+103,03382,Kandy Pushpadana Girls' College,Pushpadana Girls' College,Kandy,21,Kandy,2,Central,Kandy,Girls,Sinhala,159,,7.293579102,80.63071442
+104,03387,Katugastota Sri Rahula College,Katugastota Sri Rahula College,Katugastota,21,Kandy,2,Central,Kandy,Mixed,Sinhala,,,7.3221330642700195,80.62217712402344
+105,03405,Kadugannawa N.S,Kadugannawa N.S,Kadugannawa,21,Kandy,2,Central,Denuwara,Mixed,Sinhala,,,7.260352611541748,80.52935791015625
+106,03406,Sri Swarnajothi Natinal School,Sri Swarnajothi Natinal School,Kiribathikubura,21,Kandy,2,Central,Denuwara,Mixed,Sinhala,,,7.268754482269287,80.57452392578125
+107,03441,D.B.Wijethunga N.S,D.B.Wijethunga N.S,Muruthagahamula,21,Kandy,2,Central,Denuwara,Mixed,Sinhala,,,7.2068400382995605,80.57788086
+108,03488,Gampola Wickramabahu Madya Vidyalaya,Gampola Wickramabahu Madya Vidyalaya,Gampola,21,Kandy,2,Central,Gampola,Mixed,Sinhala,140,,7.153883457183838,80.56513977050781
+109,03490,Atabage Wimaladharma N.S.,Atabage Wimaladharma N.S.,"Atabage, Gampola",21,Kandy,2,Central,Gampola,Mixed,Sinhala,,,7.134962558746338,80.59664916992188
+110,03532,Senadhikari National School,Senadhikari National School,Udahenthenna,21,Kandy,2,Central,Gampola,Mixed,Sinhala,,,,
+111,03553,Anurudda Kumara Mmv,Anurudda Kumara Mmv,Nawalapitiya,21,Kandy,2,Central,Gampola,Mixed,Sinhala,,,,
+112,03575,Kandy Badi-Du-Din Mahmud Girls' College,Badi-Du-Din Mahmud Girls' College,"D.S.Senanayaka Veediya, Kandy",21,Kandy,2,Central,Kandy,Girls,Tamil,,143,7.301140785217285,80.63510131835938
+113,03617,Hindu N.S.,Hindu N.S.,"Nuwara Eliya Road, Pussellawa",21,Kandy,2,Central,Gampola,Mixed,Tamil,,,,
+114,03648,Al-Manar Central College(N.S.),Al-Manar Central College(N.S.),Handessa,21,Kandy,2,Central,Denuwara,Mixed,Tamil,,,8.462007522583008,81.26885223388672
+115,03658,Gampola Zahira National School,Gampola Zahira National School,Gampola,21,Kandy,2,Central,Gampola,Mixed,Tamil,,,7.164975166320801,80.58289337158203
+116,04003,Rangiri Dambulla Central College,Rangiri Dambulla Central College,"Nissanka Mawatha, Dambulla",22,Matale,2,Central,Galewela,Mixed,Sinhala,140,,7.863016128540039,80.64422607421875
+117,04093,Naula Sri Naga National School,Naula Sri Naga National School,Naula,22,Matale,2,Central,Naula,Mixed,Sinhala,,,7.706310749053955,80.65469360351562
+118,04172,Matale Sri Sangamiththa Balika National School,Sri Sangamiththa Balika National School,Hulangamuwa Road Matale,22,Matale,2,Central,Matale,Girls,Sinhala,153,,7.463315010070801,80.6155014
+119,04173,Matale Vijaya National School,Vijaya National School,Matale,22,Matale,2,Central,Matale,Mixed,Sinhala,,,7.464999675750732,80.62193298339844
+120,04175,Matale St. Thomas College,St. Thomas College,Matale,22,Matale,2,Central,Matale,Boys,Sinhala,149,,,
+121,04189,Matale Christ Church College,Christ Church College,Matale,22,Matale,2,Central,Matale,Mixed,Sinhala,,,7.467227458953857,80.61795806884766
+122,04260,Matale Zahira College,Zahira College,Matale,22,Matale,2,Central,Matale,Mixed,Tamil,,,7.475820064544678,80.62464904785156
+123,04261,Matale Amina National School,Amina National School,"Molandapitiya Rd, Matale",22,Matale,2,Central,Matale,Girls,Tamil,,135,,
+124,04262,Akuramboda Matale Pakkiyam National College,Akuramboda Matale Pakkiyam National College,"Dhramapala Mawatha, Matale",22,Matale,2,Central,Matale,Mixed,Sinhala,,,,
+125,04263,Ukuwela Ajmeer National School,Ukuwela Ajmeer National School,"Elkaduwa, Ukuwela",22,Matale,2,Central,Matale,Mixed,Sinhala,,,7.421173095703125,80.63322448730469
+126,04266,Matale Hindu National School,Hindu National School,Matale,22,Matale,2,Central,Matale,Mixed,Tamil,,,7.484624862670898,80.62250518798828
+127,04316,Akuramboda Weera Keppetipola National School,Akuramboda Weera Keppetipola National School,Akuramboda,22,Matale,2,Central,Galewela,Mixed,Sinhala,,,7.645235538482666,80.60324096679688
+128,05001,Nuwara Eliya Gamini Central College,Nuwara Eliya Gamini Central College,Nuwara Eliya,23,Nuwara Eliya,2,Central,Nuwara Eliya,Mixed,Sinhala,,,,
+129,05035,Hatton St. Gabriel's Girls' College,Hatton St. Gabriel's Girls' College,Hatton,23,Nuwara Eliya,2,Central,Hatton,Girls,Tamil,,140,6.893401145935059,80.59751892089844
+130,05070,Jayahela National School,Jayahela National School,Pundaluoya,23,Nuwara Eliya,2,Central,Kotmale,Mixed,Sinhala,,,7.014582633972168,80.66880798339844
+131,05071,Gamini Dissanayake N.S.,Gamini Dissanayake N.S.,"New Town, Kotmale",23,Nuwara Eliya,2,Central,Kotmale,Mixed,Sinhala,,,7.0633440017700195,80.68371582
+132,05111,Sri Sumangala Nc,Sri Sumangala Nc,Nildandahinna,23,Nuwara Eliya,2,Central,Walapane,Mixed,Sinhala,,,,
+133,05344,Al-Minhaj N.S.,Al-Minhaj N.S.,"Hapugasthalawa, Nawalapitiya",23,Nuwara Eliya,2,Central,Kotmale,Mixed,Tamil,,132,7.056379795074463,80.57018280029297
+134,05428,Poramadulla Central College,Poramadulla Central College,Rikillagaskada,23,Nuwara Eliya,2,Central,Hanguranketha,Mixed,Sinhala,142,,7.140453338623047,80.77360534667969
+135,05429,Victoria National School,Victoria National School,Rajamawatha Adikarigama,23,Nuwara Eliya,2,Central,Hanguranketha,Mixed,Sinhala,,,7.213063716888428,80.78253173828125
+136,06001,Balapitiya Rewatha National College,Balapitiya Rewatha National College,"Sir Lalitha Rajapaksha Mawatha, Balapitiya",31,Galle,3,Southern,Ambalangoda,Mixed,Sinhala,,,6.283954144,80.04138946533203
+137,06035,Ambalangoda Sri Devananda College,Ambalangoda Sri Devananda College,Ambalangoda,31,Galle,3,Southern,Ambalangoda,Mixed,Sinhala,147,,6.239475727081299,80.04955291748047
+138,06036,Ambalangoda Dharmashoka College,Ambalangoda Dharmashoka College,Ambalangoda,31,Galle,3,Southern,Ambalangoda,Mixed,Sinhala,152,,6.240143775939941,80.05179595947266
+139,06068,Karandeniya Central College,Karandeniya Central College,Karandeniya,31,Galle,3,Southern,Elpitiya,Mixed,Sinhala,,,6.2724151611328125,80.09395599365234
+140,06116,Benthota Gamini M.M.V,Benthota Gamini M.M.V,Benthota,31,Galle,3,Southern,Elpitiya,Mixed,Sinhala,,,6.420040607452393,80.00165557861328
+141,06141,Elpitiya Ananda M.V.,Elpitiya Ananda M.V.,Elpitiya,31,Galle,3,Southern,Elpitiya,Mixed,Sinhala,143,,6.295362473,80.16423034667969
+142,06180,Neluwa National School,Neluwa National School,Neluwa,31,Galle,3,Southern,Udugama,Mixed,Sinhala,,,6.376725196838379,80.35655212402344
+143,06182,Thawalama Vidyaraja National School,Thawalama Vidyaraja National School,Thawalama,31,Galle,3,Southern,Udugama,Mixed,Sinhala,,,6.340583324432373,80.33306121826172
+144,06218,Nagoda Royal National School,Nagoda Royal National School,Nagoda,31,Galle,3,Southern,Udugama,Mixed,Sinhala,,,6.193889617919922,80.27476501464844
+145,06254,Wanduramba Central College,Wanduramba Central College,Wanduramba,31,Galle,3,Southern,Galle,Mixed,Sinhala,,,6.134197235107422,80.25272369384766
+146,06258,Baddegama Christ Church Boy's College,Baddegama Christ Church Boy's College,Baddegama,31,Galle,3,Southern,Galle,Mixed,Sinhala,,,6.172926902770996,80.17503356933594
+147,06259,Baddegama Christ Church Girls' College,Baddegama Christ Church Girls' College,Baddegama,31,Galle,3,Southern,Galle,Girls,Sinhala,141,,6.176069259643555,80.17959594726562
+148,06317,Sri Sumangala M.M.V.,Sri Sumangala M.M.V.,"Nalagasdeniya, Hikkaduwa",31,Galle,3,Southern,Ambalangoda,Mixed,Sinhala,,,7.077805995941162,79.94713592529297
+149,06318,Rathgama Devapathiraja College,Rathgama Devapathiraja College,Rathgama,31,Galle,3,Southern,Ambalangoda,Mixed,Sinhala,,,6.103177070617676,80.14905548095703
+150,06366,Galle Mahinda College,Mahinda College,Woodward Mawatha Galle,31,Galle,3,Southern,Galle,Boys,Sinhala,163,,6.048641204833984,80.21308135986328
+151,06367,Galle Richmond College,Richmond College,"Richmond Hill, Galle",31,Galle,3,Southern,Galle,Boys,Sinhala,168,,6.05214262,80.20278930664062
+152,06368,Galle Rippon Girls College,Rippon Girls College,"Richman Hill, Galle",31,Galle,3,Southern,Galle,Girls,Sinhala,151,,6.05219841,80.20133972167969
+153,06369,Galle Sanghamiththa Balika Vidyalaya,Sanghamiththa Balika Vidyalaya,"Wackwella Road, Galle",31,Galle,3,Southern,Galle,Girls,Sinhala,163,,6.046840667724609,80.21043395996094
+154,06370,Galle Southland College,Southland College,Fort -Galle,31,Galle,3,Southern,Galle,Girls,Sinhala,167,,6.027946949005127,80.21621704101562
+155,06371,Galle St. Aloysius College,St. Aloysius College,Kaluwella Galle,31,Galle,3,Southern,Galle,Boys,Sinhala,157,,6.035590648651123,80.20984649658203
+156,06373,Galle Vidyaloka College,Vidyaloka College,"Wackwella Road, Galle",31,Galle,3,Southern,Galle,Boys,Sinhala,147,,6.034191608428955,80.21463775634766
+157,06392,Upananda Vidyalaya,Upananda Vidyalaya,Manawila Walahanduwa,31,Galle,3,Southern,Galle,Mixed,Sinhala,,,6.062318325042725,80.26108551
+158,06393,Meepawala Amarasuriya College,Meepawala Amarasuriya College,"Meepawala, Poddala",31,Galle,3,Southern,Galle,Mixed,Sinhala,,,6.105842113494873,80.21786499023438
+159,06431,Buonavista College,Buonavista College,Unawatuna Galle,31,Galle,3,Southern,Galle,Mixed,Sinhala,,,6.048814296722412,80.18564606
+160,06457,Kathaluwa Central College,Kathaluwa Central College,"Kathaluwa, Ahangama",31,Galle,3,Southern,Galle,Mixed,Sinhala,,,5.984985828399658,80.34065246582031
+161,06459,Batemulla National School,Batemulla National School,Imaduwa,31,Galle,3,Southern,Galle,Mixed,Sinhala,,,6.036358833312988,80.38047028
+162,06496,Gintota Zahira College (N.S.),Gintota Zahira College (N.S.),"Kurudwatta, Gintota",31,Galle,3,Southern,Galle,Mixed,Tamil,,,7.475820064544678,80.62464904785156
+163,06497,Galle Malharsulhiya Central College,Malharsulhiya Central College,"H.K.Edmond Mawatha, Galle",31,Galle,3,Southern,Galle,Mixed,Sinhala,,,6.044853210449219,80.22386169433594
+164,06511,Labuduwa Siridhamma College,Labuduwa Siridhamma College,"Labuduwa, Akmeemana",31,Galle,3,Southern,Galle,Mixed,Sinhala,150,,6.071634769439697,80.23004150390625
+165,06516,Janadipathi Balika Vidyalaya,Janadipathi Balika Vidyalaya,"Walahanduwa, Galle",31,Galle,3,Southern,Galle,Girls,Sinhala,,,,
+166,07017,Morawka Keerthi Abeywickrama National School,Morawka Keerthi Abeywickrama National School,"Deniyaya Rd, Morawaka",32,Matara,3,Southern,Morawaka,Mixed,Sinhala,,,6.2699408531188965,80.49630737304688
+167,07029,Kotapola N.S.,Kotapola N.S.,Kotapola,32,Matara,3,Southern,Morawaka,Mixed,Sinhala,,,6.295253753662109,80.53916168
+168,07041,Urubokka National School,Urubokka National School,Urubokka,32,Matara,3,Southern,Morawaka,Mixed,Sinhala,,,6.291190147399902,80.63323974609375
+169,07055,Deniyaya Central College,Deniyaya Central College,Deniyaya,32,Matara,3,Southern,Morawaka,Mixed,Sinhala,140,,6.345590591430664,80.55708312988281
+170,07071,Thelijjawila Central College,Thelijjawila Central College,Thelijjawila,32,Matara,3,Southern,Akuressa,Mixed,Sinhala,148,,6.019201278686523,80.48991394042969
+171,07104,Akuressa Godapitiya National School,Akuressa Godapitiya National School,"Matara Road, Akuressa",32,Matara,3,Southern,Akuressa,Mixed,Sinhala,,,6.0882649421691895,80.47705078
+172,07146,Kamburupiyiya Narandeniya M.M.V.,Kamburupiyiya Narandeniya M.M.V.,Kamburupiyiya,32,Matara,3,Southern,Mulatiyana (Hakmana),Mixed,Sinhala,140,,,
+173,07162,Thihagoda M.M.V.,Thihagoda M.M.V.,Thihagoda,32,Matara,3,Southern,Mulatiyana (Hakmana),Mixed,Sinhala,,,6.012513160705566,80.56479645
+174,07181,Puhulwella Madya Maha Vidyalaya,Puhulwella Madya Maha Vidyalaya,Kirinda Puhulwella,32,Matara,3,Southern,Mulatiyana (Hakmana),Mixed,Sinhala,,,6.040482997894287,80.61843872070312
+175,07225,Deyiyandara National School,Deyiyandara National School,Deyiyandara,32,Matara,3,Southern,Mulatiyana (Hakmana),Mixed,Sinhala,,,6.153918743133545,80.60148620605469
+176,07258,Weligama Siddartha College,Weligama Siddartha College,"Hettiwediya, Weligama",32,Matara,3,Southern,Matara,Mixed,Sinhala,,,5.971004486083984,80.42029571533203
+177,07272,Weligama Sri Sumangala Balika Vidyalaya,Weligama Sri Sumangala Balika Vidyalaya,Weligama,32,Matara,3,Southern,Matara,Girls,Sinhala,,,5.972925186157227,80.42305755615234
+178,07283,Arafa Central College,Arafa Central College,"Galbokka, Weligama",32,Matara,3,Southern,Matara,Mixed,Sinhala,,,7.7723259925842285,81.60603332519531
+179,07305,Matara Rahula College,Rahula College,Matara,32,Matara,3,Southern,Matara,Boys,Sinhala,164,,5.952901363372803,80.53397369384766
+180,07306,Matara Sujatha Vidyalaya,Sujatha Vidyalaya,Matara,32,Matara,3,Southern,Matara,Girls,Sinhala,164,,5.953762054443359,80.53599548339844
+181,07309,Matara Central College,Central College,"Rahula Road, Matara",32,Matara,3,Southern,Matara,Mixed,Sinhala,140,,5.9529194831848145,80.54234313964844
+182,07317,Matara St. Thomas Boys College,St. Thomas Boys College,"Kumarathunga Mawatha, Matara",32,Matara,3,Southern,Matara,Boys,Sinhala,155,,5.948416233062744,80.54178619384766
+183,07318,Matara St.Thomas Girl's High Sch0ol,St.Thomas Girl's High Sch0ol,"Walpola, Matara",32,Matara,3,Southern,Matara,Girls,Sinhala,156,,,
+184,07328,Matara St. Servetious College,St. Servetious College,"Kotuwegoda, Matara",32,Matara,3,Southern,Matara,Boys,Sinhala,146,,5.9434590339660645,80.54969787597656
+185,07350,Devinuwara Central College,Devinuwara Central College,Devinuwara,32,Matara,3,Southern,Matara,Mixed,Sinhala,,,5.9285993576049805,80.58722686767578
+186,07383,Dickwella Vijitha Central College,Dickwella Vijitha Central College,"Mahawela Road, Dickwella",32,Matara,3,Southern,Matara,Mixed,Sinhala,140,,5.96597147,80.70059967041016
+187,07394,Dickwella Minhath N.S.,Dickwella Minhath N.S.,"Sandis Road, Dickwella",32,Matara,3,Southern,Matara,Mixed,Sinhala,,,5.971798896789551,80.69239807128906
+188,07406,Matara Mahinda Rajapaksha College,Mahinda Rajapaksha College,"Sarasavi Uyana, Matara",32,Matara,3,Southern,Matara,Mixed,Sinhala,150,,5.934660435,80.57933044433594
+189,08001,Walasmulla National School,Walasmulla National School,Walasmulla,33,Hambantota,3,Southern,Walasmulla,Mixed,Sinhala,146,,6.148916244506836,80.69573211669922
+190,08002,Katuwana National School,Katuwana National School,Katuwana,33,Hambantota,3,Southern,Walasmulla,Mixed,Sinhala,,,6.267679691314697,80.68596649169922
+191,08038,Weeraketiya Rajapaksha Central College,Weeraketiya Rajapaksha Central College,Weeraketiya,33,Hambantota,3,Southern,Walasmulla,Mixed,Sinhala,161,,6.9754228591918945,79.92364501953125
+192,08073,Tangalle Boys National School,Tangalle Boys National School,Tangalle,33,Hambantota,3,Southern,Tangalle,Boys,Sinhala,142,,6.022561073303223,80.79302978515625
+193,08074,Tangalle Balika Vidyalaya,Tangalle Balika Vidyalaya,Tangalle,33,Hambantota,3,Southern,Tangalle,Girls,Sinhala,144,,6.021448135375977,80.79536437988281
+194,08106,Hungama Vijayaba National School,Hungama Vijayaba National School,Hungama,33,Hambantota,3,Southern,Hambantota,Mixed,Sinhala,151,,6.111670970916748,80.92938232421875
+195,08112,Angunakolapelessa Mahanaga National School,Angunakolapelessa Mahanaga National School,Angunakolapelessa,33,Hambantota,3,Southern,Tangalle,Mixed,Sinhala,,,6.163880348205566,80.89282989501953
+196,08144,Gatamanna Vijaya National School,Gatamanna Vijaya National School,Gatamanna,33,Hambantota,3,Southern,Tangalle,Mixed,Sinhala,,,,
+197,08154,Puwakdandawa Dhammapala Balika Vidyalaya,Puwakdandawa Dhammapala Balika Vidyalaya,"Puwakdandawa,Beliatta",33,Hambantota,3,Southern,Tangalle,Girls,Sinhala,,,6.041929244995117,80.74353790283203
+198,08229,Thissamaharama Debarawewa Central School,Thissamaharama Debarawewa Central School,"Debarawewa, Thissamaharama",33,Hambantota,3,Southern,Hambantota,Mixed,Sinhala,152,,6.2840776443481445,81.26336669921875
+199,08275,Ambalantota Therapuththa N.S,Ambalantota Therapuththa N.S,Ambalantota,33,Hambantota,3,Southern,Hambantota,Mixed,Sinhala,139,,6.120002269744873,81.02172852
+200,08276,Hambantota St.Mary's College,St.Mary's College,Hambantota,33,Hambantota,3,Southern,Hambantota,Mixed,Sinhala,,,6.128077507019043,81.12113952636719
+201,08280,Hamabantota Zahira N.S.,Hamabantota Zahira N.S.,Hamabantota,33,Hambantota,3,Southern,Hambantota,Mixed,Tamil,,,6.126145839691162,81.12281799316406
+202,08289,Sooriyawewa N.S,Sooriyawewa N.S,"Vidyala Mawatha, Sooriyawewa",33,Hambantota,3,Southern,Hambantota,Mixed,Sinhala,,,6.307457924,80.99510955810547
+203,08339,Beliatta Ruhunu Vijayaba National College,Beliatta Ruhunu Vijayaba National College,"Sitinamaluwa, Beliatta",33,Hambantota,3,Southern,Tangalle,Mixed,Sinhala,145,,6.032776832580566,80.77114105
+204,08340,Hambantota Tzu-Chi National School,Tzu-Chi National School,"Siribopura, Hambantota",33,Hambantota,3,Southern,Hambantota,Mixed,Sinhala,,,6.160247802734375,81.13286590576172
+205,08346,Sri Lanka Singapore Frienship College,Sri Lanka Singapore Frienship College,"Kondagala, Weerakatiya",33,Hambantota,3,Southern,Walasmulla,Girls,Sinhala,152,,6.1397809982299805,80.75571442
+206,09166,Manipay Hindu College (National School),Manipay Hindu College (National School),"Sangarapillai Road, Manipay",41,Jaffna,4,Northern,Valikamam,Mixed,Tamil,,,9.715048789978027,79.99289703
+207,09269,Nelliady Central College,Nelliady Central College,Karaveddy,41,Jaffna,4,Northern,Vadamarachchi,Mixed,Sinhala,,,9.803188324,80.20034790039062
+208,09333,Point Pedro Methodist Girls' High School,Point Pedro Methodist Girls' High School,Point Pedro,41,Jaffna,4,Northern,Vadamarachchi,Girls,Sinhala,,,9.829191207885742,80.23036193847656
+209,09353,Chavakachcheri Hindu College,Chavakachcheri Hindu College,"Kandy Road, Chavakachcheri",41,Jaffna,4,Northern,Thennamarachchi,Mixed,Tamil,,132,9.664623260498047,80.17272186279297
+210,09416,Jaffna Hindu College,Hindu College,Kks Road Jaffna,41,Jaffna,4,Northern,Jaffna,Boys,Tamil,,139,9.678354263305664,80.00975799560547
+211,09456,Jaffna Central College,Central College,Jaffna,41,Jaffna,4,Northern,Jaffna,Boys,Tamil,,132,9.661676406860352,80.01190948486328
+212,09457,Jaffna Holy Family Convent National School,Holy Family Convent National School,"Vembady Road, Jaffna",41,Jaffna,4,Northern,Jaffna,Mixed,Sinhala,,,,
+213,09465,Jaffna Vembadi Girls High School,Vembadi Girls High School,"1st Cross Street, Jaffna",41,Jaffna,4,Northern,Jaffna,Girls,Tamil,,145,,
+214,10001,Kilinochchi Madhya Maha Vidyalayam,Madhya Maha Vidyalayam,"A9 Road, Ananthapuram, Kilinochchi",45,Kilinochchi,4,Northern,Kilinochchi,Mixed,Tamil,,132,9.381329536437988,80.40898132324219
+215,10011,Mulankavil Maha Vidyalayam,Mulankavil Maha Vidyalayam,"Vinayakapuram, Poonakary",45,Kilinochchi,4,Northern,Kilinochchi,Mixed,Sinhala,,,9.244859695,80.14038086
+216,10038,Pallai Central College,Pallai Central College,"A-09 Road, Pallai",45,Kilinochchi,4,Northern,Kilinochchi,Mixed,Sinhala,,,9.610159873962402,80.33045959472656
+217,11001,Sithivinayagar Hindu College,Sithivinayagar Hindu College,Uppukulam Mannar,42,Mannar,4,Northern,Mannar,Mixed,Tamil,,,8.978995323181152,79.91764068603516
+218,11002,Mannar St. Xaviers Boys College,St. Xaviers Boys College,"Sinnakadai, Mannar",42,Mannar,4,Northern,Mannar,Boys,Sinhala,,,8.985984802246094,79.90665435791016
+219,11003,St. Xavier's Girls' College,St. Xavier's Girls' College,"Sinnakadai, Mannar",42,Mannar,4,Northern,Mannar,Girls,Sinhala,,,8.980856895446777,79.90617370605469
+220,11025,Al-Azhar M.V.,Al-Azhar M.V.,"Moorstreet, Mannar",42,Mannar,4,Northern,Mannar,Mixed,Tamil,,,8.980652809143066,79.91248321533203
+221,11035,Musali National School,Musali National School,"Musali, Chilawathuari",42,Mannar,4,Northern,Mannar,Mixed,Sinhala,,,8.760769844055176,79.95308685302734
+222,12003,Vidyananda College,Vidyananda College,Mulliyawalai,44,Mullaitivu,4,Northern,Mullaitivu,Mixed,Sinhala,,,9.224040985107422,80.78031158447266
+223,12048,Mallavi Central College,Mallavi Central College,Yogapuram,44,Mullaitivu,4,Northern,Thunukkai,Mixed,Sinhala,,,9.140932083129883,80.29319
+224,13001,Vavuniya Rambaikulam Girls Maha Vidyalayam,Rambaikulam Girls Maha Vidyalayam,Rambaikulam Vavuniya,43,Vavuniya,4,Northern,Vavuniya,Girls,Tamil,,132,8.750946044921875,80.50182342529297
+225,13002,Vavuniya Tamil M.M.V.,Tamil M.M.V.,"Kandy Road, Vavuniya",43,Vavuniya,4,Northern,Vavuniya,Mixed,Tamil,,132,8.750086784362793,80.49495697021484
+226,13004,Vavuniya Muslim Maha Vidyalayam,Muslim Maha Vidyalayam,Mannar Road Paddanichoor Vavuniya,43,Vavuniya,4,Northern,Vavuniya,Mixed,Tamil,,,8.763348579406738,80.48043823242188
+227,13110,Gamini National School,Gamini National School,Mannar Road Vavuniya,43,Vavuniya,4,Northern,Vavuniya,Mixed,Sinhala,,,8.761814117,80.49249267578125
+228,13111,Madukanda Maha Vidiyalaya (National School),Madukanda Maha Vidiyalaya (National School),Madukanda Vavuniya,43,Vavuniya,4,Northern,Vavuniya,Mixed,Sinhala,,,,
+229,14018,Oddamavadi Centerl College,Oddamavadi Centerl College,Oddamavadi,51,Batticaloa,5,Eastern,Batticaloa Central,Mixed,Sinhala,,,7.910896301269531,81.52313232421875
+230,14022,Valaicheanai An-Noor Maha Vidyalayam,Valaicheanai An-Noor Maha Vidyalayam,"Main Cross Road, Valacheanai-5",51,Batticaloa,5,Eastern,Batticaloa Central,Mixed,Sinhala,,,7.923804283,81.52479553222656
+231,14031,Valaichenai Hindu College,Valaichenai Hindu College,"Kalkudah Road, Valaichenai",51,Batticaloa,5,Eastern,Kalkudah,Mixed,Tamil,,134,7.926058769226074,81.52965545654297
+232,14081,Alighar Central College,Alighar Central College,"Main Street, Eravur",51,Batticaloa,5,Eastern,Batticaloa Central,Mixed,Sinhala,,,7.777018070220947,81.60144043
+233,14087,Macan Markar Maha Vidyalaya,Macan Markar Maha Vidyalaya,"Meerakerny Road, Eravur",51,Batticaloa,5,Eastern,Batticaloa Central,Mixed,Sinhala,,,7.787847042,81.61476898
+234,14115,Batticaloa Vincent Girls' High School,Vincent Girls' High School,"Chapel Street, Batticaloa",51,Batticaloa,5,Eastern,Batticaloa,Girls,Tamil,,139,7.711884498596191,81.69695281982422
+235,14117,Batticaloa St. Michael's College,St. Michael's College,"1 Central Road, Batticaloa",51,Batticaloa,5,Eastern,Batticaloa,Boys,Tamil,,132,6.913900375366211,79.85308074951172
+236,14118,Batticaloa St. Cecilia's Girls' College,St. Cecilia's Girls' College,"2nd Cross Road, Batticaloa",51,Batticaloa,5,Eastern,Batticaloa,Girls,Tamil,,132,7.710962772369385,81.69195556640625
+237,14129,Shivananda Vidyalayam,Shivananda Vidyalayam,"Kallady Uppodai, Batticaloa",51,Batticaloa,5,Eastern,Batticaloa,Mixed,Sinhala,,,,
+238,14145,Kattankudy Madya Maha Vidyalayam,Kattankudy Madya Maha Vidyalayam,"322, Beach Road, New Kattankudy 06",51,Batticaloa,5,Eastern,Batticaloa Central,Boys,Tamil,,132,,
+239,14147,Kattankudy Meera Balika Maha Vidyalayam,Kattankudy Meera Balika Maha Vidyalayam,"Main Street, Kattankudy",51,Batticaloa,5,Eastern,Batticaloa Central,Girls,Tamil,,136,7.677587032318115,81.72860717773438
+240,14180,Kaluthavalai Maha Vidyalayam,Kaluthavalai Maha Vidyalayam,"Kaluthavalai, Paddirippu",51,Batticaloa,5,Eastern,Paddrippu,Mixed,Sinhala,,,7.546938419342041,81.78556060791016
+241,14185,Paddiruppu Madhya Maha Vidyalayam,Paddiruppu Madhya Maha Vidyalayam,Kaluwanchikudy - 30200,51,Batticaloa,5,Eastern,Paddrippu,Mixed,Tamil,,139,7.517102241516113,81.78422546386719
+242,15002,Padiyathalawa National School,Padiyathalawa National School,Padiyathalawa,52,Ampara,5,Eastern,Mahaoya,Mixed,Sinhala,,,7.406240940093994,81.24082184
+243,15037,Uhana Maha Vidyalaya,Uhana Maha Vidyalaya,Uhana,52,Ampara,5,Eastern,Ampara,Mixed,Sinhala,,,7.3684282302856445,81.63991547
+244,15067,Ampara D.S.Senanayaka Madya Maha Vidyalaya,D.S.Senanayaka Madya Maha Vidyalaya,Ampara,52,Ampara,5,Eastern,Ampara,Mixed,Sinhala,143,,7.303026199,81.66987609863281
+245,15080,Ampara Bandaranayaka Balika Maha Vidyalaya,Bandaranayaka Balika Maha Vidyalaya,Ampara,52,Ampara,5,Eastern,Ampara,Girls,Sinhala,137,,7.304140090942383,81.67511749267578
+246,15152,Dehiattakandiya M.M.V.,Dehiattakandiya M.M.V.,Dehiattakandiya,52,Ampara,5,Eastern,Dehiattakandiya,Mixed,Sinhala,133,,7.667174816131592,81.04656982421875
+247,15161,Sammanthurai Muslim Madya Maha Vidyalayam,Sammanthurai Muslim Madya Maha Vidyalayam,"Ampara Road, Sammanthurai",52,Ampara,5,Eastern,Sammanthurai,Mixed,Tamil,,145,7.370190143585205,81.80761719
+248,15169,Sammanthurai Al-Marjan Muslim Ladies College,Sammanthurai Al-Marjan Muslim Ladies College,"Ampara Road, Sammanthurai",52,Ampara,5,Eastern,Sammanthurai,Girls,Tamil,,,7.363066196,81.79781341552734
+249,15200,Sainthamaruthu Zahira College,Sainthamaruthu Zahira College,"Zahira College Road, Sainthamaruthu - 02",52,Ampara,5,Eastern,Kalmunai,Boys,Tamil,,138,7.399468898773193,81.83723449707031
+250,15202,Kalmunai Carmel Fatima College (National School),Kalmunai Carmel Fatima College (National School),"Yard Road, Kalmunai - 01b",52,Ampara,5,Eastern,Kalmunai,Mixed,Tamil,,137,7.419587135314941,81.82211303710938
+251,15203,Kalmunai Mahmud Ladies College,Kalmunai Mahmud Ladies College,"Zahira College Road, Kalmunai",52,Ampara,5,Eastern,Kalmunai,Girls,Tamil,,149,7.3989691734313965,81.83239746
+252,15231,Akkaraipattu Muslim Central College (National Sc),Akkaraipattu Muslim Central College (National Sc),Akkaraipattu-06,52,Ampara,5,Eastern,Akkaraipattu,Mixed,Tamil,,132,7.225523948669434,81.83636474609375
+253,15233,Irakkamam Ashraf Central College,Irakkamam Ashraf Central College,Irakkamam-09,52,Ampara,5,Eastern,Sammanthurai,Mixed,Sinhala,,,7.246461868286133,81.72329711914062
+254,15248,Addalaicenai M.M.V.,Addalaicenai M.M.V.,Main Street Addalaicenai,52,Ampara,5,Eastern,Akkaraipattu,Mixed,Tamil,,132,7.244091987609863,81.85276794433594
+255,15265,Al-Ashraq Madya Maha Vidyalaya (National School),Al-Ashraq Madya Maha Vidyalaya (National School),"Main Street, Nintavur-25",52,Ampara,5,Eastern,Kalmunai,Mixed,Tamil,,132,,
+256,15290,Sri Ramakrishna College,Sri Ramakrishna College,Akkaraipattu,52,Ampara,5,Eastern,Thirukkovil,Mixed,Tamil,,144,7.2102742195129395,81.84327697753906
+257,15291,Thambiluvil Madhya Maha Vidyalayam (Ns),Thambiluvil Madhya Maha Vidyalayam (Ns),"Main Street, Thambiluvil",52,Ampara,5,Eastern,Thirukkovil,Mixed,Tamil,,143,,
+258,15292,Pottuvil Central College,Pottuvil Central College,"R.M.Nagar, Pottuvil-27",52,Ampara,5,Eastern,Akkaraipattu,Mixed,Sinhala,,,6.879158973693848,81.8347168
+259,16031,Mahadiwulwewa M.V.,Mahadiwulwewa M.V.,Mahadiwulwewa,53,Trincomalee,5,Eastern,Trincomalee North,Mixed,Sinhala,,,8.616982460021973,80.96195983886719
+260,16054,Trincomalee Sri Shanmuga Hindu Ladies' College,Sri Shanmuga Hindu Ladies' College,"Vidyalayam Road, Trincomalee",53,Trincomalee,5,Eastern,Trincomalee,Girls,Tamil,,,8.575231552124023,81.23093414
+261,16057,Sinhala Madya Maha Vidyalaya,Sinhala Madya Maha Vidyalaya,"Inner Harbour Road, Trincomalee",53,Trincomalee,5,Eastern,Trincomalee,Mixed,Sinhala,,,8.575302124023438,81.22368621826172
+262,16059,Rajakeeya Vidyaloka M.V. (N.S.) -Trincomalee,Rajakeeya Vidyaloka M.V. (N.S.) -Trincomalee,"North Coast Road, Trincomalee",53,Trincomalee,5,Eastern,Trincomalee,Mixed,Sinhala,,,8.581621170043945,81.22808837890625
+263,16068,Trincomalee St. Mary's College,St. Mary's College,"Dockyard Road, Trincomalee",53,Trincomalee,5,Eastern,Trincomalee,Mixed,Sinhala,,,8.571192741394043,81.23447418
+264,16070,Trincomalee R.K.M.Sri Koneswara Hindu College,R.K.M.Sri Koneswara Hindu College,"246, Dockyard Road Trincomalee",53,Trincomalee,5,Eastern,Trincomalee,Mixed,Tamil,,,8.574234962463379,81.23310089111328
+265,16073,Trincomalee St. Joseph's College,St. Joseph's College,"Power House Road, Trincomalee",53,Trincomalee,5,Eastern,Trincomalee,Mixed,Sinhala,,,8.573111534118652,81.22756195
+266,16121,Kanthale Agrabodhi National School,Kanthale Agrabodhi National School,Kanthale,53,Trincomalee,5,Eastern,Kantale,Mixed,Sinhala,133,,8.354574203491211,81.00592803955078
+267,16175,Muttur Central College,Muttur Central College,"Knox Road, Mutur-05",53,Trincomalee,5,Eastern,Muttur,Mixed,Tamil,,135,8.449240684509277,81.25595092773438
+268,16182,Kinniya Al-Aqsha College,Kinniya Al-Aqsha College,"Main Street, Kinniya",53,Trincomalee,5,Eastern,Kinniya,Mixed,Tamil,,,,
+269,16186,Kinniya Muslim Girls' Maha Vidyalayam,Kinniya Muslim Girls' Maha Vidyalayam,"Periya Kinniya, Kinniya-06",53,Trincomalee,5,Eastern,Kinniya,Girls,Tamil,,133,8.504652976989746,81.17787170410156
+270,16187,Kinniya Central College,Kinniya Central College,"Main Street, Kinniya-05",53,Trincomalee,5,Eastern,Kinniya,Boys,Tamil,,131,8.497036933898926,81.17835998535156
+271,17001,Polgahawela Parakramabahu Madya Maha Vidyalaya,Polgahawela Parakramabahu Madya Maha Vidyalaya,Polgahawela,61,Kurunegala,6,North Western,Kurunegala,Mixed,Sinhala,,,7.330846786499023,80.30532836914062
+272,17003,Uhumeeya D.S Senanayaka Madya Maha Vidyalaya,Uhumeeya D.S Senanayaka Madya Maha Vidyalaya,Uhumeeya,61,Kurunegala,6,North Western,Kurunegala,Mixed,Sinhala,,,7.459597110748291,80.29061126708984
+273,17094,Mawathagama M.M.V.,Mawathagama M.M.V.,"Kandy Road, Mawathagama",61,Kurunegala,6,North Western,Kurunegala,Mixed,Sinhala,,,7.430427551269531,80.44857025146484
+274,17095,Sri Nishshanka M.M.V. (N.S.) - Indulgodakanda,Sri Nishshanka M.M.V. (N.S.) - Indulgodakanda,Indulgodakanda Kurunegala,61,Kurunegala,6,North Western,Kurunegala,Mixed,Sinhala,,,7.424123764038086,80.39987946
+275,17141,Wariyapola Sri Sumangala M.M.V.,Wariyapola Sri Sumangala M.M.V.,Wariyapola,61,Kurunegala,6,North Western,Nikaweratiya,Mixed,Sinhala,140,,7.6197967529296875,80.23163604736328
+276,17199,Ibbagamuwa Central College,Ibbagamuwa Central College,Ibbagamuwa,61,Kurunegala,6,North Western,Ibbagamuwa,Mixed,Sinhala,,,7.537216663360596,80.44956970214844
+277,17234,Ganewaththa S.B.Herath M.M.V.,Ganewaththa S.B.Herath M.M.V.,"Ganewaththa, Nikadalupotha.",61,Kurunegala,6,North Western,Ibbagamuwa,Mixed,Sinhala,,,7.654911994934082,80.34399414
+278,17265,Narammala Mayurapada N.S.,Narammala Mayurapada N.S.,Narammala,61,Kurunegala,6,North Western,Giriulla,Mixed,Sinhala,146,,7.427347183227539,80.20927429199219
+279,17292,Kurunegala Maliyadeva Balika Vidyalaya,Maliyadeva Balika Vidyalaya,"Colombo Road, Kurunegala",61,Kurunegala,6,North Western,Kurunegala,Girls,Sinhala,170,,7.481945037841797,80.36048126220703
+280,17293,Kurunegala Maliyadeva College,Maliyadeva College,"Negombo Road, Kurunegala",61,Kurunegala,6,North Western,Kurunegala,Boys,Sinhala,169,,7.486342430114746,80.35726165771484
+281,17352,Paragahadeniya National School,Paragahadeniya National School,Paragahadeniya,61,Kurunegala,6,North Western,Kurunegala,Mixed,Sinhala,,,7.415364742279053,80.47058868408203
+282,17361,Alawwa Sri Rahula N.S,Alawwa Sri Rahula N.S,Alawwa,61,Kurunegala,6,North Western,Giriulla,Mixed,Sinhala,140,,7.296396255493164,80.23053741455078
+283,17391,Bingiriya Sri Saranankara National School,Bingiriya Sri Saranankara National School,Bingiriya,61,Kurunegala,6,North Western,Kuliyapitiya,Mixed,Sinhala,,,7.599451541900635,79.93621826171875
+284,17420,Nakkawatttha M.M.V.,Nakkawatttha M.M.V.,Nakkawatta,61,Kurunegala,6,North Western,Giriulla,Mixed,Sinhala,,,7.455787181854248,80.14002990722656
+285,17464,Dummalasooriya J.R.Jayawardana M.M.V.,Dummalasooriya J.R.Jayawardana M.M.V.,Dummalasooriya,61,Kurunegala,6,North Western,Kuliyapitiya,Mixed,Sinhala,,,7.502093315124512,79.91721344
+286,17489,Kuliyapitiya Central Colleage,Kuliyapitiya Central Colleage,Meegahakotuwa Kuliyapitiya,61,Kurunegala,6,North Western,Kuliyapitiya,Mixed,Sinhala,155,,,
+287,17490,Kuliyapitiya Saranath Vidyalaya,Kuliyapitiya Saranath Vidyalaya,Kuliyapitiya,61,Kurunegala,6,North Western,Kuliyapitiya,Mixed,Sinhala,149,,7.468855381011963,80.04061889648438
+288,17522,Sandalanka M.M.V.,Sandalanka M.M.V.,Sandalankawa,61,Kurunegala,6,North Western,Giriulla,Mixed,Sinhala,140,,7.321711063,79.96038055419922
+289,17549,Giriulla Wickramashila N.S.,Giriulla Wickramashila N.S.,Giriulla,61,Kurunegala,6,North Western,Giriulla,Mixed,Sinhala,,,7.326162815093994,80.11566925048828
+290,17550,Pannala National School,Pannala National School,Pannala,61,Kurunegala,6,North Western,Giriulla,Mixed,Sinhala,,,7.326964378356934,80.02368927001953
+291,17613,Panduwasnuwara S.W.R.D.Bandaranayaka National School,Panduwasnuwara S.W.R.D.Bandaranayaka National School,Panduwasnuwara,61,Kurunegala,6,North Western,Kuliyapitiya,Mixed,Sinhala,142,,7.605607032775879,80.10010528564453
+292,17663,Kekunagolla National School,Kekunagolla National School,Kekunagolla,61,Kurunegala,6,North Western,Giriulla,Mixed,Tamil,,134,7.501509189605713,80.17210388183594
+293,17664,Siyambalagaskotuwa Madeena National School,Siyambalagaskotuwa Madeena National School,Siyambalagaskotuwa,61,Kurunegala,6,North Western,Giriulla,Mixed,Sinhala,,,7.491821765899658,80.18877410888672
+294,17675,Polpithigama N.S.,Polpithigama N.S.,Polpithigama,61,Kurunegala,6,North Western,Maho,Mixed,Sinhala,,,7.816181659698486,80.40247344970703
+295,17708,Maho Vijayaba N.S.,Maho Vijayaba N.S.,Maho,61,Kurunegala,6,North Western,Maho,Mixed,Sinhala,140,,7.823860168457031,80.26538086
+296,17757,Galgamuwa U B Wanninaya National College,Galgamuwa U B Wanninaya National College,"Nanneriya Road, Galgamuwa",61,Kurunegala,6,North Western,Maho,Mixed,Sinhala,,,7.996387958526611,80.26526641845703
+297,17767,Perakumpura National School,Perakumpura National School,"R.L.B. Track 03, Solepura",61,Kurunegala,6,North Western,Maho,Mixed,Sinhala,,,8.153810501098633,80.14212799072266
+298,17771,Meegalewa Mahweli N.S.,Meegalewa Mahweli N.S.,Meegalewa,61,Kurunegala,6,North Western,Maho,Mixed,Sinhala,,,8.054177284240723,80.34960938
+299,17838,Nikaweratiya Mahasen N.S.,Nikaweratiya Mahasen N.S.,Nikaweratiya,61,Kurunegala,6,North Western,Nikaweratiya,Mixed,Sinhala,145,,7.751093864440918,80.11567687988281
+300,17867,Sri Parackrama N.S.,Sri Parackrama N.S.,Kobeigane,61,Kurunegala,6,North Western,Nikaweratiya,Mixed,Sinhala,,,7.515585899353027,80.67362213134766
+301,18072,Ananda National School,Ananda National School,Puttlam,62,Puttalam,6,North Western,Puttalam,Mixed,Sinhala,,,8.021061897277832,79.83611297607422
+302,18073,Puttalam Zahira College,Zahira College,Mannar Road Puttalam,62,Puttalam,6,North Western,Puttalam,Boys,Tamil,,131,8.039847373962402,79.82608795166016
+303,18091,Kalpitiya Al-Aqsha Natioal School,Kalpitiya Al-Aqsha Natioal School,"U M U Road, Kalpitiya",62,Puttalam,6,North Western,Puttalam,Mixed,Tamil,,,,
+304,18199,Chilaw Ananda National School,Chilaw Ananda National School,"Colombo Road, Chilaw",62,Puttalam,6,North Western,Chilaw,Mixed,Sinhala,149,,7.570956230163574,79.79675293
+305,18218,Madampe Senanayaka National School,Madampe Senanayaka National School,Madampe,62,Puttalam,6,North Western,Chilaw,Mixed,Sinhala,137,,7.493089676,79.83351135253906
+306,18243,Wennappuwa St. Joseph Vaz College,Wennappuwa St. Joseph Vaz College,Wennappuwa,62,Puttalam,6,North Western,Chilaw,Boys,Sinhala,154,,7.341944694519043,79.83862305
+307,18282,Kirimatiyan Buddhist Girls' College,Kirimatiyan Buddhist Girls' College,Kirimatiyana Lunuwila,62,Puttalam,6,North Western,Chilaw,Girls,Sinhala,,,,
+308,18302,Naththandiya Dhammissara National School,Naththandiya Dhammissara National School,Naththandiya,62,Puttalam,6,North Western,Chilaw,Mixed,Sinhala,147,,7.410456181,79.85643005371094
+309,19001,Medawachchiya Maithripala Senanayaka Central College,Medawachchiya Maithripala Senanayaka Central College,Medawachchiya,71,Anuradhapura,7,North Central,Kebithigollewa,Mixed,Sinhala,133,,,
+310,19097,Sampath Nuwara N.S.,Sampath Nuwara N.S.,"Sampathnuwara, Welioya, Ethawetunuwewa",44,Mullaitivu,4,Northern,Mullaitivu,Mixed,Sinhala,,,8.975262641906738,80.77287292480469
+311,19176,Anuradhapura Central College,Central College,Anuradhapura,71,Anuradhapura,7,North Central,Anuradhapura,Mixed,Sinhala,159,,8.335618019104004,80.40460968017578
+312,19177,Anuradhapura Swarnapali Girls College,Swarnapali Girls College,Anuradhapura,71,Anuradhapura,7,North Central,Anuradhapura,Girls,Sinhala,151,,8.334145545959473,80.40403747558594
+313,19296,Thambuttegama Central College,Thambuttegama Central College,Thambuttegama,71,Anuradhapura,7,North Central,Thambuttegama,Mixed,Sinhala,143,,8.14831543,80.29437255859375
+314,19361,Eppawala Sri Siddartha Maha Vidyalaya,Eppawala Sri Siddartha Maha Vidyalaya,Eppawala,71,Anuradhapura,7,North Central,Thambuttegama,Mixed,Sinhala,133,,8.146618843078613,80.40973663330078
+315,19429,Kekirawa Central College,Kekirawa Central College,Kekirawa,71,Anuradhapura,7,North Central,Kekirawa,Mixed,Sinhala,150,,8.039944648742676,80.58388519
+316,19457,Kekirawa Vidyartha M.V.,Kekirawa Vidyartha M.V.,Kekirawa,71,Anuradhapura,7,North Central,Kekirawa,Mixed,Sinhala,133,,8.025224685668945,80.59967041015625
+317,19487,Anuradhapura Zahira College,Zahira College,Anuradhapura,71,Anuradhapura,7,North Central,Anuradhapura,Mixed,Tamil,,,7.475820064544678,80.62464904785156
+318,20001,Hingurakgoda Minneriya N.S.,Hingurakgoda Minneriya N.S.,Hingurakgoda,72,Polonnaruwa,7,North Central,Hingurakgoda,Mixed,Sinhala,,,8.041824340820312,80.93644714355469
+319,20002,Ananda Balika N.S,Ananda Balika N.S,Hingurakgoda,72,Polonnaruwa,7,North Central,Hingurakgoda,Girls,Sinhala,,,8.035802841186523,80.95783996582031
+320,20035,Medirigiriya National School,Medirigiriya National School,Medirigiriya,72,Polonnaruwa,7,North Central,Hingurakgoda,Mixed,Sinhala,133,,8.143402099609375,80.96797180175781
+321,20036,Divulankadawala Central College,Divulankadawala Central College,Divulankadawala,72,Polonnaruwa,7,North Central,Hingurakgoda,Mixed,Sinhala,,,8.11115551,80.95209503173828
+322,20069,Polonnaruwa Royal Central College,Royal Central College,"New Town, Polonnaruwa",72,Polonnaruwa,7,North Central,Polonnaruwa,Mixed,Sinhala,144,,7.919610023498535,81.00292205810547
+323,20073,Polonnaruwa Thopawewa Maha Vidyalaya,Thopawewa Maha Vidyalaya,Polonnaruwa,72,Polonnaruwa,7,North Central,Polonnaruwa,Mixed,Sinhala,142,,8.017470359802246,81.04985046386719
+324,20103,Vilayaya C.C,Vilayaya C.C,Aralaganwila,72,Polonnaruwa,7,North Central,Dimbulagala,Mixed,Sinhala,133,,7.780419826507568,81.18711853027344
+325,20154,Polonnaruwa Muslim Central College,Muslim Central College,Kaduruwela Polonnaruwa,72,Polonnaruwa,7,North Central,Polonnaruwa,Mixed,Tamil,,,7.927299976348877,81.03888702392578
+326,20176,Bakamuna Mahasen Madya Maha Vidyalaya,Bakamuna Mahasen Madya Maha Vidyalaya,Bakamuna,72,Polonnaruwa,7,North Central,Hingurakgoda,Mixed,Sinhala,,,7.775683879852295,80.82159423828125
+327,21001,Andaulpotha N.S.,Andaulpotha N.S.,"Uraniya, Mahiyanganaya",81,Badulla,8,Uva,Mahiyanganaya,Mixed,Sinhala,,,7.266170024871826,81.07686614990234
+328,21026,Mahiyanganaya N.S,Mahiyanganaya N.S,Mahiyanganaya,81,Badulla,8,Uva,Mahiyanganaya,Mixed,Sinhala,152,,,
+329,21071,Kandegedara National School,Kandegedara National School,"Kandegedara, Haliela",81,Badulla,8,Uva,Viyaluwa,Mixed,Sinhala,,,7.024330139160156,81.02179718017578
+330,21102,Viyaluwa D.S.Senanayake National School,Viyaluwa D.S.Senanayake National School,Kandaketiya,81,Badulla,8,Uva,Viyaluwa,Mixed,Sinhala,,,7.170065879821777,81.00225830078125
+331,21105,Meegahakivula National College,Meegahakivula National College,"Meegahakivula, Badulla",81,Badulla,8,Uva,Viyaluwa,Mixed,Sinhala,,,,
+332,21125,Passara Madya Vidyalaya,Passara Madya Vidyalaya,Passara,81,Badulla,8,Uva,Passara,Mixed,Sinhala,,,,
+333,21172,Badulla Dharmadutha National College,Dharmadutha National College,Badulla,81,Badulla,8,Uva,Badulla,Boys,Sinhala,142,,,
+334,21173,Badulla Madya Maha Vidyalaya,Madya Maha Vidyalaya,Badulla,81,Badulla,8,Uva,Badulla,Mixed,Sinhala,153,,6.996337413787842,81.05101013183594
+335,21174,Badulla Vishaka Girls' High School,Vishaka Girls' High School,Badulla,81,Badulla,8,Uva,Badulla,Girls,Sinhala,,,6.991609573364258,81.05321502685547
+336,21191,Ettampitiya National College,Ettampitiya National College,Ettampitiya,81,Badulla,8,Uva,Badulla,Mixed,Sinhala,,,6.937871456,80.98795318603516
+337,21192,Hali-Ela Central College,Hali-Ela Central College,Hali-Ela,81,Badulla,8,Uva,Badulla,Mixed,Sinhala,,,,
+338,21233,Bandarawela M.M.V.,Bandarawela M.M.V.,"Kinigama, Bandarawela",81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,157,,6.832586288452148,80.99085235595703
+339,21234,Bandarawela Vishaka B.M.M.V.,Bandarawela Vishaka B.M.M.V.,Bandarawela,81,Badulla,8,Uva,Bandarawela,Girls,Sinhala,135,,7.474461078643799,80.04647827148438
+340,21235,Naulla M.M.V.,Naulla M.M.V.,"Naulla, Demodara",81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,,,6.8978776931762695,81.06036376953125
+341,21236,Bandarawela St. Joseph's College,Bandarawela St. Joseph's College,Bandarawela,81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,148,,7.7512898445129395,81.63912200927734
+342,21239,Halpe National School,Halpe National School,Hela - Halpe,81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,,,,
+343,21241,Bandarawela Kudakusum Balika M.V.,Bandarawela Kudakusum Balika M.V.,Bandarawela,81,Badulla,8,Uva,Bandarawela,Girls,Sinhala,135,,6.830662727355957,80.99494934082031
+344,21276,Sri Janananda.M.V.,Sri Janananda.M.V.,"Kadurugamuwa, Diyathalawa",81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,,,6.790184020996094,80.94318389892578
+345,21277,Ananda M.M.V.,Ananda M.M.V.,"Walhaputhenna, Haldummulla",81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,,,7.010120391845703,80.13157653808594
+346,21279,Kahagolla M.V.,Kahagolla M.V.,"Kahagolla, Diyathalawa",81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,,,6.816315650939941,80.96373748779297
+347,21280,Koslanda M.M.V.,Koslanda M.M.V.,"Wellawaya Road, Koslanda",81,Badulla,8,Uva,Bandarawela,Mixed,Sinhala,,,6.7406415939331055,81.01521301269531
+348,21311,Welimada Madya Maha Vidyalaya,Welimada Madya Maha Vidyalaya,Welimada,81,Badulla,8,Uva,Welimada,Mixed,Sinhala,134,,6.906956195831299,80.91691589355469
+349,21315,Boralanda Wangiyakumbura M.M.V.,Boralanda Wangiyakumbura M.M.V.,Boralanda,81,Badulla,8,Uva,Welimada,Mixed,Sinhala,,,6.838390827178955,80.88291168
+350,21356,Loonuwatta National School,Loonuwatta National School,Loonuwatta,81,Badulla,8,Uva,Welimada,Mixed,Sinhala,,,6.961205959320068,80.92170715332031
+351,21398,Guruthalawa Muslim Central College,Guruthalawa Muslim Central College,Guruthathlawa,81,Badulla,8,Uva,Welimada,Mixed,Tamil,,,6.846038341522217,80.9005127
+352,21464,Badulla Saraswathy Central College,Saraswathy Central College,"Mahiyangana Road, Badulla",81,Badulla,8,Uva,Badulla,Boys,Tamil,,132,6.902292728424072,81.36473846435547
+353,21511,Passara Tamil Maha Vidyalaya,Passara Tamil Maha Vidyalaya,Passara,81,Badulla,8,Uva,Passara,Mixed,Tamil,,,6.940207004547119,81.16760254
+354,22001,Bibile Wellassa N.S.,Bibile Wellassa N.S.,"Hewelwela, Bibile",82,Moneragala,8,Uva,Bibile,Mixed,Sinhala,139,,7.135209560394287,81.21714782714844
+355,22005,Medagama N.S.,Medagama N.S.,Medagama,82,Moneragala,8,Uva,Bibile,Mixed,Sinhala,,,7.569955825805664,81.04259490966797
+356,22069,Monaragala Mahanama M.M.V.,Monaragala Mahanama M.M.V.,Monaragala,82,Moneragala,8,Uva,Moneragala,Mixed,Sinhala,154,,6.8741021156311035,81.34519196
+357,22073,Siyambalanduwa M.V.,Siyambalanduwa M.V.,Siyambalanduwa,82,Moneragala,8,Uva,Moneragala,Mixed,Sinhala,,,6.928060054779053,81.55299377441406
+358,22086,Monaragala Rajakeeya V.,Monaragala Rajakeeya V.,Monaragala,82,Moneragala,8,Uva,Moneragala,Mixed,Sinhala,156,,6.860412120819092,81.33969879
+359,22111,Badalkumbura Nishshanka M.M.V.,Badalkumbura Nishshanka M.M.V.,Badalkumbura,82,Moneragala,8,Uva,Moneragala,Mixed,Sinhala,139,,6.892075061798096,81.23764801
+360,22146,Malwattawala M.M.V.,Malwattawala M.M.V.,Wellawaya,82,Moneragala,8,Uva,Wellawaya,Mixed,Sinhala,146,,6.733121871948242,81.11282348632812
+361,22149,Buttala Dutugemunu Central College,Buttala Dutugemunu Central College,Buttala,82,Moneragala,8,Uva,Wellawaya,Mixed,Sinhala,157,,6.762609958648682,81.24736022949219
+362,22184,Katharagama .M.M.V,Katharagama .M.M.V,Kataharagama.,82,Moneragala,8,Uva,Thanamalvila,Mixed,Sinhala,,,6.413200378417969,81.33639526367188
+363,22187,Thanamalwila M.M.V,Thanamalwila M.M.V,Thanamalwila.,82,Moneragala,8,Uva,Thanamalvila,Mixed,Sinhala,136,,,
+364,22270,Bibile Yashodhara G.C.,Bibile Yashodhara G.C.,Bibile,82,Moneragala,8,Uva,Bibile,Girls,Sinhala,134,,7.166803837,81.22539520263672
+365,23001,Eheliyagoda M.M.V.,Eheliyagoda M.M.V.,Eheliyagoda,91,Ratnapura,9,Sabaragamuwa,Ratnapura,Mixed,Sinhala,152,,6.85274601,80.26098633
+366,23060,Ratnapura Fergusion High School,Fergusion High School,Ratnapura,91,Ratnapura,9,Sabaragamuwa,Ratnapura,Girls,Sinhala,159,,6.6821746826171875,80.39750671386719
+367,23061,Ratnapura Sumana Balika V,Sumana Balika V,"Getangama, Ratnapura",91,Ratnapura,9,Sabaragamuwa,Ratnapura,Girls,Sinhala,145,,,
+368,23062,Ratnapura St. Aloysius National School,St. Aloysius National School,Church Road Ratnapura,91,Ratnapura,9,Sabaragamuwa,Ratnapura,Boys,Sinhala,147,,,
+369,23068,Ratnapura Convent of the Child Jesus National School,Convent of the Child Jesus National School,Ratnapura,91,Ratnapura,9,Sabaragamuwa,Ratnapura,Girls,Sinhala,139,,,
+370,23092,Ratnapura Seevalee Central College,Seevalee Central College,"Hidellana, Ratnapura",91,Ratnapura,9,Sabaragamuwa,Ratnapura,Mixed,Sinhala,168,,6.713837146759033,80.38307189941406
+371,23094,Kuruwita Central College,Kuruwita Central College,Kuruvita,91,Ratnapura,9,Sabaragamuwa,Ratnapura,Mixed,Sinhala,,,6.781383514404297,80.35986328
+372,23123,Pelmadulla Gankanda Central College,Pelmadulla Gankanda Central College,"Vidyala Mawatha, Pelmadulla",91,Ratnapura,9,Sabaragamuwa,Ratnapura,Mixed,Sinhala,144,,6.6270952224731445,80.53803253173828
+373,23209,Balangoda Ananda Maithriya M.M.V.,Balangoda Ananda Maithriya M.M.V.,"Miriswatta, Balangoda",91,Ratnapura,9,Sabaragamuwa,Balangoda,Mixed,Sinhala,150,,6.642636775970459,80.70509338378906
+374,23247,Godakawela Rahula National School,Godakawela Rahula National School,Godakawela,91,Ratnapura,9,Sabaragamuwa,Embilipitiya,Mixed,Sinhala,138,,6.505864143371582,80.64616394042969
+375,23319,Karawita National School,Karawita National School,Karawita,91,Ratnapura,9,Sabaragamuwa,Nivitigala,Mixed,Sinhala,,,6.584148406982422,80.41481781
+376,23400,Kalawana National School,Kalawana National School,Kalawana,91,Ratnapura,9,Sabaragamuwa,Nivitigala,Mixed,Sinhala,139,,6.535174369812012,80.39885711669922
+377,23431,Kolonna National School.,Kolonna National School.,Kolonna,91,Ratnapura,9,Sabaragamuwa,Embilipitiya,Mixed,Sinhala,,,6.403171539306641,80.69163513183594
+378,23465,Embilipitiya President College,Embilipitiya President College,"New Town,Embilipitiya",91,Ratnapura,9,Sabaragamuwa,Embilipitiya,Mixed,Sinhala,151,,6.560579776763916,80.01138305664062
+379,23544,Rakwana St. John's Tamil Maha Vidyalaya,Rakwana St. John's Tamil Maha Vidyalaya,Rakwana,91,Ratnapura,9,Sabaragamuwa,Embilipitiya,Mixed,Tamil,,,6.475110054016113,80.60855865478516
+380,23559,Dehigastalawa Jailani Mus M.V.,Dehigastalawa Jailani Mus M.V.,"Dehigastalawa, Balangoda",91,Ratnapura,9,Sabaragamuwa,Balangoda,Mixed,Sinhala,,,6.6396965980529785,80.71282196044922
+381,24042,Yatiyantota Dr. N.M. Perera M.M.V.,Yatiyantota Dr. N.M. Perera M.M.V.,Yatiyantota,92,Kegalle,9,Sabaragamuwa,Dehiowita,Mixed,Sinhala,,,7.033169746398926,80.28725433
+382,24066,Dehiowita National School,Dehiowita National School,Dehiowita,92,Kegalle,9,Sabaragamuwa,Dehiowita,Mixed,Sinhala,,,6.9644904136657715,80.26290130615234
+383,24112,Deraniyagala Sirisaman National School,Deraniyagala Sirisaman National School,"Vidyala Mawatha, Deraniyagala",92,Kegalle,9,Sabaragamuwa,Dehiowita,Mixed,Sinhala,140,,6.935633182525635,80.33549499511719
+384,24158,Pindeniya M.M.V,Pindeniya M.M.V,"Pindeniya, Atala",92,Kegalle,9,Sabaragamuwa,Kegalle,Mixed,Sinhala,,,7.155686378479004,80.29439544677734
+385,24228,Ruwanwella Rajasinghe M.M.V.,Ruwanwella Rajasinghe M.M.V.,Ruwanwella,92,Kegalle,9,Sabaragamuwa,Dehiowita,Mixed,Sinhala,145,,7.040393352508545,80.25400543
+386,24321,Pinnawala M.M.V.,Pinnawala M.M.V.,Rambukkana,92,Kegalle,9,Sabaragamuwa,Mawanella,Mixed,Sinhala,155,,7.310666561126709,80.38801574707031
+387,24343,Mawanella Zahira College,Mawanella Zahira College,Mawanella,92,Kegalle,9,Sabaragamuwa,Mawanella,Mixed,Tamil,,134,7.252173900604248,80.45299530029297
+388,24355,Mawanella Mayurapada M.M.V.,Mawanella Mayurapada M.M.V.,Mawanella,92,Kegalle,9,Sabaragamuwa,Mawanella,Mixed,Sinhala,,,7.249490261077881,80.43955231
+389,24381,Mawathagoda Rivisanda M.M.V.,Mawathagoda Rivisanda M.M.V.,Ussapitiya,92,Kegalle,9,Sabaragamuwa,Mawanella,Mixed,Sinhala,,,7.210850238800049,80.45594024658203
+390,24489,Kegalu Balika M.V,Kegalu Balika M.V,"Bandaranayaka Mawatha, Kegalle",92,Kegalle,9,Sabaragamuwa,Kegalle,Girls,Sinhala,152,,7.249277114868164,80.34854888916016
+391,24490,Kegalu Vidyalaya,Kegalu Vidyalaya,Kegalle,92,Kegalle,9,Sabaragamuwa,Kegalle,Boys,Sinhala,151,,7.251193523406982,80.34741211
+392,24493,Kegalle Swarnajayanthi M.V.,Swarnajayanthi M.V.,Kegalle,92,Kegalle,9,Sabaragamuwa,Kegalle,Mixed,Sinhala,148,,7.256058216094971,80.34829711914062
+393,24504,Kegalle St. Marys College,St. Marys College,Kegalle,92,Kegalle,9,Sabaragamuwa,Kegalle,Boys,Sinhala,149,,7.252261638641357,80.33660125732422
+394,24505,Kegalle St. Joseph's Balika M.V.,St. Joseph's Balika M.V.,Kegalle,92,Kegalle,9,Sabaragamuwa,Kegalle,Girls,Sinhala,156,,7.250951290130615,80.33693695
+395,24577,Tholangamuwa Dudley Senanayaka Central College,Tholangamuwa Dudley Senanayaka Central College,Tholangamuwa,92,Kegalle,9,Sabaragamuwa,Kegalle,Mixed,Sinhala,145,,7.237372398376465,80.23355865478516
+396,42024,Kurunegala Vishvoda National School,Vishvoda National School,"Boyagane, Kurunegala",61,Kurunegala,6,North Western,Kurunegala,Mixed,Sinhala,155,,7.469041824,80.32610321044922

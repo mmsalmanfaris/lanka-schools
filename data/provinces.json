@@ -1,0 +1,155 @@
+[
+  {
+    "code": 1,
+    "name": "Western",
+    "nameSi": "බස්නාහිර පළාත",
+    "nameTa": "மேல் மாகாணம்",
+    "pcode": "LK1",
+    "department": {
+      "name": "Western Provincial Department of Education",
+      "address": "\"Ranmagapaya\", Kaduwela Road, Battaramulla",
+      "phone": "0112875893"
+    },
+    "districtsCount": 3,
+    "zonesCount": 11,
+    "schoolsCount": 1339,
+    "provincialSchoolsCount": 1260,
+    "nationalSchoolsCount": 79
+  },
+  {
+    "code": 2,
+    "name": "Central",
+    "nameSi": "මධ්‍යම පළාත",
+    "nameTa": "மத்திய மாகாணம்",
+    "pcode": "LK2",
+    "department": {
+      "name": "Central Provincial Department of Education",
+      "address": "AB42, Kandy 20000",
+      "phone": "0812224041"
+    },
+    "districtsCount": 3,
+    "zonesCount": 15,
+    "schoolsCount": 1511,
+    "provincialSchoolsCount": 1455,
+    "nationalSchoolsCount": 56
+  },
+  {
+    "code": 3,
+    "name": "Southern",
+    "nameSi": "දකුණු පළාත",
+    "nameTa": "தென் மாகாணம்",
+    "pcode": "LK3",
+    "department": {
+      "name": "Southern Provincial Department of Education",
+      "address": "Upper Dickson Road, Galle",
+      "phone": "0912234237"
+    },
+    "districtsCount": 3,
+    "zonesCount": 11,
+    "schoolsCount": 1100,
+    "provincialSchoolsCount": 1030,
+    "nationalSchoolsCount": 70
+  },
+  {
+    "code": 4,
+    "name": "Northern",
+    "nameSi": "උතුරු පළාත",
+    "nameTa": "வட மாகாணம்",
+    "pcode": "LK4",
+    "department": {
+      "name": "Northern Provincial Department of Education",
+      "address": "Chemmany Road, Nallur, Jaffna",
+      "phone": "0212242810"
+    },
+    "districtsCount": 5,
+    "zonesCount": 13,
+    "schoolsCount": 969,
+    "provincialSchoolsCount": 945,
+    "nationalSchoolsCount": 24
+  },
+  {
+    "code": 5,
+    "name": "Eastern",
+    "nameSi": "නැගෙනහිර පළාත",
+    "nameTa": "கிழக்கு மாகாணம்",
+    "pcode": "LK5",
+    "department": {
+      "name": "Eastern Provincial Department of Education",
+      "address": "Inner Harbour Road, Trincomalee",
+      "phone": "0262222129"
+    },
+    "districtsCount": 3,
+    "zonesCount": 17,
+    "schoolsCount": 1128,
+    "provincialSchoolsCount": 1086,
+    "nationalSchoolsCount": 42
+  },
+  {
+    "code": 6,
+    "name": "North Western",
+    "nameSi": "වයඹ පළාත",
+    "nameTa": "வட மேல் மாகாணம்",
+    "pcode": "LK6",
+    "department": {
+      "name": "North Western Provincial Department of Education",
+      "address": "Kurunegala",
+      "phone": "0372231661"
+    },
+    "districtsCount": 2,
+    "zonesCount": 8,
+    "schoolsCount": 1241,
+    "provincialSchoolsCount": 1202,
+    "nationalSchoolsCount": 39
+  },
+  {
+    "code": 7,
+    "name": "North Central",
+    "nameSi": "උතුරු මැද පළාත",
+    "nameTa": "வட மத்திய மாகாணம்",
+    "pcode": "LK7",
+    "department": {
+      "name": "North Central Provincial Department of Education",
+      "address": "Anuradhapura",
+      "phone": "0252227475"
+    },
+    "districtsCount": 2,
+    "zonesCount": 8,
+    "schoolsCount": 806,
+    "provincialSchoolsCount": 789,
+    "nationalSchoolsCount": 17
+  },
+  {
+    "code": 8,
+    "name": "Uva",
+    "nameSi": "ඌව පළාත",
+    "nameTa": "ஊவா மாகாணம்",
+    "pcode": "LK8",
+    "department": {
+      "name": "Uva Provincial Department of Education",
+      "address": "Badulla",
+      "phone": "0552232407"
+    },
+    "districtsCount": 2,
+    "zonesCount": 10,
+    "schoolsCount": 892,
+    "provincialSchoolsCount": 854,
+    "nationalSchoolsCount": 38
+  },
+  {
+    "code": 9,
+    "name": "Sabaragamuwa",
+    "nameSi": "සබරගමුව පළාත",
+    "nameTa": "சப்ரகமுவ மாகாணம்",
+    "pcode": "LK9",
+    "department": {
+      "name": "Sabaragamuwa Provincial Department of Education",
+      "address": "Gatangama, Ratnapura",
+      "phone": "0452222403"
+    },
+    "districtsCount": 2,
+    "zonesCount": 7,
+    "schoolsCount": 1090,
+    "provincialSchoolsCount": 1059,
+    "nationalSchoolsCount": 31
+  }
+]

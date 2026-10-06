@@ -1,0 +1,26 @@
+code,name,nameSi,nameTa,pcode,provinceCode,provinceName,zonesCount,divisionsCount,schoolsCount,provincialSchoolsCount,nationalSchoolsCount,zones
+11,Colombo,කොළඹ දිස්ත්‍රික්කය,கொழும்பு மாவட்டம்,LK11,1,Western,4,14,391,352,39,Colombo;Homagama;Piliyandala;Sri Jayawardenapura
+12,Gampaha,ගම්පහ දිස්ත්‍රික්කය,கம்பஹா மாவட்டம்,LK12,1,Western,4,13,533,513,20,Gampaha;Kelaniya;Minuwangoda;Negombo
+13,Kalutara,කළුතර දිස්ත්‍රික්කය,களுத்துறை மாவட்டம்,LK13,1,Western,3,11,415,395,20,Horana;Kalutara;Matugama
+21,Kandy,මහනුවර දිස්ත්‍රික්කය,கண்டி மாவட்டம்,LK21,2,Central,6,18,650,614,36,Denuwara;Gampola;Kandy;Katugastota;Teldeniya;Waththegama
+22,Matale,මාතලේ දිස්ත්‍රික්කය,மாத்தளை மாவட்டம்,LK22,2,Central,4,11,310,298,12,Galewela;Matale;Naula;Wilgamuwa
+23,Nuwara Eliya,නුවරඑළිය දිස්ත්‍රික්කය,நுவரெலியா மாவட்டம்,LK23,2,Central,5,11,551,543,8,Hanguranketha;Hatton;Kotmale;Nuwara Eliya;Walapane
+31,Galle,ගාල්ල දිස්ත්‍රික්කය,காலி மாவட்டம்,LK31,3,Southern,4,15,425,395,30,Ambalangoda;Elpitiya;Galle;Udugama
+32,Matara,මාතර දිස්ත්‍රික්කය,மாத்தறை மாவட்டம்,LK32,3,Southern,4,14,356,333,23,Akuressa;Deniyaya;Matara;Mulatiyana
+33,Hambantota,හම්බන්තොට දිස්ත්‍රික්කය,அம்பாந்தோட்டை மாவட்டம்,LK33,3,Southern,3,10,319,302,17,Hambantota;Tangalle;Walasmulla
+41,Jaffna,යාපනය දිස්ත්‍රික්කය,யாழ்ப்பாணம் மாவட்டம்,LK41,4,Northern,5,15,440,432,8,Islands;Jaffna;Thenmaradchi;Vadamaradchi;Valikamam
+42,Mannar,මන්නාරම දිස්ත්‍රික්කය,மன்னார் மாவட்டம்,LK42,4,Northern,2,5,132,127,5,Madhu;Mannar
+43,Vavuniya,වවුනියාව දිස්ත්‍රික්කය,வவுனியா மாவட்டம்,LK43,4,Northern,2,5,168,163,5,Vavuniya North;Vavuniya South
+44,Mullaitivu,මුලතිව් දිස්ත්‍රික්කය,முல்லைத்தீவு மாவட்டம்,LK44,4,Northern,2,6,125,122,3,Mullaitivu;Thunukkai
+45,Kilinochchi,කිලිනොච්චි දිස්ත්‍රික්කය,கிளிநொச்சி மாவட்டம்,LK45,4,Northern,2,4,104,101,3,Kilinochchi North;Kilinochchi South
+51,Batticaloa,මඩකලපුව දිස්ත්‍රික්කය,மட்டக்களப்பு மாவட்டம்,LK51,5,Eastern,5,14,367,354,13,Batticaloa;Batticaloa Central;Batticaloa West;Kalkudah;Paddrippu
+52,Ampara,අම්පාර දිස්ත්‍රික්කය,அம்பாறை மாவட்டம்,LK52,5,Eastern,7,21,444,427,17,Akkaraipattu;Ampara;Dehiattakandiya;Kalmunai;Mahaoya;Sammanthurai;Thirukkovil
+53,Trincomalee,ත්‍රිකුණාමලය දිස්ත්‍රික්කය,திருகோணமலை மாவட்டம்,LK53,5,Eastern,5,13,317,305,12,Kantale;Kinniya;Muttur;Trincomalee;Trincomalee North
+61,Kurunegala,කුරුණෑගල දිස්ත්‍රික්කය,குருணாகல் மாவட்டம்,LK61,6,North Western,6,22,870,839,31,Giriulla;Ibbagamuwa;Kuliyapitiya;Kurunegala;Maho;Nikaweratiya
+62,Puttalam,පුත්තලම දිස්ත්‍රික්කය,புத்தளம் மாவட்டம்,LK62,6,North Western,2,9,371,363,8,Chilaw;Puttalam
+71,Anuradhapura,අනුරාධපුර දිස්ත්‍රික්කය,அனுராதபுரம் மாவட்டம்,LK71,7,North Central,5,22,557,549,8,Anuradhapura;Galenbindunuwewa;Kebithigollewa;Kekirawa;Thambuttegama
+72,Polonnaruwa,පොළොන්නරුව දිස්ත්‍රික්කය,பொலன்னறுவை மாவட்டம்,LK72,7,North Central,3,8,249,240,9,Dimbulagala;Hingurakgoda;Polonnaruwa
+81,Badulla,බදුල්ල දිස්ත්‍රික්කය,பதுளை மாவட்டம்,LK81,8,Uva,6,14,601,574,27,Badulla;Bandarawela;Mahiyanganaya;Passara;Viyaluwa;Welimada
+82,Moneragala,මොණරාගල දිස්ත්‍රික්කය,மொனராகலை மாவட்டம்,LK82,8,Uva,4,9,291,280,11,Bibile;Moneragala;Thanamalwila;Wellawaya
+91,Ratnapura,රත්නපුර දිස්ත්‍රික්කය,இரத்தினபுரி மாவட்டம்,LK91,9,Sabaragamuwa,4,16,585,569,16,Balangoda;Embilipitiya;Nivitigala;Ratnapura
+92,Kegalle,කෑගල්ල දිස්ත්‍රික්කය,கேகாலை மாவட்டம்,LK92,9,Sabaragamuwa,3,12,505,490,15,Dehiowita;Kegalle;Mawanella

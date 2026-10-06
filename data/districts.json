@@ -1,0 +1,502 @@
+[
+  {
+    "code": 11,
+    "name": "Colombo",
+    "nameSi": "කොළඹ දිස්ත්‍රික්කය",
+    "nameTa": "கொழும்பு மாவட்டம்",
+    "pcode": "LK11",
+    "provinceCode": 1,
+    "provinceName": "Western",
+    "zonesCount": 4,
+    "divisionsCount": 14,
+    "schoolsCount": 391,
+    "provincialSchoolsCount": 352,
+    "nationalSchoolsCount": 39,
+    "zones": [
+      "Colombo",
+      "Homagama",
+      "Piliyandala",
+      "Sri Jayawardenapura"
+    ]
+  },
+  {
+    "code": 12,
+    "name": "Gampaha",
+    "nameSi": "ගම්පහ දිස්ත්‍රික්කය",
+    "nameTa": "கம்பஹா மாவட்டம்",
+    "pcode": "LK12",
+    "provinceCode": 1,
+    "provinceName": "Western",
+    "zonesCount": 4,
+    "divisionsCount": 13,
+    "schoolsCount": 533,
+    "provincialSchoolsCount": 513,
+    "nationalSchoolsCount": 20,
+    "zones": [
+      "Gampaha",
+      "Kelaniya",
+      "Minuwangoda",
+      "Negombo"
+    ]
+  },
+  {
+    "code": 13,
+    "name": "Kalutara",
+    "nameSi": "කළුතර දිස්ත්‍රික්කය",
+    "nameTa": "களுத்துறை மாவட்டம்",
+    "pcode": "LK13",
+    "provinceCode": 1,
+    "provinceName": "Western",
+    "zonesCount": 3,
+    "divisionsCount": 11,
+    "schoolsCount": 415,
+    "provincialSchoolsCount": 395,
+    "nationalSchoolsCount": 20,
+    "zones": [
+      "Horana",
+      "Kalutara",
+      "Matugama"
+    ]
+  },
+  {
+    "code": 21,
+    "name": "Kandy",
+    "nameSi": "මහනුවර දිස්ත්‍රික්කය",
+    "nameTa": "கண்டி மாவட்டம்",
+    "pcode": "LK21",
+    "provinceCode": 2,
+    "provinceName": "Central",
+    "zonesCount": 6,
+    "divisionsCount": 18,
+    "schoolsCount": 650,
+    "provincialSchoolsCount": 614,
+    "nationalSchoolsCount": 36,
+    "zones": [
+      "Denuwara",
+      "Gampola",
+      "Kandy",
+      "Katugastota",
+      "Teldeniya",
+      "Waththegama"
+    ]
+  },
+  {
+    "code": 22,
+    "name": "Matale",
+    "nameSi": "මාතලේ දිස්ත්‍රික්කය",
+    "nameTa": "மாத்தளை மாவட்டம்",
+    "pcode": "LK22",
+    "provinceCode": 2,
+    "provinceName": "Central",
+    "zonesCount": 4,
+    "divisionsCount": 11,
+    "schoolsCount": 310,
+    "provincialSchoolsCount": 298,
+    "nationalSchoolsCount": 12,
+    "zones": [
+      "Galewela",
+      "Matale",
+      "Naula",
+      "Wilgamuwa"
+    ]
+  },
+  {
+    "code": 23,
+    "name": "Nuwara Eliya",
+    "nameSi": "නුවරඑළිය දිස්ත්‍රික්කය",
+    "nameTa": "நுவரெலியா மாவட்டம்",
+    "pcode": "LK23",
+    "provinceCode": 2,
+    "provinceName": "Central",
+    "zonesCount": 5,
+    "divisionsCount": 11,
+    "schoolsCount": 551,
+    "provincialSchoolsCount": 543,
+    "nationalSchoolsCount": 8,
+    "zones": [
+      "Hanguranketha",
+      "Hatton",
+      "Kotmale",
+      "Nuwara Eliya",
+      "Walapane"
+    ]
+  },
+  {
+    "code": 31,
+    "name": "Galle",
+    "nameSi": "ගාල්ල දිස්ත්‍රික්කය",
+    "nameTa": "காலி மாவட்டம்",
+    "pcode": "LK31",
+    "provinceCode": 3,
+    "provinceName": "Southern",
+    "zonesCount": 4,
+    "divisionsCount": 15,
+    "schoolsCount": 425,
+    "provincialSchoolsCount": 395,
+    "nationalSchoolsCount": 30,
+    "zones": [
+      "Ambalangoda",
+      "Elpitiya",
+      "Galle",
+      "Udugama"
+    ]
+  },
+  {
+    "code": 32,
+    "name": "Matara",
+    "nameSi": "මාතර දිස්ත්‍රික්කය",
+    "nameTa": "மாத்தறை மாவட்டம்",
+    "pcode": "LK32",
+    "provinceCode": 3,
+    "provinceName": "Southern",
+    "zonesCount": 4,
+    "divisionsCount": 14,
+    "schoolsCount": 356,
+    "provincialSchoolsCount": 333,
+    "nationalSchoolsCount": 23,
+    "zones": [
+      "Akuressa",
+      "Deniyaya",
+      "Matara",
+      "Mulatiyana"
+    ]
+  },
+  {
+    "code": 33,
+    "name": "Hambantota",
+    "nameSi": "හම්බන්තොට දිස්ත්‍රික්කය",
+    "nameTa": "அம்பாந்தோட்டை மாவட்டம்",
+    "pcode": "LK33",
+    "provinceCode": 3,
+    "provinceName": "Southern",
+    "zonesCount": 3,
+    "divisionsCount": 10,
+    "schoolsCount": 319,
+    "provincialSchoolsCount": 302,
+    "nationalSchoolsCount": 17,
+    "zones": [
+      "Hambantota",
+      "Tangalle",
+      "Walasmulla"
+    ]
+  },
+  {
+    "code": 41,
+    "name": "Jaffna",
+    "nameSi": "යාපනය දිස්ත්‍රික්කය",
+    "nameTa": "யாழ்ப்பாணம் மாவட்டம்",
+    "pcode": "LK41",
+    "provinceCode": 4,
+    "provinceName": "Northern",
+    "zonesCount": 5,
+    "divisionsCount": 15,
+    "schoolsCount": 440,
+    "provincialSchoolsCount": 432,
+    "nationalSchoolsCount": 8,
+    "zones": [
+      "Islands",
+      "Jaffna",
+      "Thenmaradchi",
+      "Vadamaradchi",
+      "Valikamam"
+    ]
+  },
+  {
+    "code": 42,
+    "name": "Mannar",
+    "nameSi": "මන්නාරම දිස්ත්‍රික්කය",
+    "nameTa": "மன்னார் மாவட்டம்",
+    "pcode": "LK42",
+    "provinceCode": 4,
+    "provinceName": "Northern",
+    "zonesCount": 2,
+    "divisionsCount": 5,
+    "schoolsCount": 132,
+    "provincialSchoolsCount": 127,
+    "nationalSchoolsCount": 5,
+    "zones": [
+      "Madhu",
+      "Mannar"
+    ]
+  },
+  {
+    "code": 43,
+    "name": "Vavuniya",
+    "nameSi": "වවුනියාව දිස්ත්‍රික්කය",
+    "nameTa": "வவுனியா மாவட்டம்",
+    "pcode": "LK43",
+    "provinceCode": 4,
+    "provinceName": "Northern",
+    "zonesCount": 2,
+    "divisionsCount": 5,
+    "schoolsCount": 168,
+    "provincialSchoolsCount": 163,
+    "nationalSchoolsCount": 5,
+    "zones": [
+      "Vavuniya North",
+      "Vavuniya South"
+    ]
+  },
+  {
+    "code": 44,
+    "name": "Mullaitivu",
+    "nameSi": "මුලතිව් දිස්ත්‍රික්කය",
+    "nameTa": "முல்லைத்தீவு மாவட்டம்",
+    "pcode": "LK44",
+    "provinceCode": 4,
+    "provinceName": "Northern",
+    "zonesCount": 2,
+    "divisionsCount": 6,
+    "schoolsCount": 125,
+    "provincialSchoolsCount": 122,
+    "nationalSchoolsCount": 3,
+    "zones": [
+      "Mullaitivu",
+      "Thunukkai"
+    ]
+  },
+  {
+    "code": 45,
+    "name": "Kilinochchi",
+    "nameSi": "කිලිනොච්චි දිස්ත්‍රික්කය",
+    "nameTa": "கிளிநொச்சி மாவட்டம்",
+    "pcode": "LK45",
+    "provinceCode": 4,
+    "provinceName": "Northern",
+    "zonesCount": 2,
+    "divisionsCount": 4,
+    "schoolsCount": 104,
+    "provincialSchoolsCount": 101,
+    "nationalSchoolsCount": 3,
+    "zones": [
+      "Kilinochchi North",
+      "Kilinochchi South"
+    ]
+  },
+  {
+    "code": 51,
+    "name": "Batticaloa",
+    "nameSi": "මඩකලපුව දිස්ත්‍රික්කය",
+    "nameTa": "மட்டக்களப்பு மாவட்டம்",
+    "pcode": "LK51",
+    "provinceCode": 5,
+    "provinceName": "Eastern",
+    "zonesCount": 5,
+    "divisionsCount": 14,
+    "schoolsCount": 367,
+    "provincialSchoolsCount": 354,
+    "nationalSchoolsCount": 13,
+    "zones": [
+      "Batticaloa",
+      "Batticaloa Central",
+      "Batticaloa West",
+      "Kalkudah",
+      "Paddrippu"
+    ]
+  },
+  {
+    "code": 52,
+    "name": "Ampara",
+    "nameSi": "අම්පාර දිස්ත්‍රික්කය",
+    "nameTa": "அம்பாறை மாவட்டம்",
+    "pcode": "LK52",
+    "provinceCode": 5,
+    "provinceName": "Eastern",
+    "zonesCount": 7,
+    "divisionsCount": 21,
+    "schoolsCount": 444,
+    "provincialSchoolsCount": 427,
+    "nationalSchoolsCount": 17,
+    "zones": [
+      "Akkaraipattu",
+      "Ampara",
+      "Dehiattakandiya",
+      "Kalmunai",
+      "Mahaoya",
+      "Sammanthurai",
+      "Thirukkovil"
+    ]
+  },
+  {
+    "code": 53,
+    "name": "Trincomalee",
+    "nameSi": "ත්‍රිකුණාමලය දිස්ත්‍රික්කය",
+    "nameTa": "திருகோணமலை மாவட்டம்",
+    "pcode": "LK53",
+    "provinceCode": 5,
+    "provinceName": "Eastern",
+    "zonesCount": 5,
+    "divisionsCount": 13,
+    "schoolsCount": 317,
+    "provincialSchoolsCount": 305,
+    "nationalSchoolsCount": 12,
+    "zones": [
+      "Kantale",
+      "Kinniya",
+      "Muttur",
+      "Trincomalee",
+      "Trincomalee North"
+    ]
+  },
+  {
+    "code": 61,
+    "name": "Kurunegala",
+    "nameSi": "කුරුණෑගල දිස්ත්‍රික්කය",
+    "nameTa": "குருணாகல் மாவட்டம்",
+    "pcode": "LK61",
+    "provinceCode": 6,
+    "provinceName": "North Western",
+    "zonesCount": 6,
+    "divisionsCount": 22,
+    "schoolsCount": 870,
+    "provincialSchoolsCount": 839,
+    "nationalSchoolsCount": 31,
+    "zones": [
+      "Giriulla",
+      "Ibbagamuwa",
+      "Kuliyapitiya",
+      "Kurunegala",
+      "Maho",
+      "Nikaweratiya"
+    ]
+  },
+  {
+    "code": 62,
+    "name": "Puttalam",
+    "nameSi": "පුත්තලම දිස්ත්‍රික්කය",
+    "nameTa": "புத்தளம் மாவட்டம்",
+    "pcode": "LK62",
+    "provinceCode": 6,
+    "provinceName": "North Western",
+    "zonesCount": 2,
+    "divisionsCount": 9,
+    "schoolsCount": 371,
+    "provincialSchoolsCount": 363,
+    "nationalSchoolsCount": 8,
+    "zones": [
+      "Chilaw",
+      "Puttalam"
+    ]
+  },
+  {
+    "code": 71,
+    "name": "Anuradhapura",
+    "nameSi": "අනුරාධපුර දිස්ත්‍රික්කය",
+    "nameTa": "அனுராதபுரம் மாவட்டம்",
+    "pcode": "LK71",
+    "provinceCode": 7,
+    "provinceName": "North Central",
+    "zonesCount": 5,
+    "divisionsCount": 22,
+    "schoolsCount": 557,
+    "provincialSchoolsCount": 549,
+    "nationalSchoolsCount": 8,
+    "zones": [
+      "Anuradhapura",
+      "Galenbindunuwewa",
+      "Kebithigollewa",
+      "Kekirawa",
+      "Thambuttegama"
+    ]
+  },
+  {
+    "code": 72,
+    "name": "Polonnaruwa",
+    "nameSi": "පොළොන්නරුව දිස්ත්‍රික්කය",
+    "nameTa": "பொலன்னறுவை மாவட்டம்",
+    "pcode": "LK72",
+    "provinceCode": 7,
+    "provinceName": "North Central",
+    "zonesCount": 3,
+    "divisionsCount": 8,
+    "schoolsCount": 249,
+    "provincialSchoolsCount": 240,
+    "nationalSchoolsCount": 9,
+    "zones": [
+      "Dimbulagala",
+      "Hingurakgoda",
+      "Polonnaruwa"
+    ]
+  },
+  {
+    "code": 81,
+    "name": "Badulla",
+    "nameSi": "බදුල්ල දිස්ත්‍රික්කය",
+    "nameTa": "பதுளை மாவட்டம்",
+    "pcode": "LK81",
+    "provinceCode": 8,
+    "provinceName": "Uva",
+    "zonesCount": 6,
+    "divisionsCount": 14,
+    "schoolsCount": 601,
+    "provincialSchoolsCount": 574,
+    "nationalSchoolsCount": 27,
+    "zones": [
+      "Badulla",
+      "Bandarawela",
+      "Mahiyanganaya",
+      "Passara",
+      "Viyaluwa",
+      "Welimada"
+    ]
+  },
+  {
+    "code": 82,
+    "name": "Moneragala",
+    "nameSi": "මොණරාගල දිස්ත්‍රික්කය",
+    "nameTa": "மொனராகலை மாவட்டம்",
+    "pcode": "LK82",
+    "provinceCode": 8,
+    "provinceName": "Uva",
+    "zonesCount": 4,
+    "divisionsCount": 9,
+    "schoolsCount": 291,
+    "provincialSchoolsCount": 280,
+    "nationalSchoolsCount": 11,
+    "zones": [
+      "Bibile",
+      "Moneragala",
+      "Thanamalwila",
+      "Wellawaya"
+    ]
+  },
+  {
+    "code": 91,
+    "name": "Ratnapura",
+    "nameSi": "රත්නපුර දිස්ත්‍රික්කය",
+    "nameTa": "இரத்தினபுரி மாவட்டம்",
+    "pcode": "LK91",
+    "provinceCode": 9,
+    "provinceName": "Sabaragamuwa",
+    "zonesCount": 4,
+    "divisionsCount": 16,
+    "schoolsCount": 585,
+    "provincialSchoolsCount": 569,
+    "nationalSchoolsCount": 16,
+    "zones": [
+      "Balangoda",
+      "Embilipitiya",
+      "Nivitigala",
+      "Ratnapura"
+    ]
+  },
+  {
+    "code": 92,
+    "name": "Kegalle",
+    "nameSi": "කෑගල්ල දිස්ත්‍රික්කය",
+    "nameTa": "கேகாலை மாவட்டம்",
+    "pcode": "LK92",
+    "provinceCode": 9,
+    "provinceName": "Sabaragamuwa",
+    "zonesCount": 3,
+    "divisionsCount": 12,
+    "schoolsCount": 505,
+    "provincialSchoolsCount": 490,
+    "nationalSchoolsCount": 15,
+    "zones": [
+      "Dehiowita",
+      "Kegalle",
+      "Mawanella"
+    ]
+  }
+]

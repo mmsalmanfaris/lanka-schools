@@ -1,0 +1,10 @@
+code,name,nameSi,nameTa,pcode,districtsCount,zonesCount,schoolsCount,provincialSchoolsCount,nationalSchoolsCount,deptName,deptAddress,deptPhone
+1,Western,බස්නාහිර පළාත,மேல் மாகாணம்,LK1,3,11,1339,1260,79,Western Provincial Department of Education,"""Ranmagapaya"", Kaduwela Road, Battaramulla",0112875893
+2,Central,මධ්‍යම පළාත,மத்திய மாகாணம்,LK2,3,15,1511,1455,56,Central Provincial Department of Education,"AB42, Kandy 20000",0812224041
+3,Southern,දකුණු පළාත,தென் மாகாணம்,LK3,3,11,1100,1030,70,Southern Provincial Department of Education,"Upper Dickson Road, Galle",0912234237
+4,Northern,උතුරු පළාත,வட மாகாணம்,LK4,5,13,969,945,24,Northern Provincial Department of Education,"Chemmany Road, Nallur, Jaffna",0212242810
+5,Eastern,නැගෙනහිර පළාත,கிழக்கு மாகாணம்,LK5,3,17,1128,1086,42,Eastern Provincial Department of Education,"Inner Harbour Road, Trincomalee",0262222129
+6,North Western,වයඹ පළාත,வட மேல் மாகாணம்,LK6,2,8,1241,1202,39,North Western Provincial Department of Education,Kurunegala,0372231661
+7,North Central,උතුරු මැද පළාත,வட மத்திய மாகாணம்,LK7,2,8,806,789,17,North Central Provincial Department of Education,Anuradhapura,0252227475
+8,Uva,ඌව පළාත,ஊவா மாகாணம்,LK8,2,10,892,854,38,Uva Provincial Department of Education,Badulla,0552232407
+9,Sabaragamuwa,සබරගමුව පළාත,சப்ரகமுவ மாகாணம்,LK9,2,7,1090,1059,31,Sabaragamuwa Provincial Department of Education,"Gatangama, Ratnapura",0452222403

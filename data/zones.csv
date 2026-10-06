@@ -1,0 +1,101 @@
+id,name,nameSi,nameTa,districtCode,districtName,provinceCode,provinceName,divisions,provincialSchools,nationalSchools,totalSchools,phone,email,aliases
+colombo,Colombo,කොළඹ,கொழும்பு,11,Colombo,1,Western,Borella;Colombo Central;Colombo North;Colombo South,101,21,122,,,colombo north;colombo south;colombo central;borella
+homagama,Homagama,හෝමාගම,ஓமாகம,11,Colombo,1,Western,Hanwella;Homagama;Padukka,95,4,99,0112855225,,hanwella;padukka;avissawella
+piliyandala,Piliyandala,,,11,Colombo,1,Western,Dehiwala;Kesbewa;Moratuwa,80,5,85,0112614200,pil@edudept.wp.gov.lk,dehiwala;mount lavinia;moratuwa;kesbewa
+sri-jayawardenapura,Sri Jayawardenapura,,,11,Colombo,1,Western,Kaduwela;Kolonnawa;Maharagama;Nugegoda,76,9,85,0112876627,,sri jayawardenepura;jayawardenapura;japura;kotte;nugegoda
+gampaha,Gampaha,ගම්පහ,கம்பஹா,12,Gampaha,1,Western,Attanagalla;Dompe (Weke);Gampaha,138,7,145,0332231663,,attanagalla;dompe;nittambuwa
+kelaniya,Kelaniya,කැලණිය,களனி,12,Gampaha,1,Western,Biyagama;Kelaniya;Mahara;Wattala,108,6,114,0112927592,nemis.kel@edudept.wp.gov.lk,wattala;mahara;biyagama
+minuwangoda,Minuwangoda,මිනුවන්ගොඩ,மினுவான்கொடை,12,Gampaha,1,Western,Divulapitiya;Meerigama;Minuwangoda,154,3,157,0112295077,,divulapitiya;meerigama;mirigama
+negombo,Negombo,මීගමුව,நீர்கொழும்பு,12,Gampaha,1,Western,Ja-Ela;Katana;Negombo,113,4,117,0112265639,,katana;ja-ela;jaela
+horana,Horana,හොරණ,ஹொராண,13,Kalutara,1,Western,Bandaragama;Bulathsinhala;Horana,132,5,137,0342262663,,bandaragama;bulathsinhala
+kalutara,Kalutara,කළුතර,களுத்துறை,13,Kalutara,1,Western,Beruwala;Dodangoda;Kalutara;Panadura,137,12,149,0342222007,,panadura;beruwala;dodangoda
+matugama,Matugama,,,13,Kalutara,1,Western,Agalawatta;Matugama;Palindanuwara;Walallawita,126,3,129,0342247218,,agalawatta;walallawita;palindanuwara
+denuwara,Denuwara,,,21,Kandy,2,Central,Udunuwara;Yatinuwara,83,4,87,0812575543,,deltota;udunuwara;yatinuwara
+gampola,Gampola,,,21,Kandy,2,Central,Ganga Ihala Korale;Pasbage Korale;Udapalatha,137,6,143,0812350368,,udapalatha;nawalapitiya;pasbage korale
+kandy,Kandy,මහනුවර,கண்டி,21,Kandy,2,Central,Gangawata Korale;Pathahewaheta,108,9,117,0812234522,,
+katugastota,Katugastota,,,21,Kandy,2,Central,Akurana;Galagedara;Harispattuwa;Hatharaliyadda;Poojapitiya,110,10,120,,,katugasthota
+teldeniya,Teldeniya,,,21,Kandy,2,Central,Medadumbara;Minipe;Udadumbara,94,3,97,0812374435,,medadumbara;minipe;udadumbara
+waththegama,Waththegama,,,21,Kandy,2,Central,Kundasale;Panvila;Pathadumbara,82,4,86,0812476307,,wattegama;wathegama
+galewela,Galewela,ගලේවෙල,கலேவெல,22,Matale,2,Central,Dambulla;Galewela;Pallepola,105,2,107,0662289303,,dambulla;pallepola
+matale,Matale,මාතලේ,மாத்தளை,22,Matale,2,Central,Matale;Rattota;Ukuwela;Yatawatta,110,9,119,0662222333,,rattota;ukuwela;yatawatta
+naula,Naula,නාඋල,நாவுல,22,Matale,2,Central,Ambanganga Korale;Naula,38,1,39,0662246103,,ambanganga korale
+wilgamuwa,Wilgamuwa,විල්ගමුව,வில்கமுவ,22,Matale,2,Central,Laggala;Wilgamuwa,45,0,45,0662250102,,laggala;hettipola
+hanguranketha,Hanguranketha,හඟුරන්කෙත,ஹன்குரன்கெத,23,Nuwara Eliya,2,Central,Udahewaheta,66,2,68,0812369039,,udahewaheta
+hatton,Hatton,,,23,Nuwara Eliya,2,Central,Ambagamuwa;Hatton Tamil - I;Hatton Tamil - II;Hatton Tamil - III,150,1,151,0512224920,,hatton zone;maskeliya;dickoya
+kotmale,Kotmale,,,23,Nuwara Eliya,2,Central,Kotmale,84,3,87,0522259873,,kothmale
+nuwara-eliya,Nuwara Eliya,නුවරඑළිය,நுவரெலியா,23,Nuwara Eliya,2,Central,Nuwara Eliya;Nuwara Eliya Tamil - I;Nuwara Eliya Tamil - II;Nuwara Eliya Tamil - III,155,1,156,0522222311,,nuwaraeliya;nuwara-eliya
+walapane,Walapane,වලපනේ,வலபானை,23,Nuwara Eliya,2,Central,Walapane,88,1,89,0522279131,,rikillagaskada
+ambalangoda,Ambalangoda,අම්බලන්ගොඩ,அம்பலாங்கொடை,31,Galle,3,Southern,Ambalangoda;Balapitiya;Hikkaduwa,76,5,81,0912258596,,hikkaduwa;balapitiya
+elpitiya,Elpitiya,ඇල්පිටිය,எல்பிட்டிய,31,Galle,3,Southern,Bentota;Elpitiya;Karandeniya;Niyagama;Welivitiya-Divithura,119,3,122,0912291084,,karandeniya;bentota
+galle,Galle,ගාල්ල,காலி,31,Galle,3,Southern,Akmeemana;Baddegama;Galle;Habaraduwa,125,19,144,0912246337,,
+udugama,Udugama,,,31,Galle,3,Southern,Mapalagama;Thawalama;Yakkalamulla,75,3,78,,,thawalama;yakkalamulla;neluwa
+akuressa,Akuressa,අකුරැස්ස,அக்குரெஸ்ஸ,32,Matara,3,Southern,Akuressa;Malimboda;Welipitiya,75,2,77,,,malimboda;welipitiya
+deniyaya,Deniyaya,,,32,Matara,3,Southern,Kotapola;Morawaka;Pasgoda,73,4,77,,,morawaka;deniyaya (morawaka)
+matara,Matara,මාතර,மாத்தறை,32,Matara,3,Southern,Devinuwara;Dikwella;Matara;Weligama,98,13,111,0412224066,,
+mulatiyana,Mulatiyana,මුලටියන,முலடியன,32,Matara,3,Southern,Hakmana;Kamburupitiya;Mulatiyana;Thihagoda,87,4,91,0412286004,,hakmana;mulatiyana (hakmana);mulatiyana hakmana
+hambantota,Hambantota,හම්බන්තොට,அம்பாந்தோட்டை,33,Hambantota,3,Southern,Ambalantota;Hambantota;Lunugamvehera;Sooriyawewa;Thissamaharama,115,7,122,,,thissamaharama;ambalantota;sooriyawewa
+tangalle,Tangalle,තංගල්ල,தங்கல்லை,33,Hambantota,3,Southern,Angunakolapelessa;Beliatta;Tangalle,100,6,106,0472240268,,beliatta;angunakolapelessa
+walasmulla,Walasmulla,වලස්මුල්ල,வலஸ்முல்லை,33,Hambantota,3,Southern,Katuwana;Walasmulla,87,4,91,,,katuwana
+islands,Islands,,,41,Jaffna,4,Northern,Delft;Karainagar;Kayts;Velanai,63,0,63,,,island;islands zone;kayts;delft
+jaffna,Jaffna,යාපනය,யாழ்ப்பாணம்,41,Jaffna,4,Northern,Jaffna;Kopay;Nallur,94,4,98,0212222449,,kopay;nallur
+thenmaradchi,Thenmaradchi,,,41,Jaffna,4,Northern,Chavakachcheri,57,1,58,0212270787,,thenmarachchi;thenmaratchi;chavakachcheri
+vadamaradchi,Vadamaradchi,,,41,Jaffna,4,Northern,Karaveddy;Maruthankerney;Point Pedru,78,2,80,,,vadamarachchi;vadamaratchi;point pedro
+valikamam,Valikamam,,,41,Jaffna,4,Northern,Chankanai;Sandilipay;Tellippalai;Uduvil,140,1,141,,,vallikamam;valigamam
+madhu,Madhu,මඩු,மடு,42,Mannar,4,Northern,Madhu;Manthai West,50,0,50,0232051199,,madu;madhu zone
+mannar,Mannar,මන්නාරම,மன்னார்,42,Mannar,4,Northern,Mannar;Musali;Nanattan,77,5,82,0232223771,,nanattan;musali
+vavuniya-north,Vavuniya North,වවුනියාව උතුර,வவுனியா வடக்கு,43,Vavuniya,4,Northern,Nedunkerny;Omanthai,72,0,72,0242051910,,vavuniya;nedunkerny
+vavuniya-south,Vavuniya South,වවුනියාව දකුණ,வவுனியா தெற்கு,43,Vavuniya,4,Northern,Vavuniya South (Sinhala);Vavuniya South (Tamil);Vengalacheddikulam,91,5,96,,,vavuniya;vavuniya town
+mullaitivu,Mullaitivu,මුලතිව්,முல்லைத்தீவு,44,Mullaitivu,4,Northern,Maritimepattu;Puthukkudiyiruppu;Welioya,64,2,66,,,puthukkudiyiruppu;maritimepattu;oddusuddan
+thunukkai,Thunukkai,තුනුක්කායි,துணுக்காய்,44,Mullaitivu,4,Northern,Manthai East;Oddusuddan;Thunukkai,58,1,59,0212060032,,thunukai;mankulam
+kilinochchi-north,Kilinochchi North,,,45,Kilinochchi,4,Northern,Kandawalai;Pallai,37,1,38,,,kilinochchi;killinochchi north;pallai
+kilinochchi-south,Kilinochchi South,,,45,Kilinochchi,4,Northern,Karachchi;Poonakary,64,2,66,,,kilinochchi;killinochchi south;kilinochchi town
+batticaloa,Batticaloa,මඩකලපුව,மட்டக்களப்பு,51,Batticaloa,5,Eastern,Eravur Pattu - I (Chenkalady);Manmunai North (Batticaloa);Manmunai Pattu,62,4,66,,,
+batticaloa-central,Batticaloa Central,,,51,Batticaloa,5,Eastern,Eravur Town;Kaththankudy;Koralai Pattu West,72,6,78,,,batticaloa central zone;eravur
+batticaloa-west,Batticaloa West,,,51,Batticaloa,5,Eastern,Eravur Pattu - III;Manmunai South West;Manmunai West,68,0,68,0655678787,,chenkalady west;manmunai west
+kalkudah,Kalkudah,,,51,Batticaloa,5,Eastern,Eravur Pattu - II;Koralai Pattu;Koralai Pattu North,84,1,85,0652258130,,kalkuda;valaichchenai
+paddrippu,Paddrippu,,,51,Batticaloa,5,Eastern,Manmunai South & Eruvil Pattu;Porativu Pattu,68,2,70,0652251601,,paddiruppu;paddirippu;kaluwanchikudy
+akkaraipattu,Akkaraipattu,අක්කරෙයිපත්තු,அக்கரைப்பற்று,52,Ampara,5,Eastern,Addalachchenai;Akkaraipattu;Pottuvil - I,69,3,72,,akk@edudept.ep.gov.lk,akkaraippattu;addalachchenai
+ampara,Ampara,අම්පාර,அம்பாறை,52,Ampara,5,Eastern,Ampara;Damana;Lahugala;Uhana,100,3,103,,,uhana;damana;lahugala
+dehiattakandiya,Dehiattakandiya,දෙහිඅත්තකණ්ඩිය,தெஹியட்டகண்டிய,52,Ampara,5,Eastern,Dehiattakandiya,46,1,47,,,dehiaththakandiya
+kalmunai,Kalmunai,,,52,Ampara,5,Eastern,Kalmunai;Kalmunai Tamil;Karaithivu;Ninthavur;Sainthamaruthu,61,4,65,,,kalmunai tamil;sainthamaruthu
+mahaoya,Mahaoya,මහඔය,மகாஓய,52,Ampara,5,Eastern,Mahaoya;Padiyatalawa,39,1,40,0632244095,,padiyatalawa
+sammanthurai,Sammanthurai,සම්මන්තුරේ,சம்மாந்துறை,52,Ampara,5,Eastern,Irakkamam;Navithanveli;Sammanthurai,68,3,71,,,samanthurai;sammanthurai zone
+thirukkovil,Thirukkovil,තිරුකෝවිල්,திருக்கோவில்,52,Ampara,5,Eastern,Alayadivembu;Pottuvil - II (Tamil);Thirukkovil,44,2,46,0672265356,,thirukovil;pottuvil
+kantale,Kantale,කන්තලේ,கந்தளாய்,53,Trincomalee,5,Eastern,Kantale;Seruvila,43,1,44,,,kanthale;kantalai
+kinniya,Kinniya,කිඤ්ඤිය,கிண்ணியா,53,Trincomalee,5,Eastern,Kinniya;Kurinchakerny;Mullipothana,64,3,67,0262236155,kin@edudept.ep.gov.lk,kurinchakerny;mullipothana
+muttur,Muttur,මුතූර්,மூதூர்,53,Trincomalee,5,Eastern,Echchilampattu;Muttur,87,1,88,0262238256,mut@edudept.ep.gov.lk,mutur;moothur
+trincomalee,Trincomalee,ත්‍රිකුණාමලය,திருகோணமலை,53,Trincomalee,5,Eastern,Kuchchaveli;Thampalakamam;Trincomalee Town,77,6,83,,,trincomalee town;kuchchaveli;thampalakamam
+trincomalee-north,Trincomalee North,,,53,Trincomalee,5,Eastern,Gomarankadawala;Morawewa;Padavi Sripura,34,1,35,0262255056,trn@edudept.ep.gov.lk,gomarankadawala;morawewa;padavi sripura
+giriulla,Giriulla,,,61,Kurunegala,6,North Western,Alawwa;Kuliyapitiya East;Pannala,129,8,137,0372050497,,alawwa;pannala
+ibbagamuwa,Ibbagamuwa,ඉබ්බාගමුව,இப்பாகமுவ,61,Kurunegala,6,North Western,Ganewatta;Ibbagamuwa;Rideegama,106,2,108,0372259651,,rideegama;ganewatta
+kuliyapitiya,Kuliyapitiya,,,61,Kurunegala,6,North Western,Bingiriya;Dahanekgedara;Kuliyapitiya West;Panduwasnuwara;Udubaddawa,160,5,165,0372281247;0372281246,,kuliyapitiya west;panduwasnuwara
+kurunegala,Kurunegala,කුරුණෑගල,குருநாகல்,61,Kurunegala,6,North Western,Kurunegala;Mawathagama;Polgahawela,110,8,118,0372224839,,mawathagama;polgahawela
+maho,Maho,මහව,மஹவ,61,Kurunegala,6,North Western,Galgamuwa;Giribawa;Maho;Polpitigama,183,5,188,0372275236,,mahawa;maho zone
+nikaweratiya,Nikaweratiya,නිකවැරටිය,நிக்கவெரட்டிய,61,Kurunegala,6,North Western,Kobeigane;Kotavehera;Nikaweratiya;Wariyapola,151,3,154,0372260359,,wariyapola
+chilaw,Chilaw,හලාවත,சிலாபம்,62,Puttalam,6,North Western,Arachchikattuwa;Chilaw;Nattandiya;Wennappuwa,153,5,158,0322222387,,nattandiya;wennappuwa;arachchikattuwa
+puttalam,Puttalam,පුත්තලම,புத்தளம்,62,Puttalam,6,North Western,Anamaduwa;Kalpitiya;Pallama;Puttalam North;Puttalam South,210,3,213,0322264061,,kalpitiya;anamaduwa;pallama
+anuradhapura,Anuradhapura,අනුරාධපුර,அனுராதபுரம்,71,Anuradhapura,7,North Central,Mahawilachchiya;Nachchaduwa;Nochchiyagama;Nuwaragam Palatha Central;Nuwaragam Palatha East;Rambewa,133,3,136,0252220214,,nochchiyagama;rambewa;nuwaragam palatha
+galenbindunuwewa,Galenbindunuwewa,ගලෙන්බිඳුණුවැව,கலென்பிந்துணுவெவ,71,Anuradhapura,7,North Central,Galenbindunuwewa;Kahatagasdigiliya;Mihintale,95,0,95,0252258245,,galenbindunuwewa zone;mihintale;kahatagasdigiliya
+kebithigollewa,Kebithigollewa,කැබිතිගොල්ලෑව,கெபித்திகொல்லேவ,71,Anuradhapura,7,North Central,Horowpothana;Kebithigollewa;Medawachchiya;Padaviya,124,1,125,0252298615,,medawachchiya;horowpothana
+kekirawa,Kekirawa,කැකිරාව,கெகிராவ,71,Anuradhapura,7,North Central,Ipalogama;Kekirawa;Palagala;Palugaswewa;Thirappane,128,2,130,0252264233,,ipalogama;palagala;thirappane
+thambuttegama,Thambuttegama,තඹුත්තේගම,தம்புத்தேகம,71,Anuradhapura,7,North Central,Galnewa;Rajanganaya;Thalawa;Thambuttegama,69,2,71,0252276248,,tambuttegama;thalawa
+dimbulagala,Dimbulagala,දිඹුලාගල,திம்புலாகலை,72,Polonnaruwa,7,North Central,Aralaganwila;Dimbulagala;Welikanda,99,1,100,,,aralaganwila;welikanda;manampitiya
+hingurakgoda,Hingurakgoda,හිඟුරක්ගොඩ,ஹிங்குரக்கொடை,72,Polonnaruwa,7,North Central,Elahera;Hingurakgoda;Medirigiriya,91,5,96,0272246243,,medirigiriya;minneriya
+polonnaruwa,Polonnaruwa,පොළොන්නරුව,பொலன்னறுவை,72,Polonnaruwa,7,North Central,Lankapura;Thamankaduwa,50,3,53,0272222184,,kaduruwela;thamankaduwa;lankapura
+badulla,Badulla,බදුල්ල,பதுளை,81,Badulla,8,Uva,Badulla;Hali-Ela,106,6,112,0552294044,,hali-ela;haliela
+bandarawela,Bandarawela,බණ්ඩාරවෙල,பண்டாரவெளை,81,Badulla,8,Uva,Bandarawela;Ella;Haldummulla;Haputale,130,10,140,,,haputale;ella;haldummulla
+mahiyanganaya,Mahiyanganaya,මහියංගණය,மஹியங்கனை,81,Badulla,8,Uva,Mahiyanganaya;Rideemaliyedda,79,2,81,0552258193,,rideemaliyedda
+passara,Passara,පස්සර,பஸ்சர,81,Badulla,8,Uva,Passara,86,2,88,0552288130,,lunugala
+viyaluwa,Viyaluwa,,,81,Badulla,8,Uva,Kandaketiya;Meegahakivula;Soranatota,67,3,70,,,wiyaluwa;meegahakivula
+welimada,Welimada,වැලිමඩ,வெலிமடை,81,Badulla,8,Uva,Uva Paranagama;Welimada,106,4,110,,,uva paranagama
+bibile,Bibile,බිබිලේ,பிபிலை,82,Moneragala,8,Uva,Bibile;Madulla;Medagama,79,3,82,,,madulla;medagama
+moneragala,Moneragala,,,82,Moneragala,8,Uva,Badalkumbura;Moneragala;Siyambalanduwa,105,4,109,0552276070,,monaragala
+thanamalwila,Thanamalwila,,,82,Moneragala,8,Uva,Thanamalwila,41,2,43,,,thanamalvila
+wellawaya,Wellawaya,වැල්ලවාය,வெல்லவாயை,82,Moneragala,8,Uva,Buttala;Wellawaya,55,2,57,0552274819,,buttala
+balangoda,Balangoda,බලංගොඩ,பலாங்கொடை,91,Ratnapura,9,Sabaragamuwa,Balangoda;Imbulpe;Weligepola,131,2,133,0452288432,,imbulpe;weligepola
+embilipitiya,Embilipitiya,ඇඹිලිපිටිය,எம்பிலிபிட்டிய,91,Ratnapura,9,Sabaragamuwa,Embilipitiya;Godakawela;Kolonna,122,4,126,0472230336,,godakawela;kolonna
+nivitigala,Nivitigala,,,91,Ratnapura,9,Sabaragamuwa,Ayagama;Elapatha;Kahawatta;Kalawana;Nivitigala,139,2,141,,,kalawana;kahawatta
+ratnapura,Ratnapura,රත්නපුර,இரத்தினபுரி,91,Ratnapura,9,Sabaragamuwa,Eheliyagoda;Kuruwita;Pelmadulla;Ratnapura;Sri Pada,177,8,185,,,eheliyagoda;kuruwita;pelmadulla
+dehiowita,Dehiowita,දෙහිඕවිට,தெஹிஓவிட்ட,92,Kegalle,9,Sabaragamuwa,Dehiowita;Deraniyagala;Kitulgala;Ruwanwella;Yatiyantota,213,4,217,0362267412,,deraniyagala;yatiyantota;ruwanwella;kitulgala
+kegalle,Kegalle,කෑගල්ල,கேகாலை,92,Kegalle,9,Sabaragamuwa,Dedigama;Galigamuwa;Kegalle;Warakapola,148,7,155,0352222520,,warakapola;galigamuwa
+mawanella,Mawanella,මාවනැල්ල,மாவனெல்ல,92,Kegalle,9,Sabaragamuwa,Aranayaka;Mawanella;Rambukkana,129,4,133,,,rambukkana;aranayaka

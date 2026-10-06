@@ -1,0 +1,2315 @@
+import {
+  getNationalSchools
+} from "./chunk-QGFZDRJH.mjs";
+import {
+  calculateDistance,
+  normalizeText
+} from "./chunk-RWJNZNRK.mjs";
+
+// data/grade5-cutoffs.json
+var grade5_cutoffs_default = [
+  {
+    censusNo: "00081",
+    schoolName: "Visakha Vidyalaya",
+    town: "Colombo 05",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 176
+  },
+  {
+    censusNo: "00045",
+    schoolName: "Royal College",
+    town: "Colombo 07",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 175
+  },
+  {
+    censusNo: "00066",
+    schoolName: "Devi Balika Vidyalaya",
+    town: "Colombo 08",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 171
+  },
+  {
+    censusNo: "00045",
+    schoolName: "Royal College",
+    town: "Colombo 07",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 171
+  },
+  {
+    censusNo: "00046",
+    schoolName: "Ananda College",
+    town: "Colombo 10",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 170
+  },
+  {
+    censusNo: "00074",
+    schoolName: "Sirimavo Bandaranaike Vidyalaya",
+    town: "Colombo 07",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 168
+  },
+  {
+    censusNo: "00047",
+    schoolName: "Nalanda College",
+    town: "Colombo 10",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 167
+  },
+  {
+    censusNo: "00150",
+    schoolName: "Anula Vidyalaya",
+    town: "Nugegoda",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 164
+  },
+  {
+    censusNo: "00060",
+    schoolName: "D. S. Senanayake College",
+    town: "Colombo 07",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 164
+  },
+  {
+    censusNo: "00048",
+    schoolName: "Thurstan College",
+    town: "Colombo 03",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 162
+  },
+  {
+    censusNo: "00080",
+    schoolName: "St. Paul's Girls' School",
+    town: "Colombo 05",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 161
+  },
+  {
+    censusNo: "00077",
+    schoolName: "Isipathana College",
+    town: "Colombo 05",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 159
+  },
+  {
+    censusNo: "00079",
+    schoolName: "Mahanama College",
+    town: "Colombo 03",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 157
+  },
+  {
+    censusNo: "01137",
+    schoolName: "Rathnavali Balika Vidyalaya",
+    town: "Gampaha",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 165
+  },
+  {
+    censusNo: "01136",
+    schoolName: "Bandaranayake College",
+    town: "Gampaha",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 158
+  },
+  {
+    censusNo: "01319",
+    schoolName: "Viharamahadevi Balika Vidyalaya",
+    town: "Kiribathgoda",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 157
+  },
+  {
+    censusNo: "01083",
+    schoolName: "Bandaranayake Central College",
+    town: "Veyangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 156
+  },
+  {
+    censusNo: "01138",
+    schoolName: "Yasodara Devi Balika Maha Vidyalaya",
+    town: "Gampaha",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 156
+  },
+  {
+    censusNo: "01501",
+    schoolName: "President's College",
+    town: "Minuwangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "01593",
+    schoolName: "Taxila Maha Vidyalaya",
+    town: "Gampaha",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 148
+  },
+  {
+    censusNo: "01590",
+    schoolName: "Visakha Balika Vidyalaya",
+    town: "Makola",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 147
+  },
+  {
+    censusNo: "02083",
+    schoolName: "Taxila Central College",
+    town: "Horana",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 159
+  },
+  {
+    censusNo: "02180",
+    schoolName: "C. W. W. Kannangara Central College",
+    town: "Mathugama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 154
+  },
+  {
+    censusNo: "02002",
+    schoolName: "Panadura Balika Maha Vidyalaya",
+    town: "Panadura",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "02110",
+    schoolName: "Royal College",
+    town: "Horana",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "02181",
+    schoolName: "Ananda Sastralaya",
+    town: "Mathugama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 150
+  },
+  {
+    censusNo: "02189",
+    schoolName: "St. Mary's College",
+    town: "Mathugama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 148
+  },
+  {
+    censusNo: "02005",
+    schoolName: "Sri Sumangala Balika Maha Vidyalaya",
+    town: "Panadura",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 147
+  },
+  {
+    censusNo: "02085",
+    schoolName: "Sripali Maha Vidyalaya",
+    town: "Horana",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 146
+  },
+  {
+    censusNo: "03350",
+    schoolName: "Dharmaraja College",
+    town: "Kandy",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 174
+  },
+  {
+    censusNo: "03380",
+    schoolName: "Kingswood College",
+    town: "Kandy",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 170
+  },
+  {
+    censusNo: "03351",
+    schoolName: "Mahamaya Girls' College",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 168
+  },
+  {
+    censusNo: "03379",
+    schoolName: "Girls' High School",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 162
+  },
+  {
+    censusNo: "03384",
+    schoolName: "St. Sylvester's College",
+    town: "Kandy",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 162
+  },
+  {
+    censusNo: "03382",
+    schoolName: "Pushpadana Girls' College",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 159
+  },
+  {
+    censusNo: "03389",
+    schoolName: "Swarnamali Balika Vidyalaya",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "03381",
+    schoolName: "Vidyartha College",
+    town: "Kandy",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "03353",
+    schoolName: "St. Anthony's Girls' College",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 153
+  },
+  {
+    censusNo: "04172",
+    schoolName: "Sri Sangamitta Balika National School",
+    town: "Matale",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 153
+  },
+  {
+    censusNo: "04175",
+    schoolName: "St. Thomas' National School",
+    town: "Matale",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "04003",
+    schoolName: "Rangiri Dambulla Central College",
+    town: "Dambulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "04264",
+    schoolName: "Al-Furkhan Central College",
+    town: "Galewela",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 135
+  },
+  {
+    censusNo: "04261",
+    schoolName: "Amina Maha Vidyalaya",
+    town: "Matale",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 135
+  },
+  {
+    censusNo: "05167",
+    schoolName: "Highlands College",
+    town: "Hatton",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 158
+  },
+  {
+    censusNo: "05533",
+    schoolName: "Cambridge College",
+    town: "Kotagala",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 146
+  },
+  {
+    censusNo: "05169",
+    schoolName: "St. John Bosco's College",
+    town: "Hatton",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 143
+  },
+  {
+    censusNo: "05251",
+    schoolName: "St. Mary's Central College",
+    town: "Bogawantalawa",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 143
+  },
+  {
+    censusNo: "05255",
+    schoolName: "Norwood Tamil Maha Vidyalaya",
+    town: "Norwood",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 142
+  },
+  {
+    censusNo: "05428",
+    schoolName: "Poramadulla Central College",
+    town: "Rikillagaskada",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "05031",
+    schoolName: "Ginigathhena Central College",
+    town: "Ginigathhena",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "05035",
+    schoolName: "St. Gabriel's Girls' College",
+    town: "Hatton",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 140
+  },
+  {
+    censusNo: "06367",
+    schoolName: "Richmond College",
+    town: "Galle",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 168
+  },
+  {
+    censusNo: "06370",
+    schoolName: "Southlands College",
+    town: "Galle",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 167
+  },
+  {
+    censusNo: "06366",
+    schoolName: "Mahinda College",
+    town: "Galle",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 163
+  },
+  {
+    censusNo: "06369",
+    schoolName: "Sanghamitta Balika Vidyalaya",
+    town: "Galle",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 163
+  },
+  {
+    censusNo: "06372",
+    schoolName: "Sacred Heart Convent",
+    town: "Galle",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 158
+  },
+  {
+    censusNo: "06371",
+    schoolName: "St. Aloysius' College",
+    town: "Galle",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 157
+  },
+  {
+    censusNo: "06036",
+    schoolName: "Dharmasoka College",
+    town: "Ambalangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "06368",
+    schoolName: "Rippon Girls' College",
+    town: "Galle",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "06511",
+    schoolName: "Siridhamma College",
+    town: "Labuduwa, Galle",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 150
+  },
+  {
+    censusNo: "07305",
+    schoolName: "Rahula College",
+    town: "Matara",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 164
+  },
+  {
+    censusNo: "07306",
+    schoolName: "Sujatha Vidyalaya",
+    town: "Matara",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 164
+  },
+  {
+    censusNo: "07318",
+    schoolName: "St. Thomas' Girls' High School",
+    town: "Matara",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 156
+  },
+  {
+    censusNo: "07317",
+    schoolName: "St. Thomas' College",
+    town: "Matara",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "07406",
+    schoolName: "Mahinda Rajapaksa College",
+    town: "Sarasavi Uyana, Matara",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 150
+  },
+  {
+    censusNo: "07071",
+    schoolName: "Telijjawila Central College",
+    town: "Telijjawila",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 148
+  },
+  {
+    censusNo: "07328",
+    schoolName: "St. Servatius' College",
+    town: "Matara",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 146
+  },
+  {
+    censusNo: "07335",
+    schoolName: "Kotuwa President's College",
+    town: "Matara",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 144
+  },
+  {
+    censusNo: "08038",
+    schoolName: "Rajapaksha Central College",
+    town: "Weeraketiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 161
+  },
+  {
+    censusNo: "08229",
+    schoolName: "Debarawewa Maha Vidyalaya",
+    town: "Tissamaharama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "08346",
+    schoolName: "Sri Lanka Singapore Friendship Girls' School",
+    town: "Weeraketiya",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "08106",
+    schoolName: "Vijayaba National School",
+    town: "Hungama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "08001",
+    schoolName: "Walasmulla National School",
+    town: "Walasmulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 146
+  },
+  {
+    censusNo: "08339",
+    schoolName: "Ruhunu Vijayaba National School",
+    town: "Beliatta",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 145
+  },
+  {
+    censusNo: "08074",
+    schoolName: "Tangalle Balika Maha Vidyalaya",
+    town: "Tangalle",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 144
+  },
+  {
+    censusNo: "08073",
+    schoolName: "Tangalle Boys' National School",
+    town: "Tangalle",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "09332",
+    schoolName: "Hartley College",
+    town: "Point Pedro",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 145
+  },
+  {
+    censusNo: "09465",
+    schoolName: "Vembadi Girls' High School",
+    town: "Jaffna",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 145
+  },
+  {
+    censusNo: "09416",
+    schoolName: "Jaffna Hindu College",
+    town: "Jaffna",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 139
+  },
+  {
+    censusNo: "09418",
+    schoolName: "Kokuvil Hindu College",
+    town: "Kokuvil",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 134
+  },
+  {
+    censusNo: "09353",
+    schoolName: "Chavakachcheri Hindu College",
+    town: "Chavakachcheri",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "09456",
+    schoolName: "Jaffna Central College",
+    town: "Jaffna",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "09417",
+    schoolName: "Jaffna Hindu Ladies College",
+    town: "Jaffna",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "09118",
+    schoolName: "Mahajana College",
+    town: "Tellippalai",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "10001",
+    schoolName: "Kilinochchi Madya Maha Vidyalaya",
+    town: "Kilinochchi",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "13001",
+    schoolName: "Rambaikulam Girls' College",
+    town: "Jaffna",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "13012",
+    schoolName: "Saivapragasa Ladies College",
+    town: "Vavuniya",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "13002",
+    schoolName: "Vavuniya Tamil Madya Maha Vidyalaya",
+    town: "Vavuniya",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "12002",
+    schoolName: "Puthukkudiyiruppu Central College",
+    town: "Puthukkudiyiruppu",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 137
+  },
+  {
+    censusNo: "14185",
+    schoolName: "Padirippu Central College",
+    town: "Kaluwanchikudy",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 139
+  },
+  {
+    censusNo: "14115",
+    schoolName: "Vincent Girls' High School",
+    town: "Batticaloa",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 139
+  },
+  {
+    censusNo: "14147",
+    schoolName: "Meera Balika Maha Vidyalaya",
+    town: "Kattankudy",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 136
+  },
+  {
+    censusNo: "14285",
+    schoolName: "Oddamavadi Fathima Balika Maha Vidyalaya",
+    town: "Oddamavadi",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 135
+  },
+  {
+    censusNo: "14031",
+    schoolName: "Valaichenai Hindu College",
+    town: "Valaichenai",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 134
+  },
+  {
+    censusNo: "14118",
+    schoolName: "Cecilia's Girls' College",
+    town: "Batticaloa",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "14145",
+    schoolName: "Kattankudy Central College",
+    town: "Kattankudy",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "14116",
+    schoolName: "Methodist Central College",
+    town: "Batticaloa",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "15203",
+    schoolName: "Mahmud Ladies College",
+    town: "Kalmunai",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 149
+  },
+  {
+    censusNo: "15161",
+    schoolName: "Muslim Madya Maha Vidyalaya",
+    town: "Sammanthurai",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 145
+  },
+  {
+    censusNo: "15290",
+    schoolName: "Sri Ramakrishna College",
+    town: "Akkaraipattu",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 144
+  },
+  {
+    censusNo: "15067",
+    schoolName: "D. S. Senanayake Central College",
+    town: "Ampara",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "15291",
+    schoolName: "Thambviluvil Maha Vidyalaya",
+    town: "Thambviluvil",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 143
+  },
+  {
+    censusNo: "15200",
+    schoolName: "Zahira College",
+    town: "Sainthamaruthu",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 138
+  },
+  {
+    censusNo: "15080",
+    schoolName: "Bandaranayake Balika Maha Vidyalaya",
+    town: "Ampara",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 137
+  },
+  {
+    censusNo: "15202",
+    schoolName: "Carmel Pattima College",
+    town: "Kalmunai",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 137
+  },
+  {
+    censusNo: "16175",
+    schoolName: "Mutur Central College",
+    town: "Mutur",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 135
+  },
+  {
+    censusNo: "16121",
+    schoolName: "Agbodhi Maha Vidyalaya",
+    town: "Kantale",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "16186",
+    schoolName: "Kinniya Muslim Girls' College",
+    town: "Kinniya",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 133
+  },
+  {
+    censusNo: "16187",
+    schoolName: "Kinniya Central College",
+    town: "Kinniya",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 131
+  },
+  {
+    censusNo: "17292",
+    schoolName: "Maliyadeva Balika Vidyalaya",
+    town: "Kurunegala",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 170
+  },
+  {
+    censusNo: "17293",
+    schoolName: "Maliyadeva College",
+    town: "Kurunegala",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 169
+  },
+  {
+    censusNo: "17296",
+    schoolName: "Holy Family Balika Maha Vidyalaya",
+    town: "Kurunegala",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 167
+  },
+  {
+    censusNo: "17295",
+    schoolName: "St. Anne's College",
+    town: "Kurunegala",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 167
+  },
+  {
+    censusNo: "17321",
+    schoolName: "Maliyadeva Adarsha Maha Vidyalaya",
+    town: "Kurunegala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 163
+  },
+  {
+    censusNo: "17327",
+    schoolName: "President Girls' College",
+    town: "Saragama, Kurunegala",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 158
+  },
+  {
+    censusNo: "17489",
+    schoolName: "Kuliyapitiya Central College",
+    town: "Kuliyapitiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "42024",
+    schoolName: "Vishwoda National School",
+    town: "Kurunegala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "18243",
+    schoolName: "Joseph Vaz College",
+    town: "Wennappuwa",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 154
+  },
+  {
+    censusNo: "18246",
+    schoolName: "Holy Family Balika Maha Vidyalaya",
+    town: "Wennappuwa",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "18199",
+    schoolName: "Ananda National School",
+    town: "Chilaw",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "18074",
+    schoolName: "Fathima Balika Maha Vidyalaya",
+    town: "Puttalam",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 149
+  },
+  {
+    censusNo: "18302",
+    schoolName: "Dhammissara Central College",
+    town: "Nattandiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 147
+  },
+  {
+    censusNo: "18169",
+    schoolName: "Carmel Girls' College",
+    town: "Chilaw",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 141
+  },
+  {
+    censusNo: "18001",
+    schoolName: "Anamaduwa Central College",
+    town: "Anamaduwa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 139
+  },
+  {
+    censusNo: "18218",
+    schoolName: "Senanayake Central College",
+    town: "Madampe",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 137
+  },
+  {
+    censusNo: "19176",
+    schoolName: "Anuradhapura Central College",
+    town: "Anuradhapura",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 159
+  },
+  {
+    censusNo: "19224",
+    schoolName: "Niwanthakachethiya Maha Vidyalaya",
+    town: "Anuradhapura",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 154
+  },
+  {
+    censusNo: "19177",
+    schoolName: "Swarnapali Balika Maha Vidyalaya",
+    town: "Anuradhapura",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "19182",
+    schoolName: "Walisinghe Harischandra Maha Vidyalaya",
+    town: "Anuradhapura",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "19429",
+    schoolName: "Kekirawa Central College",
+    town: "Kekirawa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 150
+  },
+  {
+    censusNo: "19178",
+    schoolName: "St. Joseph's College",
+    town: "Anuradhapura",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "19296",
+    schoolName: "Tambuttegama Central College",
+    town: "Tambuttegama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "19362",
+    schoolName: "Ganthiriyagama Mahinda Maha Vidyalaya",
+    town: "Ipalogama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 139
+  },
+  {
+    censusNo: "20069",
+    schoolName: "Royal Central College",
+    town: "Polonnaruwa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 144
+  },
+  {
+    censusNo: "20073",
+    schoolName: "Thopawewa Maha Vidyalaya",
+    town: "Polonnaruwa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "20035",
+    schoolName: "Medirigiriya National School",
+    town: "Medirigiriya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "15151",
+    schoolName: "Siripura Central College",
+    town: "Siripura, Polonnaruwa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "20103",
+    schoolName: "Vilayaya Central College",
+    town: "Aralaganwila",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "21233",
+    schoolName: "Bandarawela Central College",
+    town: "Bandarawela",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 157
+  },
+  {
+    censusNo: "21254",
+    schoolName: "Dharmapala Maha Vidyalaya",
+    town: "Bandarawela",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 154
+  },
+  {
+    censusNo: "21173",
+    schoolName: "Badulla Central College",
+    town: "Badulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 153
+  },
+  {
+    censusNo: "21026",
+    schoolName: "Mahiyangana National School",
+    town: "Mahiyanganaya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "21236",
+    schoolName: "St. Joseph's College",
+    town: "Bandarawela",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 148
+  },
+  {
+    censusNo: "21185",
+    schoolName: "Viharamahadevi Balika Maha Vidyalaya",
+    town: "Badulla",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 146
+  },
+  {
+    censusNo: "21172",
+    schoolName: "Dharmadutha National School",
+    town: "Badulla",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "21560",
+    schoolName: "Uva Science College",
+    town: "Hali-Ela",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 141
+  },
+  {
+    censusNo: "22149",
+    schoolName: "Dutugemunu Central College",
+    town: "Buttala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 157
+  },
+  {
+    censusNo: "22086",
+    schoolName: "Royal College",
+    town: "Monaragala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 156
+  },
+  {
+    censusNo: "22069",
+    schoolName: "Mahanama Central College",
+    town: "Monaragala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 154
+  },
+  {
+    censusNo: "22146",
+    schoolName: "Malwattawala Central College",
+    town: "Wellawaya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 146
+  },
+  {
+    censusNo: "22111",
+    schoolName: "Nissanka Central College",
+    town: "Badalkumbura",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 139
+  },
+  {
+    censusNo: "22001",
+    schoolName: "Wellassa National School",
+    town: "Bibile",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 139
+  },
+  {
+    censusNo: "22206",
+    schoolName: "Sevanagala Maha Vidyalaya",
+    town: "Sevanagala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 138
+  },
+  {
+    censusNo: "22187",
+    schoolName: "Thanamalwila Central College",
+    town: "Thanamalwila",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 136
+  },
+  {
+    censusNo: "23092",
+    schoolName: "Sivali Central College",
+    town: "Ratnapura",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 168
+  },
+  {
+    censusNo: "23060",
+    schoolName: "Ferguson High School",
+    town: "Ratnapura",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 159
+  },
+  {
+    censusNo: "23001",
+    schoolName: "Eheliyagoda Central College",
+    town: "Eheliyagoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "23465",
+    schoolName: "President's College",
+    town: "Embilipitiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "23209",
+    schoolName: "Ananda Maithreya Central College",
+    town: "Balangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 150
+  },
+  {
+    censusNo: "23062",
+    schoolName: "St. Aloysius' National School",
+    town: "Ratnapura",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 147
+  },
+  {
+    censusNo: "23061",
+    schoolName: "Sumana Balika Vidyalaya",
+    town: "Ratnapura",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 145
+  },
+  {
+    censusNo: "23123",
+    schoolName: "Gankanda Central College",
+    town: "Pelmadulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 144
+  },
+  {
+    censusNo: "24505",
+    schoolName: "St. Joseph's Balika Maha Vidyalaya",
+    town: "Kegalle",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 156
+  },
+  {
+    censusNo: "24321",
+    schoolName: "Pinnawala Central College",
+    town: "Rambukkana",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "24489",
+    schoolName: "Kegalu Balika Maha Vidyalaya",
+    town: "Kegalle",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "24490",
+    schoolName: "Kegalle Maha Vidyalaya",
+    town: "Kegalle",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "24504",
+    schoolName: "St. Mary's College",
+    town: "Kegalle",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "24493",
+    schoolName: "Swarna Jayanthi Maha Vidyalaya",
+    town: "Kegalle",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 148
+  },
+  {
+    censusNo: "24577",
+    schoolName: "Dudley Senanayake Central College",
+    town: "Tholangamuwa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 145
+  },
+  {
+    censusNo: "24228",
+    schoolName: "Rajasinghe Central College",
+    town: "Ruwanwella",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 145
+  },
+  {
+    censusNo: "00236",
+    schoolName: "Muslim Ladies College",
+    town: "Colombo 04",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 156
+  },
+  {
+    censusNo: "00394",
+    schoolName: "Dharmapala Vidyalaya",
+    town: "Pannipitiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "00099",
+    schoolName: "St. Joseph's Girls' School",
+    town: "Nugegoda",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 155
+  },
+  {
+    censusNo: "00060",
+    schoolName: "D. S. Senanayake College",
+    town: "Colombo 07",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 152
+  },
+  {
+    censusNo: "00051",
+    schoolName: "Gothami Balika Vidyalaya",
+    town: "Colombo 10",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "00064",
+    schoolName: "Asoka College",
+    town: "Colombo 10",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "00151",
+    schoolName: "Samudradevi Balika Vidyalaya",
+    town: "Nugegoda",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "00457",
+    schoolName: "Mahinda Rajapaksa College",
+    town: "Homagama",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 148
+  },
+  {
+    censusNo: "00050",
+    schoolName: "Ananda Balika Vidyalaya",
+    town: "Colombo 10",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 146
+  },
+  {
+    censusNo: "00077",
+    schoolName: "Isipathana College",
+    town: "Colombo 05",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 146
+  },
+  {
+    censusNo: "00057",
+    schoolName: "Yasodara Balika Vidyalaya",
+    town: "Colombo 08",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 145
+  },
+  {
+    censusNo: "00207",
+    schoolName: "Fathima Muslim Ladies College",
+    town: "Colombo 12",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 144
+  },
+  {
+    censusNo: "00316",
+    schoolName: "Hanwella Rajasinghe Central College",
+    town: "Hanwella",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "00166",
+    schoolName: "Prince of Wales' College",
+    town: "Moratuwa",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "00282",
+    schoolName: "Adarsha Boys' Vidyalaya",
+    town: "Malabe",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "00078",
+    schoolName: "Lumbini College",
+    town: "Colombo 05",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "00418",
+    schoolName: "Piliyandala Central College",
+    town: "Piliyandala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "00167",
+    schoolName: "Princess of Wales' College",
+    town: "Moratuwa",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "00249",
+    schoolName: "Sri Rahula Balika Maha Vidyalaya",
+    town: "Malabe",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "00241",
+    schoolName: "Ramanathan Hindu Ladies College",
+    town: "Colombo 04",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 138
+  },
+  {
+    censusNo: "00237",
+    schoolName: "Hindu College",
+    town: "Colombo 04",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 134
+  },
+  {
+    censusNo: "01084",
+    schoolName: "Sanghabodhi Central College",
+    town: "Nittambuwa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 144
+  },
+  {
+    censusNo: "01340",
+    schoolName: "Newstead Girls' College",
+    town: "Negombo",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "01613",
+    schoolName: "Reggie Ranatunga Vidya Vidyalaya",
+    town: "Minuwangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "01301",
+    schoolName: "Sri Dharmaloka Maha Vidyalaya",
+    town: "Waragoda, Kelaniya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "01131",
+    schoolName: "Galahitiyawa Central College",
+    town: "Ganemulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "01589",
+    schoolName: "Kirindiwela Sangamitta Balika Vidyalaya",
+    town: "Kirindiwela",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "01289",
+    schoolName: "Mahamaya Balika Maha Vidyalaya",
+    town: "Kadawatha",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "01448",
+    schoolName: "C. W. W. Kannangara Central College",
+    town: "Hunumulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "01300",
+    schoolName: "Gurukula Maha Vidyalaya",
+    town: "Kelaniya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "01341",
+    schoolName: "Harischandra National School",
+    town: "Negombo",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "01479",
+    schoolName: "Nalanda Balika Central College",
+    town: "Minuwangoda",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "02093",
+    schoolName: "Don Pedrick Maha Vidyalaya",
+    town: "Horana",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "02039",
+    schoolName: "Agamethi Balika Vidyalaya",
+    town: "Panadura",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "02243",
+    schoolName: "Kalutara Maha Vidyalaya",
+    town: "Kalutara",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 141
+  },
+  {
+    censusNo: "02242",
+    schoolName: "Kalutara Balika Maha Vidyalaya",
+    town: "Kalutara South",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "03388",
+    schoolName: "Wariyapola Sri Sumangala College",
+    town: "Kandy",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 152
+  },
+  {
+    censusNo: "03383",
+    schoolName: "Hemamali Balika Maha Vidyalaya",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 151
+  },
+  {
+    censusNo: "03401",
+    schoolName: "Viharamahadevi Balika Vidyalaya",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 150
+  },
+  {
+    censusNo: "03398",
+    schoolName: "Seethadevi Balika Vidyalaya",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 148
+  },
+  {
+    censusNo: "03352",
+    schoolName: "St. Anthony's College",
+    town: "Kandy",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 146
+  },
+  {
+    censusNo: "03214",
+    schoolName: "Walala A. Rathnayake Central College",
+    town: "Menikhinna",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 144
+  },
+  {
+    censusNo: "03575",
+    schoolName: "Badi-Ud-Din Mahmud Girls' College",
+    town: "Kandy",
+    gender: "Girls",
+    medium: "Tamil",
+    cutoff: 143
+  },
+  {
+    censusNo: "03385",
+    schoolName: "Peradeniya Central College",
+    town: "Peradeniya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "03499",
+    schoolName: "St. Joseph's Balika Vidyalaya",
+    town: "Gampola",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "03395",
+    schoolName: "Sarasavi Uyana Maha Vidyalaya",
+    town: "Peradeniya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 141
+  },
+  {
+    censusNo: "03075",
+    schoolName: "Nugawela Central College",
+    town: "Nugawela",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "03184",
+    schoolName: "Teldeniya National School",
+    town: "Teldeniya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "03488",
+    schoolName: "Wickramabahu National School",
+    town: "Gampola",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "03284",
+    schoolName: "Azhar Central College",
+    town: "Akurana",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 138
+  },
+  {
+    censusNo: "03263",
+    schoolName: "Madina National School",
+    town: "Madawala",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 134
+  },
+  {
+    censusNo: "05250",
+    schoolName: "St. Joseph's Tamil Vidyalaya",
+    town: "Maskeliya",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 138
+  },
+  {
+    censusNo: "05168",
+    schoolName: "Talawakelle Tamil Maha Vidyalaya",
+    town: "Talawakelle",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 137
+  },
+  {
+    censusNo: "05344",
+    schoolName: "Al Minhaj National School",
+    town: "Hapugastalawa",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "05458",
+    schoolName: "Denike Secondary School",
+    town: "Rikillagaskada",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 132
+  },
+  {
+    censusNo: "06035",
+    schoolName: "Sri Devananda College",
+    town: "Ambalangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 147
+  },
+  {
+    censusNo: "06373",
+    schoolName: "Vidyaloka College",
+    town: "Galle",
+    gender: "Boys",
+    medium: "Sinhala",
+    cutoff: 147
+  },
+  {
+    censusNo: "06141",
+    schoolName: "Ananda Central College",
+    town: "Elpitiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "06067",
+    schoolName: "P. de S. Kularatne Maha Vidyalaya",
+    town: "Ambalangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "06259",
+    schoolName: "Christ Church Girls' College",
+    town: "Baddegama",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 141
+  },
+  {
+    censusNo: "07055",
+    schoolName: "Deniyaya Central College",
+    town: "Deniyaya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "07309",
+    schoolName: "Matara Central College",
+    town: "Matara",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "07146",
+    schoolName: "Narandeniya Central College",
+    town: "Kamburupitiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "07383",
+    schoolName: "Vijitha Central College",
+    town: "Dikwella",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "08275",
+    schoolName: "Jeraputhra National School",
+    town: "Ambalantota",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 139
+  },
+  {
+    censusNo: "14117",
+    schoolName: "St. Michael's College",
+    town: "Batticaloa",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "15266",
+    schoolName: "Al-Hamra Maha Vidyalaya",
+    town: "Oluvil",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 135
+  },
+  {
+    censusNo: "15236",
+    schoolName: "Munawwara Junior College",
+    town: "Akkaraipattu",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 135
+  },
+  {
+    censusNo: "15260",
+    schoolName: "As-Siraj Maha Vidyalaya",
+    town: "Akkaraipattu",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 133
+  },
+  {
+    censusNo: "15152",
+    schoolName: "Dehiattakandiya National School",
+    town: "Dehiattakandiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "15074",
+    schoolName: "Gamini Maha Vidyalaya",
+    town: "Ampara",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "15248",
+    schoolName: "Addalaichenai Central College",
+    town: "Addalaichenai",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "15231",
+    schoolName: "Akkaraipattu Muslim Central College",
+    town: "Akkaraipattu",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "15265",
+    schoolName: "Al-Ashraq Maha Vidyalaya",
+    town: "Nintavur",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "17974",
+    schoolName: "Wayamba Royal College",
+    town: "Kurunegala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 153
+  },
+  {
+    censusNo: "17313",
+    schoolName: "Sir John Kotelawala Maha Vidyalaya",
+    town: "Kurunegala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 150
+  },
+  {
+    censusNo: "17314",
+    schoolName: "Defence Services College",
+    town: "Kurunegala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "17490",
+    schoolName: "Saranath College",
+    town: "Kuliyapitiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 149
+  },
+  {
+    censusNo: "17265",
+    schoolName: "Mayurapada Central College",
+    town: "Narammala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 146
+  },
+  {
+    censusNo: "17838",
+    schoolName: "Mahasen Central College",
+    town: "Nikaweratiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 145
+  },
+  {
+    censusNo: "17613",
+    schoolName: "S. W. R. D. Bandaranaike National School",
+    town: "Panduwasnuwara",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 142
+  },
+  {
+    censusNo: "17522",
+    schoolName: "Sandalanka National School",
+    town: "Sandalankawa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "17361",
+    schoolName: "Sri Rahula Central College",
+    town: "Alawwa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "17141",
+    schoolName: "Sri Sumangala Central College",
+    town: "Wariyapola",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "17708",
+    schoolName: "Vijayaba Central College",
+    town: "Mahawa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "17663",
+    schoolName: "Kekunagolla National School",
+    town: "Kekunagolla",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 134
+  },
+  {
+    censusNo: "18073",
+    schoolName: "Zahira National School",
+    town: "Puttalam",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 131
+  },
+  {
+    censusNo: "19336",
+    schoolName: "Galnewa Central College",
+    town: "Galnewa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "19102",
+    schoolName: "Kahatagasdigiliya Central College",
+    town: "Kahatagasdigiliya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "19001",
+    schoolName: "Maithripala Senanayake Central College",
+    town: "Medawachchiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "19361",
+    schoolName: "Sri Siddhartha Central College",
+    town: "Eppawala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "19297",
+    schoolName: "Thalawa Maha Vidyalaya",
+    town: "Thalawa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "19457",
+    schoolName: "Thibbatuwewa Maha Vidyalaya",
+    town: "Kekirawa",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 133
+  },
+  {
+    censusNo: "21560",
+    schoolName: "Uva Vidya Vidyalaya",
+    town: "Haliela",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "21255",
+    schoolName: "Dharmasoka Central College",
+    town: "Bandarawela",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 135
+  },
+  {
+    censusNo: "21241",
+    schoolName: "Little Flower Balika Maha Vidyalaya",
+    town: "Bandarawela",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 135
+  },
+  {
+    censusNo: "21234",
+    schoolName: "Visakha Balika Maha Vidyalaya",
+    town: "Bandarawela",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 135
+  },
+  {
+    censusNo: "21311",
+    schoolName: "Welimada Central College",
+    town: "Welimada",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 134
+  },
+  {
+    censusNo: "21464",
+    schoolName: "Saraswathy Central College",
+    town: "Badulla",
+    gender: "Boys",
+    medium: "Tamil",
+    cutoff: 132
+  },
+  {
+    censusNo: "22270",
+    schoolName: "Yasodara Balika Vidyalaya",
+    town: "Bibile",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 134
+  },
+  {
+    censusNo: "23007",
+    schoolName: "Eheliyagoda Dharmapala Vidyalaya",
+    town: "Eheliyagoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "23613",
+    schoolName: "Embilipitiya Royal College",
+    town: "Pallegama, Embilipitiya",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "23214",
+    schoolName: "Vidyaloka Maha Vidyalaya",
+    town: "Balangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 143
+  },
+  {
+    censusNo: "23068",
+    schoolName: "Convent of the Infant Jesus",
+    town: "Ratnapura",
+    gender: "Girls",
+    medium: "Sinhala",
+    cutoff: 139
+  },
+  {
+    censusNo: "23400",
+    schoolName: "Kalawana National School",
+    town: "Kalawana",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 139
+  },
+  {
+    censusNo: "23247",
+    schoolName: "Rahula National School",
+    town: "Godakawela",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 138
+  },
+  {
+    censusNo: "23126",
+    schoolName: "Pelmadulla Dharmaloka Maha Vidyalaya",
+    town: "Pelmadulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 136
+  },
+  {
+    censusNo: "23166",
+    schoolName: "Sri Buddha Jayanthi Maha Vidyalaya",
+    town: "Balangoda",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 136
+  },
+  {
+    censusNo: "24475",
+    schoolName: "Bandaranayake Maha Vidyalaya",
+    town: "Hettimulla",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 141
+  },
+  {
+    censusNo: "24112",
+    schoolName: "Sirisaman National School",
+    town: "Deraniyagala",
+    gender: "Mixed",
+    medium: "Sinhala",
+    cutoff: 140
+  },
+  {
+    censusNo: "24343",
+    schoolName: "Zahira College",
+    town: "Mawanella",
+    gender: "Mixed",
+    medium: "Tamil",
+    cutoff: 134
+  }
+];
+
+// src/admissions.ts
+var cutoffs = grade5_cutoffs_default;
+function getGrade5Cutoffs() {
+  return [...cutoffs];
+}
+function getGrade5CutoffsByCensusNo(censusNo) {
+  if (!censusNo) return [];
+  const pad = censusNo.trim().padStart(5, "0");
+  return cutoffs.filter(
+    (c) => c.censusNo === censusNo.trim() || c.censusNo === pad
+  );
+}
+function getEligibleNationalSchools(params) {
+  const { marks, gender, medium, district } = params;
+  const nationalSchools = getNationalSchools();
+  const results = [];
+  const districtNorm = district ? normalizeText(district) : null;
+  for (const school of nationalSchools) {
+    if (districtNorm && normalizeText(school.districtName) !== districtNorm) {
+      continue;
+    }
+    if (school.gender !== "Mixed" && school.gender !== gender) {
+      continue;
+    }
+    const cutoff = medium === "Sinhala" ? school.grade5CutoffSinhala : school.grade5CutoffTamil;
+    if (cutoff === null || cutoff === void 0) {
+      continue;
+    }
+    const margin = marks - cutoff;
+    const eligible = margin >= 0;
+    results.push({
+      school,
+      cutoff,
+      margin,
+      eligible
+    });
+  }
+  return results.sort((a, b) => b.cutoff - a.cutoff);
+}
+function getGrade1AdmissionProximity(schoolLat, schoolLon, homeLat, homeLon) {
+  const distanceKm = calculateDistance(schoolLat, schoolLon, homeLat, homeLon);
+  return {
+    distanceKm,
+    withinImmediateCatchment: distanceKm <= 2,
+    withinSecondaryCatchment: distanceKm <= 5
+  };
+}
+
+export {
+  getGrade5Cutoffs,
+  getGrade5CutoffsByCensusNo,
+  getEligibleNationalSchools,
+  getGrade1AdmissionProximity
+};
+//# sourceMappingURL=chunk-RNGNRD2K.mjs.map
